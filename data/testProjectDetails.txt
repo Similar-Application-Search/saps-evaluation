@@ -1,0 +1,11 @@
+smartPDF	smartPDF smartPDF application
+chessonline	chessonline Android Chess Online
+TaskNearby	TaskNearby Location Based Reminders App
+UrbanDictionary-Android	UrbanDictionary-Android A simple Android client for Urban Dictionary
+timetracker	timetracker Simple phonegap time tracking app
+android_browser	android_browser Customize android webclient
+timetracker	timetracker A time tracker for Android
+numpy	numpy Numpy main repository
+PacVim	PacVim
+xbox_one_controller	xbox_one_controller HID-compliant Xbox One Controller driver for OS X
+UrbanDictionary-Android	UrbanDictionary-Android null

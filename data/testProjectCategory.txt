@@ -1,0 +1,11 @@
+smartPDF	PRODUCTIVITY : Productivity
+chessonline	GAME_BOARD : Board
+TaskNearby	PRODUCTIVITY : Productivity
+UrbanDictionary-Android	BOOKS_AND_REFERENCE : Books & Reference
+timetracker	PRODUCTIVITY : Productivity
+android_browser	COMMUNICATION : Communication
+timetracker	PRODUCTIVITY : Productivity
+numpy	C
+PacVim	C++
+xbox_one_controller	C++
+UrbanDictionary-Android	BOOKS_AND_REFERENCE:Books & Reference

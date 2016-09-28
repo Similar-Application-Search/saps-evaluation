@@ -1,0 +1,11 @@
+smartPDF	https://baishakhir:f000bar@github.com/chemwatchaus/smartPDF
+chessonline	https://baishakhir:f000bar@github.com/spdd/chessonline
+TaskNearby	https://baishakhir:f000bar@github.com/YashVerma1996/TaskNearby
+UrbanDictionary-Android	http://baishakhir:f000bar@github.com/florianmski/UrbanDictionary-Android
+timetracker	https://baishakhir:f000bar@github.com/thomasbrueggemann/timetracker
+android_browser	https://baishakhir:f000bar@github.com/kyhoolee/android_browser
+timetracker	https://baishakhir:f000bar@github.com/tijee/timetracker
+numpy	https://baishakhir:f000bar@github.com/numpy/numpy
+PacVim	https://baishakhir:f000bar@github.com/jmoon018/PacVim
+xbox_one_controller	https://baishakhir:f000bar@github.com/lloeki/xbox_one_controller
+UrbanDictionary-Android	https://github.com/florianmski/UrbanDictionary-Android
