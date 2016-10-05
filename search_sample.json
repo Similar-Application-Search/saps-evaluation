@@ -1,0 +1,58 @@
+{
+    "url": "https://baishakhir:f000bar@github.com/spdd/chessonline", 
+    "index": 1, 
+    "candidates": [
+        {
+            "url": "https://baishakhir:f000bar@github.com/jselbie/wrekonline", 
+            "name": "wrekonline", 
+            "description": "WREK Online for Android"
+        }, 
+        {
+            "url": "http://baishakhir:f000bar@github.com/jcarolus/android-chess", 
+            "name": "android-chess", 
+            "description": "Chess game for Android."
+        }, 
+        {
+            "url": "https://baishakhir:f000bar@github.com/mgolokhov/dodroid", 
+            "name": "dodroid", 
+            "description": "Android quiz for programmers"
+        }, 
+        {
+            "url": "https://baishakhir:f000bar@github.com/emidander/MemMaze", 
+            "name": "MemMaze", 
+            "description": "A game for Android"
+        }, 
+        {
+            "url": "https://baishakhir:f000bar@github.com/nextgis/android_gisapp", 
+            "name": "android_gisapp", 
+            "description": "GIS application for Android"
+        }, 
+        {
+            "url": "https://baishakhir:f000bar@github.com/dermotblair/TouchBall", 
+            "name": "TouchBall", 
+            "description": "Android Game."
+        }, 
+        {
+            "url": "https://baishakhir:f000bar@github.com/jordanjoz1/inspire-android", 
+            "name": "inspire-android", 
+            "description": "The Android Inspire app"
+        }, 
+        {
+            "url": "https://baishakhir:f000bar@github.com/saratkiran/Glucopro-android-app", 
+            "name": "Glucopro-android-app", 
+            "description": "Glucopro android app (Masters)"
+        }, 
+        {
+            "url": "https://baishakhir:f000bar@github.com/hw-manager/android", 
+            "name": "android", 
+            "description": "Official mirror of HW-Manager\ufffds Android application."
+        }, 
+        {
+            "url": "https://baishakhir:f000bar@github.com/adsgray/shapemergency", 
+            "name": "shapemergency", 
+            "description": "Android arcade game."
+        }
+    ], 
+    "name": "chessonline", 
+    "description": "Android Chess Online"
+}

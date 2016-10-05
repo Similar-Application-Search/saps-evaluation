@@ -1,7 +1,10 @@
 import numpy
 import time
+import sys, json
+from flask import Flask
+app = Flask(__name__)
 
-from sympy.functions.elementary.complexes import im
+# from sympy.functions.elementary.complexes import im
 
 
 def readProjectDetails(projectDetailsFile):
@@ -15,8 +18,8 @@ def readProjectDetails(projectDetailsFile):
 		else:
 			print 'no tap space: ', line
 	return projectName, projectDetails
-def runevaluation(description_matrix,readme_matrix,methodclass_matrix,packageclass_matrix,importpackage_matrix,weight_description,weight_readme,weight_methodclass,weight_packageclass,weight_importpackage,querycategory,candidatecategory,category_stats):
-    f = open("hybrid_rank_with_category and results_proper_des.txt", "a")
+def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matrix,packageclass_matrix,importpackage_matrix,weight_description,weight_readme,weight_methodclass,weight_packageclass,weight_importpackage,querycategory,candidatecategory,category_stats):
+    f = open("search_sample.json", "w")
 
     query_description_path = "./data/testProjectDetails.txt"
     candidate_description_path = "./data/trainProjectDetails.txt"
@@ -41,135 +44,148 @@ def runevaluation(description_matrix,readme_matrix,methodclass_matrix,packagecla
     P_MapAt3 = 0
 
     countQuery = 0
-    for queryindex in range(0, len(querycategory)):
-        matrix_entry = []
-        distances = []
-        for candidate_index in range(0, len(candidatecategory)):  # skip very first element ,as it is 0 valued
+    # for queryindex in range(0, len(querycategory)):
 
-            if numpy.isnan(description_matrix[queryindex][candidate_index]):
-                des_val = 2  # infinite
-            else:
-                des_val = description_matrix[queryindex][candidate_index]
+    matrix_entry = []
+    distances = []
+    for candidate_index in range(0, len(candidatecategory)):  # skip very first element ,as it is 0 valued
 
-            if numpy.isnan(readme_matrix[queryindex][candidate_index]):
-                readme_val = 2  # infinite
-            else:
-                readme_val = readme_matrix[queryindex][candidate_index]
+        if numpy.isnan(description_matrix[queryindex][candidate_index]):
+            des_val = 2  # infinite
+        else:
+            des_val = description_matrix[queryindex][candidate_index]
 
-            if numpy.isnan(methodclass_matrix[queryindex][candidate_index]):
-                methodclass_val = 2  # infinite
-            else:
-                methodclass_val = methodclass_matrix[queryindex][candidate_index]
+        if numpy.isnan(readme_matrix[queryindex][candidate_index]):
+            readme_val = 2  # infinite
+        else:
+            readme_val = readme_matrix[queryindex][candidate_index]
 
-            if numpy.isnan(packageclass_matrix[queryindex][candidate_index]):
-                packageclass_val = 2  # infinite
-            else:
-                packageclass_val = packageclass_matrix[queryindex][candidate_index]
-            if numpy.isnan(importpackage_matrix[queryindex][candidate_index]):
-                importpackage_val = 2  # infinite
-            else:
-                importpackage_val = importpackage_matrix[queryindex][candidate_index]
-            '''
-            weight_description = 0.1
-            weight_readme = 0.6
-            weight_methodclass = 0.2
-            weight_packageclass = 0.2
-            weight_importpackage = 0.1
-            '''
-            hybrid_distance = (weight_description * des_val) + (weight_readme * readme_val) + (
-                weight_methodclass * methodclass_val) + (weight_packageclass * packageclass_val) + (
-                                  weight_importpackage * importpackage_val)
+        if numpy.isnan(methodclass_matrix[queryindex][candidate_index]):
+            methodclass_val = 2  # infinite
+        else:
+            methodclass_val = methodclass_matrix[queryindex][candidate_index]
 
-            distances.append((candidate_index, hybrid_distance))
+        if numpy.isnan(packageclass_matrix[queryindex][candidate_index]):
+            packageclass_val = 2  # infinite
+        else:
+            packageclass_val = packageclass_matrix[queryindex][candidate_index]
+        if numpy.isnan(importpackage_matrix[queryindex][candidate_index]):
+            importpackage_val = 2  # infinite
+        else:
+            importpackage_val = importpackage_matrix[queryindex][candidate_index]
+        '''
+        weight_description = 0.1
+        weight_readme = 0.6
+        weight_methodclass = 0.2
+        weight_packageclass = 0.2
+        weight_importpackage = 0.1
+        '''
+        hybrid_distance = (weight_description * des_val) + (weight_readme * readme_val) + (
+            weight_methodclass * methodclass_val) + (weight_packageclass * packageclass_val) + (
+                              weight_importpackage * importpackage_val)
 
-        distances.sort(key=lambda x: x[1])
-        topN = 10
-        avgp = 0.0
-        avgpAt5 = 0
-        avgpAt1 = 0
-        avgpAt3 = 0
+        distances.append((candidate_index, hybrid_distance))
 
-        P_avgp = 0.0
-        P_avgpAt5 = 0
-        P_avgpAt1 = 0
-        P_avgpAt3 = 0
+    distances.sort(key=lambda x: x[1])
+    topN = 10
+    avgp = 0.0
+    avgpAt5 = 0
+    avgpAt1 = 0
+    avgpAt3 = 0
 
-        countRelavance = 0
+    P_avgp = 0.0
+    P_avgpAt5 = 0
+    P_avgpAt1 = 0
+    P_avgpAt3 = 0
 
-        countRelavance_1 = 0.0
-        countRelavance_3 = 0.0
-        countRelavance_5 = 0.0
-        countRelavance_10 = 0.0
+    countRelavance = 0
 
-        true_relevane = category_stats.get(querycategory[queryindex].replace("\n", ""),
-                                           0)  # minimum between n and total relevance document, n is top
-        totalCategoryRelevance = min(topN, true_relevane)
-        if totalCategoryRelevance > 0:
-            countQuery = countQuery + 1  # include this query in the MAP calculation
-        #remove project name from description
+    countRelavance_1 = 0.0
+    countRelavance_3 = 0.0
+    countRelavance_5 = 0.0
+    countRelavance_10 = 0.0
 
-        query_project_name = query_project_name_des[queryindex]
-        query_project_description_with_pname =query_description[queryindex]
-        query_project_description_without_pname = query_project_description_with_pname.replace(query_project_name, "", 1).strip()
+    true_relevane = category_stats.get(querycategory[queryindex].replace("\n", ""),
+                                       0)  # minimum between n and total relevance document, n is top
+    totalCategoryRelevance = min(topN, true_relevane)
+    if totalCategoryRelevance > 0:
+        countQuery = countQuery + 1  # include this query in the MAP calculation
+    #remove project name from description
 
-        f.write("Query:"+str(queryindex+1)+"\t"+"Search Project: "+query_project_name+"\t"+query_project_description_without_pname.replace("\n","")+"\t"+query_giturl[queryindex].replace("\n","")+"\t"+querycategory[queryindex])
-        # print ("Rank"+"\t"+"Search Project: "+testProjectName[queryIndex]+"\t"+testProjectDetails[queryIndex].replace("\n","")+"\t"+testProjectGitURL[queryIndex].replace("\n","")+"\t"+testProjectCategory[queryIndex])
-        for i in range(1, len(distances)):
-            candidate_project_name = candidate_project_name_des[distances[i][0]]
-            candidate_project_description_with_pname = candidate_description[distances[i][0]]
-            candidate_project_description_without_pname = candidate_project_description_with_pname.replace(candidate_project_name, "", 1).strip()
+    query_project_name = query_project_name_des[queryindex]
+    query_project_description_with_pname =query_description[queryindex]
+    query_project_description_without_pname = query_project_description_with_pname.replace(query_project_name, "", 1).strip()
+    query_object={'index':queryindex,
+		'name':query_project_name,
+		'url':query_giturl[queryindex].replace("\n",""),
+		'description':query_project_description_without_pname.replace("\n",""),
+		'candidates':[]
+	}
 
-            f.write(str(i) + "\t" +candidate_project_name + "\t" + candidate_project_description_without_pname.replace("\n", "") + "\t" + candidate_giturl[distances[i][0]].replace("\n", "") + "\t" +candidatecategory[distances[i][0]])
+	# print ("Rank"+"\t"+"Search Project: "+testProjectName[queryIndex]+"\t"+testProjectDetails[queryIndex].replace("\n","")+"\t"+testProjectGitURL[queryIndex].replace("\n","")+"\t"+testProjectCategory[queryIndex])
+    for i in range(1, len(distances)):
+        candidate_project_name = candidate_project_name_des[distances[i][0]]
+        candidate_project_description_with_pname = candidate_description[distances[i][0]]
+        candidate_project_description_without_pname = candidate_project_description_with_pname.replace(candidate_project_name, "", 1).strip()
 
-            if (querycategory[queryindex] == candidatecategory[distances[i][0]]):
-                countRelavance = countRelavance + 1
+        # f.write(str(i) + "\t" +candidate_project_name + "\t" + candidate_project_description_without_pname.replace("\n", "") + "\t" + candidate_giturl[distances[i][0]].replace("\n", "") + "\t" +candidatecategory[distances[i][0]])
+        candidateObject = {
+			'name': candidate_project_name,
+			'url': candidate_giturl[distances[i][0]].replace("\n", ""),
+			'description': candidate_project_description_without_pname.replace("\n", "")
+		}
+        query_object['candidates'].append(candidateObject)
 
-                countRelavance_10 = countRelavance_10 + 1
+        if (querycategory[queryindex] == candidatecategory[distances[i][0]]):
+            countRelavance = countRelavance + 1
 
-                avgp = avgp + (countRelavance * 1.0) / i;
-                if i <= 5:
-                    countRelavance_5 = countRelavance_5 + 1
-                    avgpAt5 = avgpAt5 + (countRelavance * 1.0) / i;
-                if i <= 3:
-                    countRelavance_3 = countRelavance_3 + 1
-                    avgpAt3 = avgpAt3 + (countRelavance * 1.0) / i;
-                if i <= 1:
-                    countRelavance_1 = countRelavance_1 + 1
-                    avgpAt1 = avgpAt1 + (countRelavance * 1.0) / i;
+            countRelavance_10 = countRelavance_10 + 1
 
-            if i >= 10:
-                break
-        if totalCategoryRelevance > 0:
-            avgp = (avgp * 1.0) / totalCategoryRelevance
-            P_avgp = countRelavance_10 / 10.0
-            P_MAP = P_MAP + P_avgp
-            MAP = MAP + avgp
+            avgp = avgp + (countRelavance * 1.0) / i;
+            if i <= 5:
+                countRelavance_5 = countRelavance_5 + 1
+                avgpAt5 = avgpAt5 + (countRelavance * 1.0) / i;
+            if i <= 3:
+                countRelavance_3 = countRelavance_3 + 1
+                avgpAt3 = avgpAt3 + (countRelavance * 1.0) / i;
+            if i <= 1:
+                countRelavance_1 = countRelavance_1 + 1
+                avgpAt1 = avgpAt1 + (countRelavance * 1.0) / i;
 
-        # else:
-        # f.write("No relevance judgement for this query category. Average Prevision = none \n")
-        totalCategoryRelevance_at_5 = min(5, true_relevane)
-        if totalCategoryRelevance_at_5 > 0:
-            avgpAt5 = (avgpAt5 * 1.0) / totalCategoryRelevance_at_5
-            P_avgpAt5 = countRelavance_5 / 5.0
-            P_MapAt5 = P_MapAt5 + P_avgpAt5
-            MapAt5 = MapAt5 + avgpAt5
-        # else:
-        # f.write("No relevance judgement for this query category. Average Prevision = none \n")
-        totalCategoryRelevance_at_1 = min(1, true_relevane)
-        if totalCategoryRelevance_at_1 > 0:
-            avgpAt1 = (avgpAt1 * 1.0) / totalCategoryRelevance_at_1
-            P_avgpAt1 = countRelavance_1 / 1.0
-            P_MapAt1 = P_MapAt1 + P_avgpAt1
-            MapAt1 = MapAt1 + avgpAt1
-        # else:
-        # f.write("No relevance judgement for this query category. Average Prevision = none \n")
+        if i >= 10:
+            break
 
-        totalCategoryRelevance_at_3 = min(3, true_relevane)
-        if totalCategoryRelevance_at_3 > 0:
-            avgpAt3 = (avgpAt3 * 1.0) / totalCategoryRelevance_at_3
-            P_avgpAt3 = countRelavance_3 / 3.0
-            P_MapAt3 = P_MapAt3 + P_avgpAt3
-            MapAt3 = MapAt3 + avgpAt3
+    if totalCategoryRelevance > 0:
+        avgp = (avgp * 1.0) / totalCategoryRelevance
+        P_avgp = countRelavance_10 / 10.0
+        P_MAP = P_MAP + P_avgp
+        MAP = MAP + avgp
+
+    # else:
+    # f.write("No relevance judgement for this query category. Average Prevision = none \n")
+    totalCategoryRelevance_at_5 = min(5, true_relevane)
+    if totalCategoryRelevance_at_5 > 0:
+        avgpAt5 = (avgpAt5 * 1.0) / totalCategoryRelevance_at_5
+        P_avgpAt5 = countRelavance_5 / 5.0
+        P_MapAt5 = P_MapAt5 + P_avgpAt5
+        MapAt5 = MapAt5 + avgpAt5
+    # else:
+    # f.write("No relevance judgement for this query category. Average Prevision = none \n")
+    totalCategoryRelevance_at_1 = min(1, true_relevane)
+    if totalCategoryRelevance_at_1 > 0:
+        avgpAt1 = (avgpAt1 * 1.0) / totalCategoryRelevance_at_1
+        P_avgpAt1 = countRelavance_1 / 1.0
+        P_MapAt1 = P_MapAt1 + P_avgpAt1
+        MapAt1 = MapAt1 + avgpAt1
+    # else:
+    # f.write("No relevance judgement for this query category. Average Prevision = none \n")
+
+    totalCategoryRelevance_at_3 = min(3, true_relevane)
+    if totalCategoryRelevance_at_3 > 0:
+        avgpAt3 = (avgpAt3 * 1.0) / totalCategoryRelevance_at_3
+        P_avgpAt3 = countRelavance_3 / 3.0
+        P_MapAt3 = P_MapAt3 + P_avgpAt3
+        MapAt3 = MapAt3 + avgpAt3
 
     if countQuery > 0:
         MAP = (MAP * 1.0) / countQuery
@@ -181,14 +197,14 @@ def runevaluation(description_matrix,readme_matrix,methodclass_matrix,packagecla
         P_MapAt5 = (P_MapAt5 * 1.0) / countQuery
         P_MapAt1 = (P_MapAt1 * 1.0) / countQuery
         P_MapAt3 = (P_MapAt3 * 1.0) / countQuery
-    f.write("Final Evaluated Results: \n")
-    f.write(str(weight_description)+"\t"+str(weight_readme)+"\t"+str(weight_methodclass)+"\t"+str(weight_packageclass)+"\t"+str(weight_importpackage)+"\t"+str(MapAt1) + "\t" + str(MapAt3) + "\t" + str(MapAt5) + "\t" + str(MAP) + "\t" + str(P_MapAt1) + "\t" + str(
-        P_MapAt3) + "\t" + str(P_MapAt5) + "\t" + str(P_MAP) + "\n")
+    # f.write("Final Evaluated Results: \n")
+    # f.write(str(weight_description)+"\t"+str(weight_readme)+"\t"+str(weight_methodclass)+"\t"+str(weight_packageclass)+"\t"+str(weight_importpackage)+"\t"+str(MapAt1) + "\t" + str(MapAt3) + "\t" + str(MapAt5) + "\t" + str(MAP) + "\t" + str(P_MapAt1) + "\t" + str(
+    #     P_MapAt3) + "\t" + str(P_MapAt5) + "\t" + str(P_MAP) + "\n")
+    json.dump(query_object, f, indent=4)
     print(str(weight_description)+"\t"+str(weight_readme)+"\t"+str(weight_methodclass)+"\t"+str(weight_packageclass)+"\t"+str(weight_importpackage)+"\t"+str(MapAt1) + "\t" + str(MapAt3) + "\t" + str(MapAt5) + "\t" + str(MAP) + "\t" + str(P_MapAt1) + "\t" + str(
         P_MapAt3) + "\t" + str(P_MapAt5) + "\t" + str(P_MAP) + "\n")
 
-
-def main():
+def main(queryIndex):
     query_project_path = "./data/testProjectCategory.txt"
     candidate_project_path = "./data/trainProjectCategory.txt"
 
@@ -197,7 +213,7 @@ def main():
     description_path = "./data/description.txt"
     readme_path = "./data/readme.txt"
     methodclass_path = "./data/methodclass.txt"
-    packageclass_path = "./data/package_class.txt"
+    packageclass_path = "./data/packageclass.txt"
     importpackage_path = "./data/importpackage.txt"
 
     description_matrix = numpy.loadtxt(open(description_path, "rb"), delimiter=",")
@@ -249,13 +265,23 @@ def main():
     weight_methodclass=0.1
     weight_packageclass=0.1
     weight_importpackage=0.1
-    runevaluation(description_matrix, readme_matrix, methodclass_matrix, packageclass_matrix, importpackage_matrix,
+    runevaluation(queryIndex,description_matrix, readme_matrix, methodclass_matrix, packageclass_matrix, importpackage_matrix,
                   weight_description, weight_readme, weight_methodclass, weight_packageclass, weight_importpackage,
                   querycategory, candidatecategory, category_stats)
 
     print "done"
-if __name__ == "__main__":
+
+@app.route('/')
+@app.route('/search')
+def search():
     start = time.time()
-    main()
+    main(int(sys.argv[1]))
     end = time.time()
     print(end - start)
+if __name__ == "__main__":
+    app.run()
+# if __name__ == "__main__":
+#     start = time.time()
+#     main(int(sys.argv[1]))
+#     end = time.time()
+#     print(end - start)

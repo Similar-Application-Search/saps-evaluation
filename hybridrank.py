@@ -1,7 +1,7 @@
 import numpy
 import time
 
-from sympy.functions.elementary.complexes import im
+# from sympy.functions.elementary.complexes import im
 
 
 def readProjectDetails(projectDetailsFile):
@@ -197,7 +197,7 @@ def main():
     description_path = "./data/description.txt"
     readme_path = "./data/readme.txt"
     methodclass_path = "./data/methodclass.txt"
-    packageclass_path = "./data/package_class.txt"
+    packageclass_path = "./data/packageclass.txt"
     importpackage_path = "./data/importpackage.txt"
 
     description_matrix = numpy.loadtxt(open(description_path, "rb"), delimiter=",")

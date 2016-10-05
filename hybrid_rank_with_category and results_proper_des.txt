@@ -1,191 +1,4 @@
-Query:1	Search Project: Persija	Indonesian FootBall Club	https://baishakhir:f000bar@github.com/alillg21/Persija	NEWS_AND_MAGAZINES : News & Magazines
-1	simple-rss-feeder-with-offline-viewing	Project taken from RSS Demo Master with some added features like text retrieval and offline viewing.	https://baishakhir:f000bar@github.com/prav10194/simple-rss-feeder-with-offline-viewing	NEWS_AND_MAGAZINES : News & Magazines
-2	RSSDemo	A simple demonstration of an RSS reader for Android.	https://baishakhir:f000bar@github.com/zackehh/RSSDemo	NEWS_AND_MAGAZINES : News & Magazines
-3	open-curah	Microsoft Curah & News Reader	https://baishakhir:f000bar@github.com/subinkrishna/open-curah	NEWS_AND_MAGAZINES : News & Magazines
-4	Android-Link-Preview	It makes a preview from an url, grabbing all informations. Such as title, relevant texts and images. This a version for Android of my web link preview http://lab.leocardz.com/facebook-link-preview-php--jquery/	https://baishakhir:f000bar@github.com/LeonardoCardoso/Android-Link-Preview	PRODUCTIVITY : Productivity
-5	19K-word-dictionary	download "19K Word Dictionary" on Google Play	https://baishakhir:f000bar@github.com/rad-navid/19K-word-dictionary	BOOKS_AND_REFERENCE : Books & Reference
-6	YWeatherGetter4a	An Yahoo Weather API wrapper for android	http://baishakhir:f000bar@github.com/zh-wang/YWeatherGetter4a	WEATHER : Weather
-7	DeviceSensorManager	Sensor Manager for Android Devices	https://baishakhir:f000bar@github.com/githubsaturn/DeviceSensorManager	EDUCATION : Education
-8	holoreader	A simple RSS/Atom reader, available on Google Play.	http://baishakhir:f000bar@github.com/hdodenhof/holoreader	NEWS_AND_MAGAZINES : News & Magazines
-9	ipal-android	IPAL Moodle App For Android	https://baishakhir:f000bar@github.com/qtstc/ipal-android	EDUCATION : Education
-10	Wikitrack	Wikitrack for Kannada Wikipedia	https://baishakhir:f000bar@github.com/SaarangaInfotech/Wikitrack	BOOKS_AND_REFERENCE : Books & Reference
-Query:2	Search Project: Android-EasterBunny	A Library for laying Easter Eggs	https://baishakhir:f000bar@github.com/abeatte/Android-EasterBunny	LIBRARIES_AND_DEMO : Libraries & Demo
-1	AutoLabelUI	Android library to place labels next to another. If there is not enough space for the next label, it will be added in a new line.	https://baishakhir:f000bar@github.com/DavidPizarro/AutoLabelUI	LIBRARIES_AND_DEMO : Libraries & Demo
-2	android-smart-animation-library	this is android library for adding smart animation in it	https://baishakhir:f000bar@github.com/ratty3697/android-smart-animation-library	EDUCATION : Education
-3	DobList	DobLis is an Open Source Android library that provides to ListView adding ProgressBar (or any view) to the footer of ListView to be shown in loading more, and callback that is called when reaching last item in ListView.	http://baishakhir:f000bar@github.com/bilalsammour/DobList	LIBRARIES_AND_DEMO : Libraries & Demo
-4	MaterialSettings	MaterialSettings - small library to create settings activity	https://baishakhir:f000bar@github.com/kenumir/MaterialSettings	LIBRARIES_AND_DEMO : Libraries & Demo
-5	AnimatedGridView	A simple library which adds some basic animation if you delete fields. There's also a HeaderGridView if you need such a view for your projects :D	http://baishakhir:f000bar@github.com/mikepenz/AnimatedGridView	GAME_CASUAL : Casual
-6	GittyReporter	A powerful and simple library to open issues on GitHub directly from your app.	https://baishakhir:f000bar@github.com/PaoloRotolo/GittyReporter	LIBRARIES_AND_DEMO : Libraries & Demo
-7	holo-calendar-sample	A sample application for the Holo Calendar library	https://baishakhir:f000bar@github.com/vdesmet93/holo-calendar-sample	LIBRARIES_AND_DEMO : Libraries & Demo
-8	PreferenceKit	Android library that brings some more advanced preference widget	https://baishakhir:f000bar@github.com/MajeurAndroid/PreferenceKit	TOOLS : Tools
-9	ActionsContentView	ActionsContentView is an standalone library implements actions/content swiping view (AKA Side Navigation UI Pattern, AKA Facebook side menu).  The library doesn't use any specific code introduced in new Android SDK versions. This allows develop an applica	http://baishakhir:f000bar@github.com/StevenRudenko/ActionsContentView	LIBRARIES_AND_DEMO : Libraries & Demo
-10	adapter-synchronizer	Library which provides synchronization between adapters	https://baishakhir:f000bar@github.com/erencelik/adapter-synchronizer	LIBRARIES_AND_DEMO : Libraries & Demo
-Query:3	Search Project: Arcis	A cross between a tower defense and arcade game	https://baishakhir:f000bar@github.com/Tornquist/Arcis	GAME_ARCADE : Arcade
-1	Burrow	An action packed arcade game of survival.	https://baishakhir:f000bar@github.com/Tornquist/Burrow	GAME_ARCADE : Arcade
-2	Glide	Mobile arcade game for Android based on glider physics	https://baishakhir:f000bar@github.com/liangdrew/Glide	GAME_ARCADE : Arcade
-3	Squarie	Open-source android arcade game	https://baishakhir:f000bar@github.com/EdvinasKilbauskas/Squarie	GAME_ARCADE : Arcade
-4	shapemergency	Android arcade game.	https://baishakhir:f000bar@github.com/adsgray/shapemergency	GAME_ARCADE : Arcade
-5	Sort-Me	A Realtime Multiplayer Sorting Game for Android	https://baishakhir:f000bar@github.com/webby1111/Sort-Me	GAME_PUZZLE : Puzzle
-6	connect_four	Connect Four Android Game	https://baishakhir:f000bar@github.com/dmytroKarataiev/connect_four	GAME_BOARD : Board
-7	android_wb_climate	WB climate game. Android version, game made from scratch.	https://baishakhir:f000bar@github.com/AmsgamesStudio/android_wb_climate	GAME_ARCADE : Arcade
-8	Sizzle	SIZZLE - game of fire	https://baishakhir:f000bar@github.com/tomthecarrot/Sizzle	GAME_SIMULATION : Simulation
-9	Steam-Game-Picker-Android	Can't decide which game to play next? Let Steam game picker decide for you! Steam game picker allows you to pick a random Steam game from your collection of games.	https://baishakhir:f000bar@github.com/Numan1617/Steam-Game-Picker-Android	ENTERTAINMENT : Entertainment
-10	lexica	Word Game for Android - A fork of lexic (https://code.google.com/p/lexic)	https://baishakhir:f000bar@github.com/lexica/lexica	GAME_WORD : Word
-Query:4	Search Project: GreenerGasPedal	Save gas, save your wallet, and save the world! EPA studies have shown you can save the equivalent of $1.50 per gallon by using your gas and breaks more gently. This Android app helps you pull it off!	https://baishakhir:f000bar@github.com/lnanek/GreenerGasPedal	TRANSPORTATION : Transportation
-1	hubble_gallery	[Android App] View, Save, and Read about Hubble's best images.	https://baishakhir:f000bar@github.com/derekcsm/hubble_gallery	EDUCATION : Education
-2	GasMileage	Gas mileage Android application	https://baishakhir:f000bar@github.com/rprouse/GasMileage	TRANSPORTATION : Transportation
-3	sleep-check-reminder	Android app to help you in lucid dreaming by building a habit of doing reality checks	https://baishakhir:f000bar@github.com/erik-ropez/sleep-check-reminder	TOOLS : Tools
-4	FAST	FAST App Search Tool	http://baishakhir:f000bar@github.com/ligi/FAST	TOOLS : Tools
-5	android-speedtest-mapper	Speedtest.net Android application data mapper app for visualization.	http://baishakhir:f000bar@github.com/liquidlabs/android-speedtest-mapper	TOOLS : Tools
-6	Spree	New Android App	https://baishakhir:f000bar@github.com/doronz/Spree	PRODUCTIVITY : Productivity
-7	RunningX	An android app for Running	https://baishakhir:f000bar@github.com/zwChan/RunningX	HEALTH_AND_FITNESS : Health & Fitness
-8	no-frills-cpu-classic	No-frills CPU Control CLASSIC app for Android	https://baishakhir:f000bar@github.com/hrk/no-frills-cpu-classic	TOOLS : Tools
-9	Clip-Stack	An Android clipboard history manager app with Material Design.	https://baishakhir:f000bar@github.com/heruoxin/Clip-Stack	PRODUCTIVITY : Productivity
-10	BigDayCountdown	Countdown app for Android	https://baishakhir:f000bar@github.com/smholsen/BigDayCountdown	TOOLS : Tools
-Query:5	Search Project: ListViewAnimations		https://baishakhir:f000bar@github.com/ylfonline/ListViewAnimations	LIBRARIES_AND_DEMO : Libraries & Demo
-1	ListViewAnimation	Android ListView Animation fork	https://baishakhir:f000bar@github.com/dspengler/ListViewAnimation	LIBRARIES_AND_DEMO : Libraries & Demo
-2	ListViewAnimations	An Android library which allows developers to easily add animations to ListView items	http://baishakhir:f000bar@github.com/nhaarman/ListViewAnimations	LIBRARIES_AND_DEMO : Libraries & Demo
-3	MaterialDialog		https://baishakhir:f000bar@github.com/pepperonas/MaterialDialog	LIBRARIES_AND_DEMO : Libraries & Demo
-4	PagerSlidingTabStrip		https://baishakhir:f000bar@github.com/ThrowDice/PagerSlidingTabStrip	LIBRARIES_AND_DEMO : Libraries & Demo
-5	Yaaic		https://baishakhir:f000bar@github.com/Exodus92/Yaaic	COMMUNICATION : Communication
-6	Laboratorio5		https://baishakhir:f000bar@github.com/mfneirae/Laboratorio5	TRANSPORTATION : Transportation
-7	ConUHacks		https://baishakhir:f000bar@github.com/Jkoza/ConUHacks	LIFESTYLE : Lifestyle
-8	nfcard		https://baishakhir:f000bar@github.com/elicec/nfcard	TOOLS : Tools
-9	Android-ParallaxHeaderViewPager-master	expandablelistview	https://baishakhir:f000bar@github.com/itlonewolf/Android-ParallaxHeaderViewPager-master	LIBRARIES_AND_DEMO : Libraries & Demo
-10	TestProject		https://baishakhir:f000bar@github.com/zzlizhen/TestProject	LIBRARIES_AND_DEMO : Libraries & Demo
-Query:6	Search Project: SetAndroidProcessLimit	Persistently sets the android process limit. NOTE: This app is required to install as a system app on Android 4.2+.	https://baishakhir:f000bar@github.com/flode/SetAndroidProcessLimit	TOOLS : Tools
-1	plain-memo	A simple note Android app	https://baishakhir:f000bar@github.com/Daytron/plain-memo	PRODUCTIVITY : Productivity
-2	OwnCloud-Notes	An android client for ownCloud Notes App.	https://baishakhir:f000bar@github.com/stefan-niedermann/OwnCloud-Notes	TOOLS : Tools
-3	MaterialSample	Material Design Android App	https://baishakhir:f000bar@github.com/ng-b0ne/MaterialSample	TOOLS : Tools
-4	stolpersteine-android	Stolpersteine Android App	https://baishakhir:f000bar@github.com/Stolpersteine/stolpersteine-android	EDUCATION : Education
-5	ngobrol	Ngobrol - Android App for free discussions	https://baishakhir:f000bar@github.com/huteri/ngobrol	SOCIAL : Social
-6	open-android	An Android app for exploring other installed apps	https://baishakhir:f000bar@github.com/saltisgood/open-android	EDUCATION : Education
-7	BookdashAndroidApp	Book Dash is an Android App for the NPO where you can download books in different languages for free.	https://baishakhir:f000bar@github.com/spongebobrf/BookdashAndroidApp	EDUCATION : Education
-8	PhotoDiscovery	Android app where users enter any keyword(s) to get a lot of awesome photos.	https://baishakhir:f000bar@github.com/tarek360/PhotoDiscovery	PHOTOGRAPHY : Photography
-9	RenewPass	An Android app for renewing your UPass	https://baishakhir:f000bar@github.com/Coffeeboys/RenewPass	TOOLS : Tools
-10	sigimera-android-app	This is the source code of the official Android app of the Sigimera Platform (http://www.sigimera.org)	https://baishakhir:f000bar@github.com/Sigimera/sigimera-android-app	TRAVEL_AND_LOCAL : Travel & Local
-Query:7	Search Project: Verlet	This is example of a simple Verlet physics engine for android based on verlet-js	https://baishakhir:f000bar@github.com/northerneyes/Verlet	ENTERTAINMENT : Entertainment
-1	verlet	Simple engine for lightweight physics on Android canvas	http://baishakhir:f000bar@github.com/Devicement/verlet	LIBRARIES_AND_DEMO : Libraries & Demo
-2	QuarkPosts	Android application: simple instant messaging	https://baishakhir:f000bar@github.com/ClarkAWilson/QuarkPosts	LIBRARIES_AND_DEMO : Libraries & Demo
-3	LoyaltyKeyring	A simple Android application to store and (later) display barcodes.	https://baishakhir:f000bar@github.com/tipabu/LoyaltyKeyring	SHOPPING : Shopping
-4	org.numixproject.torch	Simple, pretty, and powerrful torch for Android	https://baishakhir:f000bar@github.com/numixproject/org.numixproject.torch	TOOLS : Tools
-5	daemondo	Simple task list with gamification elements for Android	https://baishakhir:f000bar@github.com/Mikepicker/daemondo	PRODUCTIVITY : Productivity
-6	FormulatrApp	Formulatr: A Simple App For Simple Math (in Android)	https://baishakhir:f000bar@github.com/SteveOlson05/FormulatrApp	BOOKS_AND_REFERENCE : Books & Reference
-7	UnitConverterUltimate	A simple, lightweight unit converter for Android	https://baishakhir:f000bar@github.com/physphil/UnitConverterUltimate	TOOLS : Tools
-8	QuietUnlock	Simple Android Application for managing Vibrate/Silent Settings	https://baishakhir:f000bar@github.com/tkalus/QuietUnlock	TOOLS : Tools
-9	android-SimpleNetCat	Simple netcat implementation for Android	https://baishakhir:f000bar@github.com/dddpaul/android-SimpleNetCat	COMMUNICATION : Communication
-10	Sortr	Sortr is a simple team sorting application written for Android	https://baishakhir:f000bar@github.com/BryceBrown/Sortr	TOOLS : Tools
-Query:8	Search Project: Random-Timer	A randomized countdown timer for Android	https://baishakhir:f000bar@github.com/eldarerathis/Random-Timer	TOOLS : Tools
-1	RandomNumberGenerator	Random Number Generator for Android	https://baishakhir:f000bar@github.com/Tywholland/RandomNumberGenerator	TOOLS : Tools
-2	randomsequencegenerator	Random Sequence Generator for Android	https://baishakhir:f000bar@github.com/ruvolof/randomsequencegenerator	TOOLS : Tools
-3	scrumdailytimer	This android application is a timer specially designed to optimize your scrum daily meeting.	https://baishakhir:f000bar@github.com/jonatantierno/scrumdailytimer	PRODUCTIVITY : Productivity
-4	BigDayCountdown	Countdown app for Android	https://baishakhir:f000bar@github.com/smholsen/BigDayCountdown	TOOLS : Tools
-5	WearTimer	Improved Stopwatch & Timer for Android Wear	https://baishakhir:f000bar@github.com/brave-warrior/WearTimer	PRODUCTIVITY : Productivity
-6	random-movie-android	Android application for Random Movie	https://baishakhir:f000bar@github.com/random-movie/random-movie-android	ENTERTAINMENT : Entertainment
-7	MeditationAssistant	Android meditation session timer and logger with numerous features and customization options.	https://baishakhir:f000bar@github.com/tslocum/MeditationAssistant	HEALTH_AND_FITNESS : Health & Fitness
-8	countdown-timer	Countdown timer widget for Android	https://baishakhir:f000bar@github.com/jdimond/countdown-timer	TOOLS : Tools
-9	ClockProject	Simple Android stopwatch and timer	https://baishakhir:f000bar@github.com/NSchock/ClockProject	TOOLS : Tools
-10	plusTimer	Android Rubik's cube timer with TNoodle scrambles	http://baishakhir:f000bar@github.com/plusCubed/plusTimer	TOOLS : Tools
-Query:9	Search Project: LetsChat	Android chat application based on Openfire and Smack	https://baishakhir:f000bar@github.com/dilicode/LetsChat	COMMUNICATION : Communication
-1	ZmqVideoChat	Android Video Chat Application with ZeroMQ an Node.js	http://baishakhir:f000bar@github.com/eggerdo/ZmqVideoChat	COMMUNICATION : Communication
-2	android_instacam	InstaCam, Instagram alike application for realtime photo manipulation.	http://baishakhir:f000bar@github.com/harism/android_instacam	PHOTOGRAPHY : Photography
-3	Yaaic	Yaaic (Yet Another Android IRC Client) is as the name already says an Internet Relay Chat (IRC) client for Android devices.	http://baishakhir:f000bar@github.com/pocmo/Yaaic	COMMUNICATION : Communication
-4	GroupChat	Group chat application developed for Android workshop session. Everyone comments on the same thread.	http://baishakhir:f000bar@github.com/praveendath92/GroupChat	LIBRARIES_AND_DEMO : Libraries & Demo
-5	trollator	Simple example of using OpenCV in a Vaadin application.	https://baishakhir:f000bar@github.com/samie/trollator	PHOTOGRAPHY : Photography
-6	android-for-dummies-v3	Sourcecode repository for Android Application Development for Dummies, v3	https://baishakhir:f000bar@github.com/emmby/android-for-dummies-v3	BOOKS_AND_REFERENCE : Books & Reference
-7	TouchBase	An Internet-Based Android Messenger Application	https://baishakhir:f000bar@github.com/ATGarner/TouchBase	SOCIAL : Social
-8	My-Android	Application to show android infos	https://baishakhir:f000bar@github.com/duvu/My-Android	PRODUCTIVITY : Productivity
-9	json_resume	Android Application to view resume.JSON files	https://baishakhir:f000bar@github.com/huntergdavis/json_resume	TOOLS : Tools
-10	android-node-music-sync	A syncing application for Android to sync playlists from Node Music Player https://github.com/benkaiser/node-music-player	https://baishakhir:f000bar@github.com/benkaiser/android-node-music-sync	MUSIC_AND_AUDIO : Music & Audio
-Query:10	Search Project: PlayNewsStandDemo	Demo app for achieving UI like the one used in latest Google Play Newsstand app.	https://baishakhir:f000bar@github.com/naman14/PlayNewsStandDemo	LIBRARIES_AND_DEMO : Libraries & Demo
-1	SimpleTouchLight2	This is an simple Android Flash Light app. Here is the link from Google Play Store :https://play.google.com/store/apps/details?id=com.avocado.SimpleFlashLight	https://baishakhir:f000bar@github.com/khristopher/SimpleTouchLight2	TOOLS : Tools
-2	BuzzBuddy	Download the app on Google Play!	https://baishakhir:f000bar@github.com/fabuzaid21/BuzzBuddy	PRODUCTIVITY : Productivity
-3	DizzyDrinking	Android drinking game app available at the Google Play Store.	https://baishakhir:f000bar@github.com/Patrick2206/DizzyDrinking	GAME_CASUAL : Casual
-4	Shredometer	Simple Android app that calculates how many notes per second you can play by a given input of bpms and note values	https://baishakhir:f000bar@github.com/ThanosFisherman/Shredometer	MUSIC_AND_AUDIO : Music & Audio
-5	Outgoing-Calls-Viewer	Complete source of published google play app	https://baishakhir:f000bar@github.com/igorcrevar/Outgoing-Calls-Viewer	TOOLS : Tools
-6	MultiCoreAndroid	Mobile processor benchmark: Android app in Google Play	https://baishakhir:f000bar@github.com/miktam/MultiCoreAndroid	EDUCATION : Education
-7	SmsScheduler	code for  Sms Scheduler app on google play : https://play.google.com/store/apps/details?id=com.avance.SmsScheduler	https://baishakhir:f000bar@github.com/gsowmya/SmsScheduler	COMMUNICATION : Communication
-8	noise-mobile	cordova noise-thing app, available on google play and coming soon to iOS	https://baishakhir:f000bar@github.com/Tyler-Anderson/noise-mobile	HEALTH_AND_FITNESS : Health & Fitness
-9	AwefactApp	Awefact is collecting facts about number from json url. It's experimental app and published on play store.	https://baishakhir:f000bar@github.com/Chingiz/AwefactApp	EDUCATION : Education
-10	GPACalculator	Simple GPA Calculator with terms.  Now available on Google Play.	https://baishakhir:f000bar@github.com/shrimpwongton/GPACalculator	EDUCATION : Education
-Query:11	Search Project: MensaUniPotsdam	Mensa Uni Potsdam App	https://baishakhir:f000bar@github.com/Steppschuh/MensaUniPotsdam	HEALTH_AND_FITNESS : Health & Fitness
-1	ReadmoreElite	Android app for german e-sport website readmore.de	https://baishakhir:f000bar@github.com/tobibechtold/ReadmoreElite	SOCIAL : Social
-2	MMU-Hub	An all in one MMU app built natively for Android	https://baishakhir:f000bar@github.com/HiiYL/MMU-Hub	EDUCATION : Education
-3	OU-Mobile-App	An android app for students at the University of Oklahoma	https://baishakhir:f000bar@github.com/ThinksInBits/OU-Mobile-App	EDUCATION : Education
-4	mensa-furtwangen	Schlicht und modern - und noch eine weitere HFU Mensa App.	https://baishakhir:f000bar@github.com/fsauter/mensa-furtwangen	PRODUCTIVITY : Productivity
-5	metal-only	Metal Only Android App	https://baishakhir:f000bar@github.com/Codingspezis/metal-only	MUSIC_AND_AUDIO : Music & Audio
-6	TrainingApp	The android app for the training website.	https://baishakhir:f000bar@github.com/f00f/TrainingApp	COMMUNICATION : Communication
-7	BigDayCountdown	Countdown app for Android	https://baishakhir:f000bar@github.com/smholsen/BigDayCountdown	TOOLS : Tools
-8	KnightNews_Android	News reader app for KnightNews on Android.	https://baishakhir:f000bar@github.com/JimVanG/KnightNews_Android	NEWS_AND_MAGAZINES : News & Magazines
-9	Arabic-Almanac	(Dec 2013-Now) Arabic Almanac is an Android version of the Mawrid Reader web app: https://github.com/ejtaal/mr#download-for-offline-use It's purpose is to provide students of the Arabic language with dictionaries of various languanges at a convenience to	https://baishakhir:f000bar@github.com/oasis789/Arabic-Almanac	BOOKS_AND_REFERENCE : Books & Reference
-10	elloshare	Photo sharing app for Ello	https://baishakhir:f000bar@github.com/roadriverrail/elloshare	SOCIAL : Social
-Query:12	Search Project: ledger-u2f-javacard	Java Card FIDO U2F authenticator for Ledger Unplugged	https://baishakhir:f000bar@github.com/LedgerHQ/ledger-u2f-javacard	TOOLS : Tools
-1	ledger-javacard	Ledger Unplugged - Java Card implementation of Ledger Bitcoin Hardware Wallet	https://baishakhir:f000bar@github.com/LedgerHQ/ledger-javacard	COMMUNICATION : Communication
-2	Runners	Desktop/Android running game written in Java using the LibGDX framework	https://baishakhir:f000bar@github.com/RyanMan56/Runners	GAME_CASUAL : Casual
-3	audiobox-jlib	Next generation Java library for AudioBox API	https://baishakhir:f000bar@github.com/icoretech/audiobox-jlib	MUSIC_AND_AUDIO : Music & Audio
-4	via-mqtt-push-notification	Proof of concept about how to publish notifications to client via mqtt	https://baishakhir:f000bar@github.com/zakyalvan/via-mqtt-push-notification	TOOLS : Tools
-5	GrabSomeFood-Test	Proof-of-concept Android app for FOODit	https://baishakhir:f000bar@github.com/AntonioRedondo/GrabSomeFood-Test	SHOPPING : Shopping
-6	java-api-wrapper	SoundCloud Java API wrapper (OAuth2 only), works on Android	http://baishakhir:f000bar@github.com/soundcloud/java-api-wrapper	MUSIC_AND_AUDIO : Music & Audio
-7	Introspy-Android	Security profiling for blackbox Android	http://baishakhir:f000bar@github.com/iSECPartners/Introspy-Android	PERSONALIZATION : Personalization
-8	storymaker	StoryMaker - Mobile Reporter App	https://baishakhir:f000bar@github.com/guardianproject/storymaker	EDUCATION : Education
-9	mbrc	MusicBee Remote for Android	http://baishakhir:f000bar@github.com/kelsos/mbrc	MUSIC_AND_AUDIO : Music & Audio
-10	androbot	An android app which allows you to control any Robot or Embedded Sys. interfaced bluetooth using Serial Port Profile(SPP).	https://baishakhir:f000bar@github.com/aman-tugnawat/androbot	TOOLS : Tools
-Query:13	Search Project: runbo-laser-widget	Laser diode control widget for Runbo X5	https://baishakhir:f000bar@github.com/Mart-Bogdan/runbo-laser-widget	TOOLS : Tools
-1	WordClock-Widget	A simple Android Widget	https://baishakhir:f000bar@github.com/Ryan-Myers/WordClock-Widget	TOOLS : Tools
-2	sipswitch	SIP Switch Widget for Android	http://baishakhir:f000bar@github.com/robert7k/sipswitch	TOOLS : Tools
-3	QuickDialer	Android home screen widget for quick dial	https://baishakhir:f000bar@github.com/aleksey-zhidkov/QuickDialer	PERSONALIZATION : Personalization
-4	minimalist-flashlight	Small and stable widget for android toggling the flash on/off.	https://baishakhir:f000bar@github.com/bleeding182/minimalist-flashlight	TOOLS : Tools
-5	RemoteSilencer	This is repository for Android widget app allowing remote muting and unmuting of multiple Android devices.	https://baishakhir:f000bar@github.com/JunkCode/RemoteSilencer	TOOLS : Tools
-6	Fast-Brightness-Control-Widget	Android widget for controling screen brightness level.	https://baishakhir:f000bar@github.com/marin-liovic/Fast-Brightness-Control-Widget	PERSONALIZATION : Personalization
-7	lockscreen	An android widget to lock the screen	https://baishakhir:f000bar@github.com/hgkamath/lockscreen	TOOLS : Tools
-8	CalendarWidget	Android Calendar Widget.	https://baishakhir:f000bar@github.com/5amfung/CalendarWidget	PRODUCTIVITY : Productivity
-9	YotaImageWidget	Yotaphone 2 backscreen widget for showing an image in all sizes	https://baishakhir:f000bar@github.com/rorist/YotaImageWidget	PERSONALIZATION : Personalization
-10	CPUInfo	Little widget and app to display CPU stats	https://baishakhir:f000bar@github.com/mslhii/CPUInfo	TOOLS : Tools
-Query:14	Search Project: became-kitchen-topic		https://baishakhir:f000bar@github.com/test-driver/became-kitchen-topic	GAME_PUZZLE : Puzzle
-1	government-claws-check		https://baishakhir:f000bar@github.com/test-driver/government-claws-check	GAME_PUZZLE : Puzzle
-2	laugh-thee-put		https://baishakhir:f000bar@github.com/test-driver/laugh-thee-put	GAME_PUZZLE : Puzzle
-3	halfway-score-sang		https://baishakhir:f000bar@github.com/test-driver/halfway-score-sang	GAME_PUZZLE : Puzzle
-4	available-engine-already		https://baishakhir:f000bar@github.com/test-driver/available-engine-already	GAME_PUZZLE : Puzzle
-5	silent-slip-positive		https://baishakhir:f000bar@github.com/test-driver/silent-slip-positive	GAME_PUZZLE : Puzzle
-6	grown-bend-substance		https://baishakhir:f000bar@github.com/test-driver/grown-bend-substance	GAME_PUZZLE : Puzzle
-7	combination-baseball-snake		https://baishakhir:f000bar@github.com/test-driver/combination-baseball-snake	GAME_PUZZLE : Puzzle
-8	quick-coffee-brief		https://baishakhir:f000bar@github.com/test-driver/quick-coffee-brief	GAME_PUZZLE : Puzzle
-9	depend-species-popular		https://baishakhir:f000bar@github.com/test-driver/depend-species-popular	GAME_PUZZLE : Puzzle
-10	directly-afternoon-child		https://baishakhir:f000bar@github.com/test-driver/directly-afternoon-child	GAME_PUZZLE : Puzzle
-Query:15	Search Project: typeandspeak	Automatically exported from code.google.com/p/typeandspeak	https://baishakhir:f000bar@github.com/nilsm/typeandspeak	ENTERTAINMENT : Entertainment
-1	propeditor	Automatically exported from code.google.com/p/propeditor	https://baishakhir:f000bar@github.com/ciubex/propeditor	TOOLS : Tools
-2	pmtd	Automatically exported from code.google.com/p/pmtd	https://baishakhir:f000bar@github.com/ericzolf/pmtd	EDUCATION : Education
-3	storage-info	Automatically exported from code.google.com/p/storage-info	https://baishakhir:f000bar@github.com/ciubex/storage-info	TOOLS : Tools
-4	droidtracker	Automatically exported from code.google.com/p/droidtracker	https://baishakhir:f000bar@github.com/obonal/droidtracker	TOOLS : Tools
-5	mycallsign-android	Automatically exported from code.google.com/p/mycallsign-android	https://baishakhir:f000bar@github.com/mypapit/mycallsign-android	BOOKS_AND_REFERENCE : Books & Reference
-6	dscautorename	Automatically exported from code.google.com/p/dscautorename	https://baishakhir:f000bar@github.com/ciubex/dscautorename	TOOLS : Tools
-7	tkconfig	Automatically exported from code.google.com/p/tkconfig	https://baishakhir:f000bar@github.com/ciubex/tkconfig	COMMUNICATION : Communication
-8	mango-goal-organizer	Automatically exported from code.google.com/p/mango-goal-organizer	https://baishakhir:f000bar@github.com/sdoerner/mango-goal-organizer	PRODUCTIVITY : Productivity
-9	android-file-explorer	Automatically exported from code.google.com/p/android-file-explorer	https://baishakhir:f000bar@github.com/phonglanhuong/android-file-explorer	TOOLS : Tools
-10	android-file-explorer	Automatically exported from code.google.com/p/android-file-explorer	https://baishakhir:f000bar@github.com/innopplaccount/android-file-explorer	TOOLS : Tools
-Query:16	Search Project: Gravity-Flipper		https://baishakhir:f000bar@github.com/vik-goel/Gravity-Flipper	GAME_CASUAL : Casual
-1	Electric-Jump	Electric Jump is a fun casual game made using the libgdx framework	https://baishakhir:f000bar@github.com/Boris-Petrov261/Electric-Jump	GAME_ARCADE : Arcade
-2	Jelly-Jump-Android	android game using libGDX and box2Dlights	https://baishakhir:f000bar@github.com/AlexNgai/Jelly-Jump-Android	GAME_ARCADE : Arcade
-3	Point-and-Hit	A beat-the-highscore Android game	https://baishakhir:f000bar@github.com/raatmarien/Point-and-Hit	GAME_ARCADE : Arcade
-4	SkiFun	Yet another libGDX sample	https://baishakhir:f000bar@github.com/Nextpeer/SkiFun	GAME_RACING : Racing
-5	LD27-PuzzleDash	My Ludum Dare 27 Entry: A puzzle game for Android!	https://baishakhir:f000bar@github.com/Fireblend/LD27-PuzzleDash	GAME_PUZZLE : Puzzle
-6	Dodge-The-Cars	A simple example game made with the LibGDX framework.	http://baishakhir:f000bar@github.com/antionio/Dodge-The-Cars	GAME_ARCADE : Arcade
-7	GenericMatchingGame	A Generic Matching Game for Android	https://baishakhir:f000bar@github.com/rparrett/GenericMatchingGame	GAME_CARD : Card
-8	arctic	arctic android	https://baishakhir:f000bar@github.com/lycying/arctic	GAME_CASUAL : Casual
-9	NestedTicTacToe	A variant of tic tac toe, for desktop and android	http://baishakhir:f000bar@github.com/drumber-1/NestedTicTacToe	GAME_BOARD : Board
-10	Jack_Adventure	Jack Adventure is a game for Android devices.	https://baishakhir:f000bar@github.com/ShadowkhaN1/Jack_Adventure	GAME_ARCADE : Arcade
-Query:17	Search Project: bit-day-live-wallpaper	An Android live wallpaper that changes based on the time of day.	https://baishakhir:f000bar@github.com/hitraj47/bit-day-live-wallpaper	PERSONALIZATION : Personalization
-1	hacker-live-wallpaper	An Android live wallpaper of bit sequences streaming down the screen.	http://baishakhir:f000bar@github.com/gsingh93/hacker-live-wallpaper	ENTERTAINMENT : Entertainment
-2	collage-lwp	Collage live wallpaper for android	https://baishakhir:f000bar@github.com/strengthandwill/collage-lwp	PERSONALIZATION : Personalization
-3	drip-steps	Android Live Wallpaper to track your daily steps	https://baishakhir:f000bar@github.com/Drippler/drip-steps	HEALTH_AND_FITNESS : Health & Fitness
-4	Hedwig-LWP	Hedwig Live Wallpaper for android	https://baishakhir:f000bar@github.com/sauravtom/Hedwig-LWP	ENTERTAINMENT : Entertainment
-5	android-clock-livewallpaper	Android Clock Live Wallpaper	http://baishakhir:f000bar@github.com/ssaurel/android-clock-livewallpaper	PERSONALIZATION : Personalization
-6	android_wallpaper_stripes	Stripes, OpenGL ES 2.0 based, live wallpaper for Android powered devices.	https://baishakhir:f000bar@github.com/harism/android_wallpaper_stripes	PERSONALIZATION : Personalization
-7	InfoWallpaper	Live wallpaper app for Android	https://baishakhir:f000bar@github.com/andreasmcdermott/InfoWallpaper	PERSONALIZATION : Personalization
-8	IM-timetracking	simplistic time tracker for Android	https://baishakhir:f000bar@github.com/lavong/IM-timetracking	PRODUCTIVITY : Productivity
-9	MawaruPenguindrumLiveWallpaper	Android live wallpaper based on the TV series "Mawaru Penguindrum"	https://baishakhir:f000bar@github.com/kimoi/MawaruPenguindrumLiveWallpaper	PERSONALIZATION : Personalization
-10	slider	a 15-puzzle-like Android live wallpaper	https://baishakhir:f000bar@github.com/devisnik/slider	PERSONALIZATION : Personalization
-Query:18	Search Project: smartPDF	smartPDF application	https://baishakhir:f000bar@github.com/chemwatchaus/smartPDF	PRODUCTIVITY : Productivity
+Query:1	Search Project: smartPDF	smartPDF application	https://baishakhir:f000bar@github.com/chemwatchaus/smartPDF	PRODUCTIVITY : Productivity
 1	JOneTouch	android application	https://baishakhir:f000bar@github.com/joakim-ribier/JOneTouch	TOOLS : Tools
 2	Android	Android application for Hive2Hive	https://baishakhir:f000bar@github.com/Hive2Hive/Android	PRODUCTIVITY : Productivity
 3	nlr-app	mobile application for https://github.com/nimaai/nlr-web	https://baishakhir:f000bar@github.com/nimaai/nlr-app	EDUCATION : Education
@@ -193,360 +6,241 @@ Query:18	Search Project: smartPDF	smartPDF application	https://baishakhir:f000ba
 5	NavBro-WebView	android application	https://baishakhir:f000bar@github.com/joakim-ribier/NavBro-WebView	TOOLS : Tools
 6	RPGDiceRoller	Android application.	https://baishakhir:f000bar@github.com/ftena/RPGDiceRoller	GAME_CASUAL : Casual
 7	lln-campus	The student application for students!	https://baishakhir:f000bar@github.com/qdeconinck/lln-campus	EDUCATION : Education
-8	onebrick-android	Android Application	https://baishakhir:f000bar@github.com/OneBrick/onebrick-android	SOCIAL : Social
-9	FastMaps	FastMaps application	https://baishakhir:f000bar@github.com/goolick/FastMaps	TRANSPORTATION : Transportation
-10	AwareOSUAndroid	AwareOSU Android application	https://baishakhir:f000bar@github.com/CailinPitt/AwareOSUAndroid	TOOLS : Tools
-Query:19	Search Project: AStory	Android Audiobook Player made for ease of use available to all.	https://baishakhir:f000bar@github.com/Litterfeldt/AStory	MUSIC_AND_AUDIO : Music & Audio
-1	android_wb_climate	WB climate game. Android version, game made from scratch.	https://baishakhir:f000bar@github.com/AmsgamesStudio/android_wb_climate	GAME_ARCADE : Arcade
-2	recall	Simple Android phonecall recorder	https://baishakhir:f000bar@github.com/mikljohansson/recall	COMMUNICATION : Communication
-3	Mach-Music-Player	Android music player	https://baishakhir:f000bar@github.com/andrewkiluk/Mach-Music-Player	MUSIC_AND_AUDIO : Music & Audio
-4	palmbookreader	A simple/fast ebook reader on Android	https://baishakhir:f000bar@github.com/misgod/palmbookreader	TOOLS : Tools
-5	getalife-android	Android applications let users customize their phone according to various selections	https://baishakhir:f000bar@github.com/burakdd/getalife-android	PRODUCTIVITY : Productivity
-6	Flashcard-Prime	Android tap-to-rotate flashcard application	https://baishakhir:f000bar@github.com/binarypearl/Flashcard-Prime	EDUCATION : Education
-7	android-switch-backport	A backport of the SwitchPreference component that was introduced on Android 4 (ICS / level 14).  This port works on Android 2.1+ (Eclair MR1 / level 7).	http://baishakhir:f000bar@github.com/BoD/android-switch-backport	TOOLS : Tools
-8	SpeedReading	Speed Reading (RSVP) is mobile Android application for faster text reading.	https://baishakhir:f000bar@github.com/richard-mihalovic/SpeedReading	PRODUCTIVITY : Productivity
-9	gradepath	Android application to help manage weighted grades, GPAs, and course information.	https://baishakhir:f000bar@github.com/janclarin/gradepath	EDUCATION : Education
-10	ngobrol	Ngobrol - Android App for free discussions	https://baishakhir:f000bar@github.com/huteri/ngobrol	SOCIAL : Social
-Query:20	Search Project: game1		https://baishakhir:f000bar@github.com/craftonb/game1	GAME_CASUAL : Casual
-1	game		https://baishakhir:f000bar@github.com/craftonb/game	GAME_CASUAL : Casual
-2	libgdx-gameservices-tutorial	A sample application demonstrating how to integrate a LibGDX Android game with Google Play Game Services	http://baishakhir:f000bar@github.com/TheInvader360/libgdx-gameservices-tutorial	GAME_CASUAL : Casual
-3	GameOfLife		https://baishakhir:f000bar@github.com/teinvdlugt/GameOfLife	GAME_ARCADE : Arcade
-4	floatingActionMenu		https://baishakhir:f000bar@github.com/ylfonline/floatingActionMenu	LIBRARIES_AND_DEMO : Libraries & Demo
-5	bubble-pop		https://baishakhir:f000bar@github.com/dtyau/bubble-pop	GAME_CASUAL : Casual
-6	ChatClient	ChatClient	https://baishakhir:f000bar@github.com/jasmine8gu/ChatClient	COMMUNICATION : Communication
-7	Android_Projects		https://baishakhir:f000bar@github.com/Martin-Thorne/Android_Projects	TOOLS : Tools
-8	SpaceGame	android/desktop game	https://baishakhir:f000bar@github.com/JeremyWeed/SpaceGame	GAME_ARCADE : Arcade
-9	Froggy	Android game, similar to Flappy Bird	https://baishakhir:f000bar@github.com/PhilippeMorere/Froggy	GAME_ARCADE : Arcade
-10	android-bootstrap		https://baishakhir:f000bar@github.com/Aaronlong31/android-bootstrap	LIFESTYLE : Lifestyle
-Query:21	Search Project: VolumeManager	Android App to Control Phone Volume	https://baishakhir:f000bar@github.com/o4wcoder/VolumeManager	TOOLS : Tools
-1	VolumeWidget	An android app to manage volume in smartphones	https://baishakhir:f000bar@github.com/jmjurado23/VolumeWidget	TOOLS : Tools
-2	RingMyPhoneAndroid	An Android app that allows the RingMyPhone Pebble app to wake your Android phone up and start it ringing so you can find it.	http://baishakhir:f000bar@github.com/Wavesonics/RingMyPhoneAndroid	PRODUCTIVITY : Productivity
-3	AndroidLapTimer	App for tracking mini4WD/slotcar lap times using an Android cell phone camera.	http://baishakhir:f000bar@github.com/Pimentoso/AndroidLapTimer	TOOLS : Tools
-4	CustomLED	Android App to customize your phone's LED notifications	https://baishakhir:f000bar@github.com/abhyudayasrinet/CustomLED	PERSONALIZATION : Personalization
-5	smartwishlistapp-android	Android app for https://www.smartwishlist.net	https://baishakhir:f000bar@github.com/astrada/smartwishlistapp-android	SHOPPING : Shopping
-6	openvidonn	OpenVidonn is an Open Source alternative to Vidonn's own Android app	http://baishakhir:f000bar@github.com/dgomes/openvidonn	HEALTH_AND_FITNESS : Health & Fitness
-7	BigDayCountdown	Countdown app for Android	https://baishakhir:f000bar@github.com/smholsen/BigDayCountdown	TOOLS : Tools
-8	MI-Chat	Macinsiders native Android chat app	http://baishakhir:f000bar@github.com/AfzalivE/MI-Chat	COMMUNICATION : Communication
-9	invoriApp	The android app for Invori	https://baishakhir:f000bar@github.com/lrabe/invoriApp	SHOPPING : Shopping
-10	WhatsAnnoyProject	WhatsAnnoy Android app	https://baishakhir:f000bar@github.com/wuyingren/WhatsAnnoyProject	ENTERTAINMENT : Entertainment
-Query:22	Search Project: genericTicTacToe	AI for a generic NxN Tic Tac Toe board	https://baishakhir:f000bar@github.com/ASIC-SP/genericTicTacToe	GAME_BOARD : Board
-1	Tic-Tac-Toe-Squared	A twist of regular Tic Tac Toe for Android.	https://baishakhir:f000bar@github.com/Diusrex/Tic-Tac-Toe-Squared	GAME_STRATEGY : Strategy
-2	NestedTicTacToe	A variant of tic tac toe, for desktop and android	http://baishakhir:f000bar@github.com/drumber-1/NestedTicTacToe	GAME_BOARD : Board
-3	TicTacToe	Let's Play Tic Tac Toe App for Android	https://baishakhir:f000bar@github.com/sachindayl/TicTacToe	GAME_PUZZLE : Puzzle
-4	n-puzzle-2	The sliding tiles game with an AI solver	http://baishakhir:f000bar@github.com/steveinflow/n-puzzle-2	GAME_PUZZLE : Puzzle
-5	Toe	A Tic Tac Toe game for Android featuring 1 or 2 player mode with multiple skill levels	https://baishakhir:f000bar@github.com/Earthblood/Toe	GAME_CASUAL : Casual
-6	TicTacToe	Repository for The Classic Game Tic Tac Toe in Android Platform	https://baishakhir:f000bar@github.com/sankarshan-kundu/TicTacToe	GAME_CASUAL : Casual
-7	Tic-Tac-Toe-Android-Live-Wallpaper	This is a simple Tic Tac Toe game made using libGDX as a live wallpaper for android.	https://baishakhir:f000bar@github.com/BoldijarPaul/Tic-Tac-Toe-Android-Live-Wallpaper	GAME_CASUAL : Casual
-8	okeybot	Okey Game AI Implementation	https://baishakhir:f000bar@github.com/ilkinulas/okeybot	GAME_CARD : Card
-9	android-tic-tac-toe	Tic-tac-toe demonstration project for Android (with AI)	https://baishakhir:f000bar@github.com/andrei-kuznetsov/android-tic-tac-toe	GAME_ARCADE : Arcade
-10	PinchToClose	Android library to close an activity by pinching it with 3+ fingers	https://baishakhir:f000bar@github.com/marnore/PinchToClose	LIBRARIES_AND_DEMO : Libraries & Demo
-Query:23	Search Project: PebbleUnlock	PebbleUnlock	https://baishakhir:f000bar@github.com/npike/PebbleUnlock	LIFESTYLE : Lifestyle
-1	skill-shot-android	Skill Shot App for Android	https://baishakhir:f000bar@github.com/aocole/skill-shot-android	TRAVEL_AND_LOCAL : Travel & Local
-2	TodayInTech	Get up to date with your the current news in technology!	https://baishakhir:f000bar@github.com/wburhan2/TodayInTech	NEWS_AND_MAGAZINES : News & Magazines
-3	Unshorten-It	A simple, beautiful, fast and useful url unshortener with link preview.	https://baishakhir:f000bar@github.com/LeonardoCardoso/Unshorten-It	PRODUCTIVITY : Productivity
-4	Watchlist		https://baishakhir:f000bar@github.com/Ronak-LM/Watchlist	ENTERTAINMENT : Entertainment
-5	Telecine	Record full-resolution video on your Android devices.	https://baishakhir:f000bar@github.com/JakeWharton/Telecine	TOOLS : Tools
-6	ATaxer	calculate tax with ease	https://baishakhir:f000bar@github.com/1hakr/ATaxer	FINANCE : Finance
-7	geodesic2015	Android app for geodesy	https://baishakhir:f000bar@github.com/TheLester/geodesic2015	PRODUCTIVITY : Productivity
-8	UniversalLoader	simple, automatic handling of loading and caching data for a fragment	https://baishakhir:f000bar@github.com/MFlisar/UniversalLoader	LIBRARIES_AND_DEMO : Libraries & Demo
-9	Silence-Please	Control the ambient sound by a sound level limit. When it is exceeded, the "Silence Please" will alert!	https://baishakhir:f000bar@github.com/LeonardoCardoso/Silence-Please	TOOLS : Tools
-10	SensorsSandbox	Android application to demonstrate how to work with onboard sensors in Android	http://baishakhir:f000bar@github.com/mustafa01ali/SensorsSandbox	TOOLS : Tools
-Query:24	Search Project: android-styled-dialogs	Backport of Material dialogs with easy-to-use API based on DialogFragment	https://baishakhir:f000bar@github.com/avast/android-styled-dialogs	LIBRARIES_AND_DEMO : Libraries & Demo
-1	PostOffice	[DEPRECATED] This is a library for easily constructing Holo and Material Design Dialogs.	http://baishakhir:f000bar@github.com/r0adkll/PostOffice	LIBRARIES_AND_DEMO : Libraries & Demo
-2	SimpleAlertDialog-for-Android	Library for Android DialogFragment.	http://baishakhir:f000bar@github.com/ksoichiro/SimpleAlertDialog-for-Android	LIBRARIES_AND_DEMO : Libraries & Demo
-3	Material-Notes	Android Note Application (Lollipop Material Design)	https://baishakhir:f000bar@github.com/everydayPeople/Material-Notes	PRODUCTIVITY : Productivity
-4	Clip-Stack	An Android clipboard history manager app with Material Design.	https://baishakhir:f000bar@github.com/heruoxin/Clip-Stack	PRODUCTIVITY : Productivity
-5	Material-Drawer	Material drawer sample	https://baishakhir:f000bar@github.com/GaneshRepo/Material-Drawer	PERSONALIZATION : Personalization
-6	NotesApp	A simple notes app with Material UI designed for Android 5.0+ devices.	https://baishakhir:f000bar@github.com/kapiljituri/NotesApp	PRODUCTIVITY : Productivity
-7	Moticons	Moticons is a simple, easy and modern app to manage and use Japanese Emoticons with Material Design	https://baishakhir:f000bar@github.com/javiersantos/Moticons	SOCIAL : Social
-8	android-md-core	Material bootstrap for Android development like Bootstrap or Foundation for web.	https://baishakhir:f000bar@github.com/henrytao-me/android-md-core	LIBRARIES_AND_DEMO : Libraries & Demo
-9	TheRosary	Android Material Design for http://therosary.net	https://baishakhir:f000bar@github.com/John-Doherty01/TheRosary	PRODUCTIVITY : Productivity
-10	matlog	Material Logcat reader based on CatLog	https://baishakhir:f000bar@github.com/plusCubed/matlog	TOOLS : Tools
-Query:25	Search Project: rkpi	Radio KPI Android player	https://baishakhir:f000bar@github.com/dector/rkpi	MUSIC_AND_AUDIO : Music & Audio
-1	SoundBox	Android Music Player	https://baishakhir:f000bar@github.com/FlyingPumba/SoundBox	MUSIC_AND_AUDIO : Music & Audio
-2	intent_radio	An intent-driven internet radio player for Android.	http://baishakhir:f000bar@github.com/smblott-github/intent_radio	MUSIC_AND_AUDIO : Music & Audio
-3	transistor	Transistor - Radio App for Android	https://baishakhir:f000bar@github.com/y20k/transistor	MEDIA_AND_VIDEO : Media & Video
-4	kure-music-player	Open-source music player for Android	http://baishakhir:f000bar@github.com/alexdantas/kure-music-player	MEDIA_AND_VIDEO : Media & Video
-5	bluebirdradio	Bluebird Radio for android.	https://baishakhir:f000bar@github.com/Kjwon15/bluebirdradio	SOCIAL : Social
-6	KnightNews_Android	News reader app for KnightNews on Android.	https://baishakhir:f000bar@github.com/JimVanG/KnightNews_Android	NEWS_AND_MAGAZINES : News & Magazines
-7	Mach-Music-Player	Android music player	https://baishakhir:f000bar@github.com/andrewkiluk/Mach-Music-Player	MUSIC_AND_AUDIO : Music & Audio
-8	wrekonline	WREK Online for Android	https://baishakhir:f000bar@github.com/jselbie/wrekonline	MUSIC_AND_AUDIO : Music & Audio
-9	femis-open-player	Opensource Audio Player for Android	https://baishakhir:f000bar@github.com/feminefa/femis-open-player	MUSIC_AND_AUDIO : Music & Audio
-10	screen-notifications	An Android app to turn the screen on for notifications	http://baishakhir:f000bar@github.com/lkorth/screen-notifications	TOOLS : Tools
-Query:26	Search Project: Inches	A simple app that lets you add habits, and level them up.	https://baishakhir:f000bar@github.com/Krisztiaan/Inches	LIFESTYLE : Lifestyle
-1	cm-porting-helper	Simple app that collects useful data for CyanogenMod porting.	https://baishakhir:f000bar@github.com/demitsuri/cm-porting-helper	TOOLS : Tools
-2	AudioFile	Simple android app for recording audio	https://baishakhir:f000bar@github.com/watterso/AudioFile	MUSIC_AND_AUDIO : Music & Audio
-3	clickerfree	Yet another clicker! (Android app)	https://baishakhir:f000bar@github.com/jbardera/clickerfree	PRODUCTIVITY : Productivity
-4	EasyCalculator	A calculator app for Android devices.	https://baishakhir:f000bar@github.com/mjmartin23/EasyCalculator	TOOLS : Tools
-5	EZiTools	A simple musical app. Tuner coming soon. Currently plays metronome	https://baishakhir:f000bar@github.com/Implementations/EZiTools	MUSIC_AND_AUDIO : Music & Audio
-6	WeatherApp	Mobile app for the Android platform that show the current/weekly/daily forecast	https://baishakhir:f000bar@github.com/AhnChris/WeatherApp	WEATHER : Weather
-7	Practice-Shapes	An Android App for kids to help them practice drawing shapes in a more intuitive way. (Work In Progress).	https://baishakhir:f000bar@github.com/priyankvex/Practice-Shapes	EDUCATION : Education
-8	CurrencyConverter	An Android app to check the actual currency conversion rate.	https://baishakhir:f000bar@github.com/epreviati/CurrencyConverter	FINANCE : Finance
-9	dark-notes	Handwriting notes app for android published at Google Play	https://baishakhir:f000bar@github.com/morgade/dark-notes	TOOLS : Tools
-10	cameralocker	An app to disable cameras when not being used by a foreground app, and autounlock them when required by an allowed foreground app.	https://baishakhir:f000bar@github.com/darthcodus/cameralocker	TOOLS : Tools
-Query:27	Search Project: client-android	The first PhotoBackup client, made to free your pictures from your device	https://baishakhir:f000bar@github.com/PhotoBackup/client-android	PRODUCTIVITY : Productivity
-1	IdobataAndroid	An unofficial Idobata(https://idobata.io) client implementation for Android.	http://baishakhir:f000bar@github.com/uPhyca/IdobataAndroid	COMMUNICATION : Communication
-2	My-Android	Application to show android infos	https://baishakhir:f000bar@github.com/duvu/My-Android	PRODUCTIVITY : Productivity
-3	Pianod-Remote	Pianod Remote is an android client for pianod which is a great way to listen to Pandora internet radio	https://baishakhir:f000bar@github.com/myntapps/Pianod-Remote	MUSIC_AND_AUDIO : Music & Audio
-4	traccar-client-android	Traccar Client for Android	https://baishakhir:f000bar@github.com/tananaev/traccar-client-android	TOOLS : Tools
-5	Iconfinder	Iconfinder Android client	https://baishakhir:f000bar@github.com/app-z/Iconfinder	MEDIA_AND_VIDEO : Media & Video
-6	ColdStart	The Android client for ColdStart.io	http://baishakhir:f000bar@github.com/ColdStart/ColdStart	TOOLS : Tools
-7	project-l	Yet another lingr client for Android	https://baishakhir:f000bar@github.com/akechi/project-l	COMMUNICATION : Communication
-8	githubclient	GitHub client	https://baishakhir:f000bar@github.com/amanov-aleksey/githubclient	TOOLS : Tools
-9	oazatv	O�za.tv Android Client	https://baishakhir:f000bar@github.com/chaeMil/oazatv	LIFESTYLE : Lifestyle
-10	android-media-merger	Simple utility to keep my pictures && screenshots in one place	https://baishakhir:f000bar@github.com/axet/android-media-merger	TOOLS : Tools
-Query:28	Search Project: aikuma	Android software for recording and translation	https://baishakhir:f000bar@github.com/aikuma/aikuma	EDUCATION : Education
-1	screenrecordlibrary	Library integrates screen record api in android 5.0 and above	https://baishakhir:f000bar@github.com/Charlesjean/screenrecordlibrary	MEDIA_AND_VIDEO : Media & Video
-2	AndroidHelloTranslate	A Simple Helloworld Android project which allows to translate a short text phrases and voice them using Google translate web service.	https://baishakhir:f000bar@github.com/alisovets/AndroidHelloTranslate	LIBRARIES_AND_DEMO : Libraries & Demo
-3	EasyToken	RSA SecurID-compatible software token for Android	http://baishakhir:f000bar@github.com/cernekee/EasyToken	TOOLS : Tools
-4	AnotherMonitor	Monitors and records the CPU and memory usage of Android devices	https://baishakhir:f000bar@github.com/AntonioRedondo/AnotherMonitor	TOOLS : Tools
-5	Strongbox	Encrypted Video Recording for Android	https://baishakhir:f000bar@github.com/0xPoly/Strongbox	PHOTOGRAPHY : Photography
-6	Transportr	A public transport app for Android that is fully Free Software	https://baishakhir:f000bar@github.com/grote/Transportr	TRANSPORTATION : Transportation
-7	syncthing-android	Wrapper of syncthing for Android.	http://baishakhir:f000bar@github.com/syncthing/syncthing-android	PRODUCTIVITY : Productivity
-8	dictionary	Simple Android application for translating text.	https://baishakhir:f000bar@github.com/italankin/dictionary	EDUCATION : Education
-9	DocuTranslator	Document translator for android	https://baishakhir:f000bar@github.com/fouady/DocuTranslator	LIFESTYLE : Lifestyle
-10	Telecine	Record full-resolution video on your Android devices.	https://baishakhir:f000bar@github.com/JakeWharton/Telecine	TOOLS : Tools
-Query:29	Search Project: Aerlink-for-Android	Utility to connect Android Wear to iOS	https://baishakhir:f000bar@github.com/GuiyeC/Aerlink-for-Android	TOOLS : Tools
-1	AnkiDroid-Wear	Anki for Android Wear devices	https://baishakhir:f000bar@github.com/wlky/AnkiDroid-Wear	EDUCATION : Education
-2	WearPomodoro	Pomodoro Application for Android devices including Android Wear	https://baishakhir:f000bar@github.com/pomopomo/WearPomodoro	PRODUCTIVITY : Productivity
-3	WearTimer	Improved Stopwatch & Timer for Android Wear	https://baishakhir:f000bar@github.com/brave-warrior/WearTimer	PRODUCTIVITY : Productivity
-4	android-wearcamera	Remotely control a phone camera with an Android Wear smartwatch	http://baishakhir:f000bar@github.com/dheera/android-wearcamera	PHOTOGRAPHY : Photography
-5	WearSlides	Control your presentation from your Android Wear watch	https://baishakhir:f000bar@github.com/KonradIT/WearSlides	PRODUCTIVITY : Productivity
-6	WearSquare	Foursquare for Android Wear	http://baishakhir:f000bar@github.com/destil/WearSquare	TRAVEL_AND_LOCAL : Travel & Local
-7	SpritzerWear	A SpritzerTextView implementation for Android Wear.	https://baishakhir:f000bar@github.com/tajchert/SpritzerWear	PRODUCTIVITY : Productivity
-8	Katapakote-Android	Port of the iOS application for Android	https://baishakhir:f000bar@github.com/thiagoperes/Katapakote-Android	SHOPPING : Shopping
-9	ShiobeForAndroidWear	Twitter app for Android Wear	https://baishakhir:f000bar@github.com/YA-androidapp/ShiobeForAndroidWear	SOCIAL : Social
-10	DrawWatch	Drawing app running on Android Wear	https://baishakhir:f000bar@github.com/thorikawa/DrawWatch	TOOLS : Tools
-Query:30	Search Project: chessonline	Android Chess Online	https://baishakhir:f000bar@github.com/spdd/chessonline	GAME_BOARD : Board
+8	FastMaps	FastMaps application	https://baishakhir:f000bar@github.com/goolick/FastMaps	TRANSPORTATION : Transportation
+9	onebrick-android	Android Application	https://baishakhir:f000bar@github.com/OneBrick/onebrick-android	SOCIAL : Social
+10	TeamGen	Android application.	https://baishakhir:f000bar@github.com/ftena/TeamGen	GAME_SPORTS : Sports
+Query:2	Search Project: chessonline	Android Chess Online	https://baishakhir:f000bar@github.com/spdd/chessonline	GAME_BOARD : Board
 1	wrekonline	WREK Online for Android	https://baishakhir:f000bar@github.com/jselbie/wrekonline	MUSIC_AND_AUDIO : Music & Audio
 2	android-chess	Chess game for Android.	http://baishakhir:f000bar@github.com/jcarolus/android-chess	GAME_PUZZLE : Puzzle
 3	dodroid	Android quiz for programmers	https://baishakhir:f000bar@github.com/mgolokhov/dodroid	EDUCATION : Education
 4	MemMaze	A game for Android	https://baishakhir:f000bar@github.com/emidander/MemMaze	GAME_PUZZLE : Puzzle
 5	android_gisapp	GIS application for Android	https://baishakhir:f000bar@github.com/nextgis/android_gisapp	PRODUCTIVITY : Productivity
-6	intent_radio	An intent-driven internet radio player for Android.	http://baishakhir:f000bar@github.com/smblott-github/intent_radio	MUSIC_AND_AUDIO : Music & Audio
+6	TouchBall	Android Game.	https://baishakhir:f000bar@github.com/dermotblair/TouchBall	GAME_ARCADE : Arcade
 7	inspire-android	The Android Inspire app	https://baishakhir:f000bar@github.com/jordanjoz1/inspire-android	LIFESTYLE : Lifestyle
 8	Glucopro-android-app	Glucopro android app (Masters)	https://baishakhir:f000bar@github.com/saratkiran/Glucopro-android-app	HEALTH_AND_FITNESS : Health & Fitness
-9	TouchBall	Android Game.	https://baishakhir:f000bar@github.com/dermotblair/TouchBall	GAME_ARCADE : Arcade
+9	android	Official mirror of HW-Manager�s Android application.	https://baishakhir:f000bar@github.com/hw-manager/android	EDUCATION : Education
 10	shapemergency	Android arcade game.	https://baishakhir:f000bar@github.com/adsgray/shapemergency	GAME_ARCADE : Arcade
-Query:31	Search Project: redPandaj	redPanda - secure peer-to-peer chat	https://baishakhir:f000bar@github.com/redPanda-project/redPandaj	COMMUNICATION : Communication
-1	ZmqVideoChat	Android Video Chat Application with ZeroMQ an Node.js	http://baishakhir:f000bar@github.com/eggerdo/ZmqVideoChat	COMMUNICATION : Communication
-2	Yaaic	Yaaic (Yet Another Android IRC Client) is as the name already says an Internet Relay Chat (IRC) client for Android devices.	http://baishakhir:f000bar@github.com/pocmo/Yaaic	COMMUNICATION : Communication
-3	underdark-android	Bluetooth peer-to-peer mesh networking for Android	https://baishakhir:f000bar@github.com/udark/underdark-android	COMMUNICATION : Communication
-4	EncryptedSMSBackup	Securely Backup your SMS on Android	https://baishakhir:f000bar@github.com/aladagemre/EncryptedSMSBackup	PRODUCTIVITY : Productivity
-5	android	redPanda client for android.	https://baishakhir:f000bar@github.com/redPanda-project/android	COMMUNICATION : Communication
-6	NetCipher	Network Security and Proxy Library for Android	http://baishakhir:f000bar@github.com/guardianproject/NetCipher	COMMUNICATION : Communication
-7	android_lucidchat	Very simple to use ninchat.com, IRC alike chat protocol, client with only very few options.	https://baishakhir:f000bar@github.com/harism/android_lucidchat	COMMUNICATION : Communication
-8	P2P4Android	P2P Messaging Library For Android	http://baishakhir:f000bar@github.com/ilkinulas/P2P4Android	GAME_CARD : Card
-9	Shoutemo	Shoutemo is a group chat app to use the shoutbox of autemo.com on your Android phone.	https://baishakhir:f000bar@github.com/msal/Shoutemo	SOCIAL : Social
-10	MI-Chat	Macinsiders native Android chat app	http://baishakhir:f000bar@github.com/AfzalivE/MI-Chat	COMMUNICATION : Communication
-Query:32	Search Project: wifikeyboard	Automatically exported from code.google.com/p/wifikeyboard	https://baishakhir:f000bar@github.com/IvanVolosyuk/wifikeyboard	TOOLS : Tools
-1	wifikeyboard	Remote keyboard for Android	https://baishakhir:f000bar@github.com/darth10/wifikeyboard	TOOLS : Tools
-2	storage-info	Automatically exported from code.google.com/p/storage-info	https://baishakhir:f000bar@github.com/ciubex/storage-info	TOOLS : Tools
-3	propeditor	Automatically exported from code.google.com/p/propeditor	https://baishakhir:f000bar@github.com/ciubex/propeditor	TOOLS : Tools
-4	premotedroid	Automatically exported from code.google.com/p/premotedroid	https://baishakhir:f000bar@github.com/songshimvp/premotedroid	TOOLS : Tools
-5	tkconfig	Automatically exported from code.google.com/p/tkconfig	https://baishakhir:f000bar@github.com/ciubex/tkconfig	COMMUNICATION : Communication
-6	dscautorename	Automatically exported from code.google.com/p/dscautorename	https://baishakhir:f000bar@github.com/ciubex/dscautorename	TOOLS : Tools
-7	android-file-explorer	Automatically exported from code.google.com/p/android-file-explorer	https://baishakhir:f000bar@github.com/phonglanhuong/android-file-explorer	TOOLS : Tools
-8	android-file-explorer	Automatically exported from code.google.com/p/android-file-explorer	https://baishakhir:f000bar@github.com/innopplaccount/android-file-explorer	TOOLS : Tools
-9	mycallsign-android	Automatically exported from code.google.com/p/mycallsign-android	https://baishakhir:f000bar@github.com/mypapit/mycallsign-android	BOOKS_AND_REFERENCE : Books & Reference
-10	mango-goal-organizer	Automatically exported from code.google.com/p/mango-goal-organizer	https://baishakhir:f000bar@github.com/sdoerner/mango-goal-organizer	PRODUCTIVITY : Productivity
-Query:33	Search Project: four-flat-coffee		https://baishakhir:f000bar@github.com/test-driver/four-flat-coffee	GAME_PUZZLE : Puzzle
-1	government-claws-check		https://baishakhir:f000bar@github.com/test-driver/government-claws-check	GAME_PUZZLE : Puzzle
-2	laugh-thee-put		https://baishakhir:f000bar@github.com/test-driver/laugh-thee-put	GAME_PUZZLE : Puzzle
-3	halfway-score-sang		https://baishakhir:f000bar@github.com/test-driver/halfway-score-sang	GAME_PUZZLE : Puzzle
-4	available-engine-already		https://baishakhir:f000bar@github.com/test-driver/available-engine-already	GAME_PUZZLE : Puzzle
-5	silent-slip-positive		https://baishakhir:f000bar@github.com/test-driver/silent-slip-positive	GAME_PUZZLE : Puzzle
-6	grown-bend-substance		https://baishakhir:f000bar@github.com/test-driver/grown-bend-substance	GAME_PUZZLE : Puzzle
-7	combination-baseball-snake		https://baishakhir:f000bar@github.com/test-driver/combination-baseball-snake	GAME_PUZZLE : Puzzle
-8	quick-coffee-brief		https://baishakhir:f000bar@github.com/test-driver/quick-coffee-brief	GAME_PUZZLE : Puzzle
-9	depend-species-popular		https://baishakhir:f000bar@github.com/test-driver/depend-species-popular	GAME_PUZZLE : Puzzle
-10	directly-afternoon-child		https://baishakhir:f000bar@github.com/test-driver/directly-afternoon-child	GAME_PUZZLE : Puzzle
-Query:34	Search Project: adviceOwl	Mobile advice column aggregator	https://baishakhir:f000bar@github.com/psydrake/adviceOwl	LIFESTYLE : Lifestyle
-1	pandacoinBalance	Balance checking mobile / web app for Pandacoin (PND) wallet addresses	https://baishakhir:f000bar@github.com/psydrake/pandacoinBalance	FINANCE : Finance
-2	darkcoinBalance	Web / mobile app for checking the balance of your Darkcoin wallet address(es), as well as the currency value of Darkcoin.	https://baishakhir:f000bar@github.com/psydrake/darkcoinBalance	FINANCE : Finance
-3	ciandt_tt	CI&T Time Tracking (Mobile)	http://baishakhir:f000bar@github.com/larruda/ciandt_tt	PRODUCTIVITY : Productivity
-4	Jquery-footer-fixed	Jquery-footer-fixed not fixed	https://baishakhir:f000bar@github.com/shivam-developer/Jquery-footer-fixed	PRODUCTIVITY : Productivity
-5	MiP-PhoneGap-SDK	Complete PhoneGap SDK and Demo project for controlling the WowWee MiP robot.  http://www.meetmip.com	https://baishakhir:f000bar@github.com/WowWeeLabs/MiP-PhoneGap-SDK	ENTERTAINMENT : Entertainment
-6	cordovabrowser3	A cordova/phonegap browser to quickly load and refresh cordova apps with will full access to the 3.x API	http://baishakhir:f000bar@github.com/jhb/cordovabrowser3	PRODUCTIVITY : Productivity
-7	dogecoinBalanceWow	See how many Doges you own and how much they�re worth. Such wow!	https://baishakhir:f000bar@github.com/psydrake/dogecoinBalanceWow	FINANCE : Finance
-8	kittehcoinBalance	See how meowny KittehCoin you own	https://baishakhir:f000bar@github.com/psydrake/kittehcoinBalance	FINANCE : Finance
-9	RadioStudent-Android	Mobile app for streaming our favorite local radio station in Ljubljana, Slovenia	http://baishakhir:f000bar@github.com/RadioStudent/RadioStudent-Android	MEDIA_AND_VIDEO : Media & Video
-10	PinterestLikeAdapterView	An Android multi column list view like Pinterest.	http://baishakhir:f000bar@github.com/GDG-Korea/PinterestLikeAdapterView	SOCIAL : Social
-Query:35	Search Project: inventoryman		https://baishakhir:f000bar@github.com/socialpercon/inventoryman	TOOLS : Tools
-1	Insuog	An app for the conference INSUOG. Source from: https://github.com/HoloAddict/FeedEx	https://baishakhir:f000bar@github.com/mlndshh/Insuog	NEWS_AND_MAGAZINES : News & Magazines
-2	OURSS	OURSS is an open source RSS client for the Android OS, freshly forked from FeedEx.	https://baishakhir:f000bar@github.com/dubyajaysmith/OURSS	NEWS_AND_MAGAZINES : News & Magazines
-3	We-Feed-RSS-	A simple Android RSS reader	https://baishakhir:f000bar@github.com/abs-paradigm/We-Feed-RSS-	NEWS_AND_MAGAZINES : News & Magazines
-4	Android_App_MayWeather	kwang's android weather app	https://baishakhir:f000bar@github.com/KwangsubAhn/Android_App_MayWeather	WEATHER : Weather
-5	tech-mail_schedule	????????? ?????????? ?????????? ??? Android	https://baishakhir:f000bar@github.com/grigory51/tech-mail_schedule	TOOLS : Tools
-6	Avtopoisk		https://baishakhir:f000bar@github.com/Bersh/Avtopoisk	BUSINESS : Business
-7	cramit	Cram It Source code	https://baishakhir:f000bar@github.com/ric03uec/cramit	EDUCATION : Education
-8	oazatv	O�za.tv Android Client	https://baishakhir:f000bar@github.com/chaeMil/oazatv	LIFESTYLE : Lifestyle
-9	risteilyohjelma14	The Official Android Application for Luonnontieteilij�iden Jouluristeily 2014	https://baishakhir:f000bar@github.com/sasuomi/risteilyohjelma14	TRAVEL_AND_LOCAL : Travel & Local
-10	MadreMedusa	Just an Android App for another blog	https://baishakhir:f000bar@github.com/andresmarino87/MadreMedusa	NEWS_AND_MAGAZINES : News & Magazines
-Query:36	Search Project: LangSketch	TokyoHackademics2015?????????????????????????	https://baishakhir:f000bar@github.com/Reyurnible/LangSketch	EDUCATION : Education
-1	hackathonmonsters		https://baishakhir:f000bar@github.com/tokyo-hackademics/hackathonmonsters	EDUCATION : Education
-2	CabPromo	A promo code aggregator with parse backend	https://baishakhir:f000bar@github.com/chethankumar/CabPromo	TRANSPORTATION : Transportation
-3	android-avr	Automated video playback app for analysis of video streaming QoE	https://baishakhir:f000bar@github.com/meyn/android-avr	MEDIA_AND_VIDEO : Media & Video
-4	MechTechMeet2k15	Android App source for MechTechMeet 2k15 app	https://baishakhir:f000bar@github.com/rvbugs0/MechTechMeet2k15	PRODUCTIVITY : Productivity
-5	dmas_android_app_v2	Divine Mercy Daily SMS service Android app. Version 2	https://baishakhir:f000bar@github.com/nkudo/dmas_android_app_v2	LIFESTYLE : Lifestyle
-6	zionbob		https://baishakhir:f000bar@github.com/sukso96100/zionbob	LIFESTYLE : Lifestyle
-7	SIRA	simple internet radio app for android	https://baishakhir:f000bar@github.com/gn29/SIRA	MEDIA_AND_VIDEO : Media & Video
-8	screen-notifications	An Android app to turn the screen on for notifications	http://baishakhir:f000bar@github.com/lkorth/screen-notifications	TOOLS : Tools
-9	iHelp-android	???????????? App???????????????????	https://baishakhir:f000bar@github.com/weitsai/iHelp-android	TOOLS : Tools
-10	RevealFootballQuiz		https://baishakhir:f000bar@github.com/vishnus1224/RevealFootballQuiz	GAME_PUZZLE : Puzzle
-Query:37	Search Project: WhosMakingTheBrew	WhosMakingTheBrew - lots of work to do here - https://play.google.com/store/apps/details?id=com.morgan.design	https://baishakhir:f000bar@github.com/jamesmorgan/WhosMakingTheBrew	TOOLS : Tools
-1	Sorting	Android App to show diferent sorting algorithms working	https://baishakhir:f000bar@github.com/mstrey/Sorting	EDUCATION : Education
-2	rights-alert	Android application � Display a list of applications that have a lot of permissions	https://baishakhir:f000bar@github.com/kyriog/rights-alert	TOOLS : Tools
-3	lazycure	LazyCure � is a time tracking software, a convenient tool for easy time logging, time analysis, personal development, calculation and improving working time usage efficiency. Android edition.	https://baishakhir:f000bar@github.com/vitalliuss/lazycure	TOOLS : Tools
-4	SortableTableView	An Android library containing a simple TableView and an advanced SortableTableView providing a lot of customisation possibilities to fit all needs.	https://baishakhir:f000bar@github.com/ISchwarz23/SortableTableView	LIBRARIES_AND_DEMO : Libraries & Demo
-5	NotifySC	This Android app is a clever solution for users and developer to work with notifications.	https://baishakhir:f000bar@github.com/kvnxdev/NotifySC	TOOLS : Tools
-6	Roll-Ball-Roll	Make that ball roll! Android app I made for my third year university work	https://baishakhir:f000bar@github.com/no2665/Roll-Ball-Roll	GAME_CASUAL : Casual
-7	SensorsSandbox	Android application to demonstrate how to work with onboard sensors in Android	http://baishakhir:f000bar@github.com/mustafa01ali/SensorsSandbox	TOOLS : Tools
-8	Project		https://baishakhir:f000bar@github.com/Forward0908/Project	PRODUCTIVITY : Productivity
-9	ILoveMarshmallow	An eCommerce app with feature like sharing product, notification sync, cool UI and lots more	https://baishakhir:f000bar@github.com/ramanpreeet1990/ILoveMarshmallow	HEALTH_AND_FITNESS : Health & Fitness
-10	GridofBits	A very simple Android game for practicing conversion of small numbers from binary to decimal and vice versa.	https://baishakhir:f000bar@github.com/franzks/GridofBits	GAME_PUZZLE : Puzzle
-Query:38	Search Project: Convention	App for Convention, and for Android Course final project.	https://baishakhir:f000bar@github.com/frankkienl/Convention	BOOKS_AND_REFERENCE : Books & Reference
-1	VirtualBH	VirtualBH android app for a school project.	https://baishakhir:f000bar@github.com/sfjordan/VirtualBH	SPORTS : Sports
-2	VideoDownloader	A simple android app that just downloads videos shared to it from other apps	https://baishakhir:f000bar@github.com/zeronickname/VideoDownloader	TOOLS : Tools
-3	USStates	USStates Android Studio Project	https://baishakhir:f000bar@github.com/marwfair/USStates	EDUCATION : Education
-4	AndroidApp	New project for Android app	https://baishakhir:f000bar@github.com/BeerDev/AndroidApp	ENTERTAINMENT : Entertainment
-5	Mobike-MOBAPP	Mobike Repository for Mobile App (ANDROID)	https://baishakhir:f000bar@github.com/pcalabrese/Mobike-MOBAPP	TRAVEL_AND_LOCAL : Travel & Local
-6	World-Weather	An Android app that uses the Open Weather Map API.	https://baishakhir:f000bar@github.com/Kestutis-Z/World-Weather	WEATHER : Weather
-7	2buntu-android-app	An Android app for browsing the 2buntu website.	https://baishakhir:f000bar@github.com/2buntu/2buntu-android-app	NEWS_AND_MAGAZINES : News & Magazines
-8	Prowork-Notifications	Prowork notifications android app	https://baishakhir:f000bar@github.com/kehers/Prowork-Notifications	PRODUCTIVITY : Productivity
-9	MovieFan	Android course project	https://baishakhir:f000bar@github.com/brettren/MovieFan	MEDIA_AND_VIDEO : Media & Video
-10	BetterMTD	A modern Android app for the Champaign-Urbana bus system.	https://baishakhir:f000bar@github.com/hyunbin/BetterMTD	TRANSPORTATION : Transportation
-Query:39	Search Project: android-shape-imageview	Custom shaped android imageview components	http://baishakhir:f000bar@github.com/siyamed/android-shape-imageview	LIBRARIES_AND_DEMO : Libraries & Demo
-1	Android--Custom-Views	Repository for custom views for Android.	https://baishakhir:f000bar@github.com/MikeFot/Android--Custom-Views	TOOLS : Tools
-2	CustomImageView		https://baishakhir:f000bar@github.com/martinelli917/CustomImageView	LIBRARIES_AND_DEMO : Libraries & Demo
-3	android-tooltips	Custom tooltips for android.	http://baishakhir:f000bar@github.com/rharter/android-tooltips	LIBRARIES_AND_DEMO : Libraries & Demo
-4	CustomShapeImageView	A library for supporting custom shaped ImageView(s) using SVGs and paint shapes	http://baishakhir:f000bar@github.com/MostafaGazar/CustomShapeImageView	LIBRARIES_AND_DEMO : Libraries & Demo
-5	shared-preferences-account-manager	Create and manage custom user accounts on Android with Shared Preferences	https://baishakhir:f000bar@github.com/LINKIWI/shared-preferences-account-manager	PRODUCTIVITY : Productivity
-6	CdlUI	Simple and easy basic UI components for Android provide faders knobs pushButton state buttons. Can create audio mixer interface	https://baishakhir:f000bar@github.com/cadeli/CdlUI	MUSIC_AND_AUDIO : Music & Audio
-7	holoaccent	Android library to customize the Holo theme with a custom accent color	https://baishakhir:f000bar@github.com/negusoft/holoaccent	LIBRARIES_AND_DEMO : Libraries & Demo
-8	AsymmetricGridView	Android ListView that mimics a GridView with asymmetric items. Supports items with row span and column span	http://baishakhir:f000bar@github.com/felipecsl/AsymmetricGridView	LIBRARIES_AND_DEMO : Libraries & Demo
-9	AndroidShapedImageView	ImageView in custom shapes	https://baishakhir:f000bar@github.com/endlessmind/AndroidShapedImageView	EDUCATION : Education
-10	ResideLayout	An Android Layout which has a same function like https://github.com/romaonthego/RESideMenu	http://baishakhir:f000bar@github.com/kyze8439690/ResideLayout	LIBRARIES_AND_DEMO : Libraries & Demo
-Query:40	Search Project: coinblesk-client-gui		https://baishakhir:f000bar@github.com/coinblesk/coinblesk-client-gui	FINANCE : Finance
-1	FithleticsInterval		https://baishakhir:f000bar@github.com/vssnake/FithleticsInterval	HEALTH_AND_FITNESS : Health & Fitness
-2	HoldTheNarwhal	Android client for reddit	http://baishakhir:f000bar@github.com/damien5314/HoldTheNarwhal	SOCIAL : Social
-3	MultiTouchPad	Wi-Fi MultiTouchPad client application for Android	https://baishakhir:f000bar@github.com/afjk/MultiTouchPad	TOOLS : Tools
-4	Android-Geocaching	Android Geocaching.su client	https://baishakhir:f000bar@github.com/YuriDenison/Android-Geocaching	TRAVEL_AND_LOCAL : Travel & Local
-5	AbiramiAndhadhi	AbiramiAndhadhi Android application.	https://baishakhir:f000bar@github.com/slgobinath/AbiramiAndhadhi	SOCIAL : Social
-6	risteilyohjelma14	The Official Android Application for Luonnontieteilij�iden Jouluristeily 2014	https://baishakhir:f000bar@github.com/sasuomi/risteilyohjelma14	TRAVEL_AND_LOCAL : Travel & Local
-7	v2ex-android	V2EX client for Android	https://baishakhir:f000bar@github.com/CzBiX/v2ex-android	SOCIAL : Social
-8	WeatherShow	Weather application for android	https://baishakhir:f000bar@github.com/Rvjain/WeatherShow	WEATHER : Weather
-9	TeamFacto	TeamFactory Android APP	https://baishakhir:f000bar@github.com/jfilowk/TeamFacto	SOCIAL : Social
-10	IndexContact		https://baishakhir:f000bar@github.com/wanghuabing/IndexContact	LIBRARIES_AND_DEMO : Libraries & Demo
-Query:41	Search Project: NATO-Phonetic-Learner		https://baishakhir:f000bar@github.com/djiglesias/NATO-Phonetic-Learner	EDUCATION : Education
-1	ScratcherControl	ScratcherControl app for Android	https://baishakhir:f000bar@github.com/khanning/ScratcherControl	TOOLS : Tools
-2	Makal	Kyrgyz Proverbs	https://baishakhir:f000bar@github.com/nurolopher/Makal	EDUCATION : Education
-3	shapemergency	Android arcade game.	https://baishakhir:f000bar@github.com/adsgray/shapemergency	GAME_ARCADE : Arcade
-4	Corgi	Corgi	https://baishakhir:f000bar@github.com/jasmine8gu/Corgi	TOOLS : Tools
-5	android-ipchecker	What's my IP Address? This application can check your public IP.	https://baishakhir:f000bar@github.com/jongha/android-ipchecker	TOOLS : Tools
-6	SimpleMath-app	App to practice simple math with voice	https://baishakhir:f000bar@github.com/JonKussmann/SimpleMath-app	EDUCATION : Education
-7	PixelMeshGame	PixelMeshGame	https://baishakhir:f000bar@github.com/avmalyutin/PixelMeshGame	GAME_PUZZLE : Puzzle
-8	My-Cashbook	simple cashbook application for android	https://baishakhir:f000bar@github.com/lindolsang/My-Cashbook	LIFESTYLE : Lifestyle
-9	CrackIt	Android game	https://baishakhir:f000bar@github.com/skalim/CrackIt	GAME_PUZZLE : Puzzle
-10	The-Tic-Tac-Toe-App---Intelligent-AI	A simple but addictive version of the classical game. Developed as an Android application.	https://baishakhir:f000bar@github.com/aditya2705/The-Tic-Tac-Toe-App---Intelligent-AI	GAME_CASUAL : Casual
-Query:42	Search Project: TaskNearby	Location Based Reminders App	https://baishakhir:f000bar@github.com/YashVerma1996/TaskNearby	PRODUCTIVITY : Productivity
-1	DistanceCalculator	Small Android app that uses the GPS/Network location to measure the distance between two places.	https://baishakhir:f000bar@github.com/georgerappel/DistanceCalculator	TOOLS : Tools
-2	trackr	Location tracking app	https://baishakhir:f000bar@github.com/mustapha-babatunde-andela/trackr	PRODUCTIVITY : Productivity
-3	Open-Reminder	A reminder app for Android	https://baishakhir:f000bar@github.com/spanglerware/Open-Reminder	TOOLS : Tools
-4	android-nmea-logger	Track location actively (using gps) or passively (using Android passive location provider) and log location data in NMEA format compatible with Canon Camera Window App	https://baishakhir:f000bar@github.com/hmrs-cr/android-nmea-logger	PHOTOGRAPHY : Photography
+Query:3	Search Project: TaskNearby	Location Based Reminders App	https://baishakhir:f000bar@github.com/YashVerma1996/TaskNearby	PRODUCTIVITY : Productivity
+1	lbm-client	Lazooz Location Based Mining App	https://baishakhir:f000bar@github.com/orenyodfat/lbm-client	TRANSPORTATION : Transportation
+2	Open-Reminder	A reminder app for Android	https://baishakhir:f000bar@github.com/spanglerware/Open-Reminder	TOOLS : Tools
+3	BAMG-UkuleleOfTime	UkuleleOfTime app based off of the one by VoodooXTC. Link: https://github.com/VoodooXTC/Ukulele-Of-Time	https://baishakhir:f000bar@github.com/SoCmodder/BAMG-UkuleleOfTime	EDUCATION : Education
+4	android-hourly-reminder	Android Hourly Reminder App	https://baishakhir:f000bar@github.com/axet/android-hourly-reminder	PRODUCTIVITY : Productivity
 5	LocationData	Location Data Android App - https://play.google.com/store/apps/details?id=com.tangojlabs.locationdata	https://baishakhir:f000bar@github.com/TangoJLabs/LocationData	TOOLS : Tools
-6	android-hourly-reminder	Android Hourly Reminder App	https://baishakhir:f000bar@github.com/axet/android-hourly-reminder	PRODUCTIVITY : Productivity
-7	NotifyMe	Location base Notification android app. Research project for location detecting from three methods in android	https://baishakhir:f000bar@github.com/kavi707/NotifyMe	LIBRARIES_AND_DEMO : Libraries & Demo
-8	lbm-client	Lazooz Location Based Mining App	https://baishakhir:f000bar@github.com/orenyodfat/lbm-client	TRANSPORTATION : Transportation
-9	photogpstag	Simple app to log location in a battery efficient way	https://baishakhir:f000bar@github.com/budius/photogpstag	PHOTOGRAPHY : Photography
-10	Gym-Locator	Android Local Gym Locator App using Google Places+Maps API	https://baishakhir:f000bar@github.com/Coderhell/Gym-Locator	TRAVEL_AND_LOCAL : Travel & Local
-Query:43	Search Project: Android-Material-Icons	Android app which provide easy material design icons exportation for android projects	https://baishakhir:f000bar@github.com/MajeurAndroid/Android-Material-Icons	PRODUCTIVITY : Productivity
-1	Clip-Stack	An Android clipboard history manager app with Material Design.	https://baishakhir:f000bar@github.com/heruoxin/Clip-Stack	PRODUCTIVITY : Productivity
-2	MaterialSample	Material Design Android App	https://baishakhir:f000bar@github.com/ng-b0ne/MaterialSample	TOOLS : Tools
-3	MaterialAppBase	Android Material App Base	https://baishakhir:f000bar@github.com/DanielShum/MaterialAppBase	COMICS : Comics
-4	Android-Material-Design-Colors	Android Material Design Colors	http://baishakhir:f000bar@github.com/wada811/Android-Material-Design-Colors	LIBRARIES_AND_DEMO : Libraries & Demo
-5	TheRosary	Android Material Design for http://therosary.net	https://baishakhir:f000bar@github.com/John-Doherty01/TheRosary	PRODUCTIVITY : Productivity
-6	ReadmoreElite	Android app for german e-sport website readmore.de	https://baishakhir:f000bar@github.com/tobibechtold/ReadmoreElite	SOCIAL : Social
-7	Material-Notes	Android Note Application (Lollipop Material Design)	https://baishakhir:f000bar@github.com/everydayPeople/Material-Notes	PRODUCTIVITY : Productivity
-8	pasty-app-android	The Pasty Android App (Client to pasty-server)	https://baishakhir:f000bar@github.com/ElectricDynamite/pasty-app-android	TOOLS : Tools
-9	MyAppList	Android application for create and view app lists	http://baishakhir:f000bar@github.com/fedefernandez/MyAppList	TOOLS : Tools
-10	Android_OSM_offlinemap	Android app to display Open Street Maps offline	https://baishakhir:f000bar@github.com/gvellut/Android_OSM_offlinemap	TRAVEL_AND_LOCAL : Travel & Local
-Query:44	Search Project: LiveViewNotifications	Notifications plugin for Sony LiveView smartwatch	https://baishakhir:f000bar@github.com/frankkienl/LiveViewNotifications	PRODUCTIVITY : Productivity
-1	wrist-tweets	A Twitter client for the Sony LiveView smartwatch.	https://baishakhir:f000bar@github.com/omgwtfgames/wrist-tweets	COMMUNICATION : Communication
-2	mute-for-sonos	Android widget for muting Sonos systems	https://baishakhir:f000bar@github.com/cw124/mute-for-sonos	MUSIC_AND_AUDIO : Music & Audio
-3	android-app	The Locative Android app - Geofencing, iBeacon, Home automation	https://baishakhir:f000bar@github.com/LocativeHQ/android-app	TOOLS : Tools
-4	meteroid	Meteroid is a small Android application to manage your account in https://github.com/chaosdorf/mete	https://baishakhir:f000bar@github.com/chaosdorf/meteroid	FINANCE : Finance
-5	attendance-viewer	Android app to check JUET attendance	https://baishakhir:f000bar@github.com/mavidser/attendance-viewer	EDUCATION : Education
-6	simstatus	Android Application to check for the Sim City Server Status	http://baishakhir:f000bar@github.com/passy/simstatus	PRODUCTIVITY : Productivity
-7	HungryWallet	Android application of managing your monthly food expenses. See it on the play store: https://play.google.com/store/apps/details?id=com.taste.hunfrywallet	https://baishakhir:f000bar@github.com/xxvii27/HungryWallet	LIFESTYLE : Lifestyle
-8	Runch		https://baishakhir:f000bar@github.com/mojosoeun/Runch	LIFESTYLE : Lifestyle
-9	SweetSOA_Android	SweetSOA is a generic web service client written for Android (Java)	https://baishakhir:f000bar@github.com/jercam/SweetSOA_Android	TOOLS : Tools
-10	Todo-Android	Todo Android App using Realm and Lolipop Material Design.	https://baishakhir:f000bar@github.com/rakuishi/Todo-Android	PRODUCTIVITY : Productivity
-Query:45	Search Project: battle-lasers	An android multiplayer puzzle app currently on the playstore	https://baishakhir:f000bar@github.com/PeterGok/battle-lasers	GAME_PUZZLE : Puzzle
-1	MultiplayerCardGames	Multiplayer Card Games for Android using the Google Play API.	https://baishakhir:f000bar@github.com/genevieveluyt/MultiplayerCardGames	GAME_CARD : Card
-2	dark-notes	Handwriting notes app for android published at Google Play	https://baishakhir:f000bar@github.com/morgade/dark-notes	TOOLS : Tools
-3	puzzle	An Android puzzle game	https://baishakhir:f000bar@github.com/nickaversano/puzzle	GAME_PUZZLE : Puzzle
-4	EasyCalculator	A calculator app for Android devices.	https://baishakhir:f000bar@github.com/mjmartin23/EasyCalculator	TOOLS : Tools
-5	clickerfree	Yet another clicker! (Android app)	https://baishakhir:f000bar@github.com/jbardera/clickerfree	PRODUCTIVITY : Productivity
-6	Repeata_Freak	Puzzle game for Android in Java	https://baishakhir:f000bar@github.com/so00076/Repeata_Freak	GAME_PUZZLE : Puzzle
-7	FreeTamilEBooks	android app for freetamilebook.com	https://baishakhir:f000bar@github.com/jskcse4/FreeTamilEBooks	BOOKS_AND_REFERENCE : Books & Reference
-8	TICompanion	Android app for The International Dota 2 Tournament.	https://baishakhir:f000bar@github.com/davidschwegler/TICompanion	ENTERTAINMENT : Entertainment
-9	cameralocker	An app to disable cameras when not being used by a foreground app, and autounlock them when required by an allowed foreground app.	https://baishakhir:f000bar@github.com/darthcodus/cameralocker	TOOLS : Tools
-10	Aparoksha15-App	Android app for technical fest of IIIT-Allhabad	https://baishakhir:f000bar@github.com/sameer2800/Aparoksha15-App	ENTERTAINMENT : Entertainment
-Query:46	Search Project: BuyMilk-Project		https://baishakhir:f000bar@github.com/y0rrrsh/BuyMilk-Project	TOOLS : Tools
-1	PADSched		https://baishakhir:f000bar@github.com/lszinv/PADSched	TOOLS : Tools
-2	WakeOnLan	Simple project which will help us in daily wake ups =D	https://baishakhir:f000bar@github.com/Pozzoooo/WakeOnLan	TOOLS : Tools
-3	alarm-me	Simple Android reminder application	https://baishakhir:f000bar@github.com/ataradov/alarm-me	PRODUCTIVITY : Productivity
-4	Kuet-Bus	This is an android application for bus schedule for KUET. In this app there is schedule of bus, online notice also alarm to notify the time of bus. The application is available on play store.	https://baishakhir:f000bar@github.com/zahansafallwa/Kuet-Bus	TRAVEL_AND_LOCAL : Travel & Local
-5	PracticeRoomAssistant	"Practice Room Assistant" is an Android application that allows users to organize songs they are practicing for a concert or for fun. Users can create their own recordings and links to YouTube associated with each song. There is also a metronome and an ac	https://baishakhir:f000bar@github.com/sread94/PracticeRoomAssistant	MUSIC_AND_AUDIO : Music & Audio
-6	search-later	Android app to save Google queries for searching later	https://baishakhir:f000bar@github.com/gsingh93/search-later	EDUCATION : Education
-7	Ringer-RingScheduler		https://baishakhir:f000bar@github.com/kkenyon/Ringer-RingScheduler	PRODUCTIVITY : Productivity
-8	24-Hour-Alarm-Clock		https://baishakhir:f000bar@github.com/yongelee/24-Hour-Alarm-Clock	TOOLS : Tools
-9	SnappLock-An-Android-Application-Locker	SnappLock is live on google play store	https://baishakhir:f000bar@github.com/addb/SnappLock-An-Android-Application-Locker	TOOLS : Tools
-10	openvidonn	OpenVidonn is an Open Source alternative to Vidonn's own Android app	http://baishakhir:f000bar@github.com/dgomes/openvidonn	HEALTH_AND_FITNESS : Health & Fitness
-Query:47	Search Project: YotaTextCover	Display a custom text on YotaPhone2's back screen.	https://baishakhir:f000bar@github.com/munterkofler/YotaTextCover	PERSONALIZATION : Personalization
-1	countdown-for-dashclock	A DashClock extension that displays the days, hours, and minutes until or since an event.	https://baishakhir:f000bar@github.com/cr5315/countdown-for-dashclock	PERSONALIZATION : Personalization
-2	SmsForwarderForAndroid	SMS Forwarder For Android	https://baishakhir:f000bar@github.com/KAPLANDROID/SmsForwarderForAndroid	SOCIAL : Social
-3	CPUInfo	Little widget and app to display CPU stats	https://baishakhir:f000bar@github.com/mslhii/CPUInfo	TOOLS : Tools
-4	AutoNowPlaying-PaletteAPI	AutoNowPlaying Module for Palette for Android API	https://baishakhir:f000bar@github.com/Mnkai/AutoNowPlaying-PaletteAPI	LIBRARIES_AND_DEMO : Libraries & Demo
-5	SpeedMeter	An Android app which display the actual speed of the phone.	http://baishakhir:f000bar@github.com/flyingrub/SpeedMeter	TRANSPORTATION : Transportation
-6	BACCalculator	Blood Alcohol Content Calculator	https://baishakhir:f000bar@github.com/smholsen/BACCalculator	TOOLS : Tools
-7	SimpleTouchLight2	This is an simple Android Flash Light app. Here is the link from Google Play Store :https://play.google.com/store/apps/details?id=com.avocado.SimpleFlashLight	https://baishakhir:f000bar@github.com/khristopher/SimpleTouchLight2	TOOLS : Tools
-8	DirectionalCarousel	This is custom ViewPager. It may have a horizontal or vertical orientation and can be infinite or not.	http://baishakhir:f000bar@github.com/acbelter/DirectionalCarousel	LIBRARIES_AND_DEMO : Libraries & Demo
-9	ColorPicker	My first android app - ColorPicker	https://baishakhir:f000bar@github.com/yeukfei02/ColorPicker	TOOLS : Tools
-10	MMMFlashlight	A simple Android Flashlight app.	https://baishakhir:f000bar@github.com/DerekMarcinyshyn/MMMFlashlight	TOOLS : Tools
-Query:48	Search Project: PushTwoProject		https://baishakhir:f000bar@github.com/juhuacha18/PushTwoProject	LIBRARIES_AND_DEMO : Libraries & Demo
-1	material-sheet-fab-master		https://baishakhir:f000bar@github.com/mychoices/material-sheet-fab-master	LIBRARIES_AND_DEMO : Libraries & Demo
-2	material-sheet-fab	Library that implements the floating action button to sheet transition from Google's Material Design documentation.	https://baishakhir:f000bar@github.com/gowong/material-sheet-fab	LIBRARIES_AND_DEMO : Libraries & Demo
-3	SpotsDialog	SpotsDialog	https://baishakhir:f000bar@github.com/dante198406/SpotsDialog	LIBRARIES_AND_DEMO : Libraries & Demo
-4	spots-dialog	Android AlertDialog with mowing dots progress indicator	https://baishakhir:f000bar@github.com/d-max/spots-dialog	LIBRARIES_AND_DEMO : Libraries & Demo
-5	MaterialSample	Material Design Android App	https://baishakhir:f000bar@github.com/ng-b0ne/MaterialSample	TOOLS : Tools
-6	morphy-toolbar	A morphing toolbar that can expand/collapse at anytime	https://baishakhir:f000bar@github.com/badoualy/morphy-toolbar	PERSONALIZATION : Personalization
-7	Bounce	A TouchListener capable of enabling ios style bounce and custom animations for ListView, ScrollView and RecyclerView overscroll effect	https://baishakhir:f000bar@github.com/surahul/Bounce	LIBRARIES_AND_DEMO : Libraries & Demo
-8	section-listview		https://baishakhir:f000bar@github.com/zhangtianqiu/section-listview	SHOPPING : Shopping
-9	pinned-section-listview		https://baishakhir:f000bar@github.com/zhangtianqiu/pinned-section-listview	SHOPPING : Shopping
-10	Smart-Tab-Layout	This library gives you a center aligned tabs and some custom tabs	https://baishakhir:f000bar@github.com/NandagopalR/Smart-Tab-Layout	LIBRARIES_AND_DEMO : Libraries & Demo
-Query:49	Search Project: prettygoodmusicplayer	A music player app for Android hits the basics hard	http://baishakhir:f000bar@github.com/smithdtyler/prettygoodmusicplayer	MUSIC_AND_AUDIO : Music & Audio
-1	nusic	your new music (android app)	https://baishakhir:f000bar@github.com/schnatterer/nusic	MUSIC_AND_AUDIO : Music & Audio
-2	Mach-Music-Player	Android music player	https://baishakhir:f000bar@github.com/andrewkiluk/Mach-Music-Player	MUSIC_AND_AUDIO : Music & Audio
-3	controldlna	DLNA and UPNP control point app for android.	http://baishakhir:f000bar@github.com/Nutomic/controldlna	MEDIA_AND_VIDEO : Media & Video
-4	Share-to-Mopidy	Android app to send songs to mopidy	https://baishakhir:f000bar@github.com/9and3r/Share-to-Mopidy	MUSIC_AND_AUDIO : Music & Audio
-5	no-frills-cpu-classic	No-frills CPU Control CLASSIC app for Android	https://baishakhir:f000bar@github.com/hrk/no-frills-cpu-classic	TOOLS : Tools
-6	SoundBox	Android Music Player	https://baishakhir:f000bar@github.com/FlyingPumba/SoundBox	MUSIC_AND_AUDIO : Music & Audio
-7	PingApp_Demo	Demo Version of my first Android App.	https://baishakhir:f000bar@github.com/SooperCode/PingApp_Demo	TOOLS : Tools
-8	kure-music-player	Open-source music player for Android	http://baishakhir:f000bar@github.com/alexdantas/kure-music-player	MEDIA_AND_VIDEO : Media & Video
-9	skill-shot-android	Skill Shot App for Android	https://baishakhir:f000bar@github.com/aocole/skill-shot-android	TRAVEL_AND_LOCAL : Travel & Local
-10	overlaymusicplayer	Simple music player which has a playback control panel on the top of any other app	https://baishakhir:f000bar@github.com/yohpapa/overlaymusicplayer	LIBRARIES_AND_DEMO : Libraries & Demo
-Query:50	Search Project: Urban-Dictionary	My implementation of a Material Urban Dictionary client.	http://baishakhir:f000bar@github.com/lewisjdeane/Urban-Dictionary	BOOKS_AND_REFERENCE : Books & Reference
-1	UrbanDictionary-Android	A simple Android client for Urban Dictionary	http://baishakhir:f000bar@github.com/florianmski/UrbanDictionary-Android	BOOKS_AND_REFERENCE : Books & Reference
-2	SoundRecorder	A simple sound recording app implementing Material Design	https://baishakhir:f000bar@github.com/dkim0419/SoundRecorder	MUSIC_AND_AUDIO : Music & Audio
-3	Dexpense	A simple app for android to manage entries and exit. Material theme	https://baishakhir:f000bar@github.com/multivoltage/Dexpense	TOOLS : Tools
-4	QDict	This is an open source Android dictionary application which support 'stardict' format dictionaries.	https://baishakhir:f000bar@github.com/madmanteam/QDict	BOOKS_AND_REFERENCE : Books & Reference
-5	Android_SQLite_Dictionary_1828	Webster 1828 dictionary for Android	https://baishakhir:f000bar@github.com/mnjrupp/Android_SQLite_Dictionary_1828	BOOKS_AND_REFERENCE : Books & Reference
-6	TheRosary	Android Material Design for http://therosary.net	https://baishakhir:f000bar@github.com/John-Doherty01/TheRosary	PRODUCTIVITY : Productivity
-7	NotesApp	A simple notes app with Material UI designed for Android 5.0+ devices.	https://baishakhir:f000bar@github.com/kapiljituri/NotesApp	PRODUCTIVITY : Productivity
-8	freshmen-guide-material	Android Material Design version of UCU Freshmen Guide	https://baishakhir:f000bar@github.com/ajdeguzman/freshmen-guide-material	EDUCATION : Education
-9	Material-Cards	Color Palette for Material Design Colors	https://baishakhir:f000bar@github.com/NightlyNexus/Material-Cards	TOOLS : Tools
-10	AwesomeList	This project is all about listing HD images on your device, with happiness of Material Design.	https://baishakhir:f000bar@github.com/anuj7sharma/AwesomeList	LIBRARIES_AND_DEMO : Libraries & Demo
+6	Daily-Rating	Android app based around Activity Recognition	http://baishakhir:f000bar@github.com/iozxllc/Daily-Rating	LIFESTYLE : Lifestyle
+7	MaterialAppBase	Android Material App Base	https://baishakhir:f000bar@github.com/DanielShum/MaterialAppBase	COMICS : Comics
+8	discreet-app-rate	A lightweight non intrusive app rate reminder for Android	http://baishakhir:f000bar@github.com/PomepuyN/discreet-app-rate	LIBRARIES_AND_DEMO : Libraries & Demo
+9	trackr	Location tracking app	https://baishakhir:f000bar@github.com/mustapha-babatunde-andela/trackr	PRODUCTIVITY : Productivity
+10	Notable	Notable is an app for Android notification reminders	https://baishakhir:f000bar@github.com/icechen1/Notable	PRODUCTIVITY : Productivity
+Query:4	Search Project: UrbanDictionary-Android	A simple Android client for Urban Dictionary	http://baishakhir:f000bar@github.com/florianmski/UrbanDictionary-Android	BOOKS_AND_REFERENCE : Books & Reference
+1	dictionary	Simple Android application for translating text.	https://baishakhir:f000bar@github.com/italankin/dictionary	EDUCATION : Education
+2	SunPhases	A simple Android app to calculate sun phases and display them on a map.	https://baishakhir:f000bar@github.com/florianmski/SunPhases	TOOLS : Tools
+3	DictionaryExample	Example of simple dictionary app in Android	https://baishakhir:f000bar@github.com/codewell4/DictionaryExample	EDUCATION : Education
+4	nanoTweeter	A very simple Twitter client for Android	https://baishakhir:f000bar@github.com/JJC1138/nanoTweeter	SOCIAL : Social
+5	Quack	A simple DuckDuckGo client for Android.	https://baishakhir:f000bar@github.com/Rahkeen/Quack	TOOLS : Tools
+6	Coderwall-Android	An Android app to view profiles on coderwall	http://baishakhir:f000bar@github.com/florianmski/Coderwall-Android	SOCIAL : Social
+7	pasty-app-android	The Pasty Android App (Client to pasty-server)	https://baishakhir:f000bar@github.com/ElectricDynamite/pasty-app-android	TOOLS : Tools
+8	Urban-Dictionary	My implementation of a Material Urban Dictionary client.	http://baishakhir:f000bar@github.com/lewisjdeane/Urban-Dictionary	BOOKS_AND_REFERENCE : Books & Reference
+9	QuarkPosts	Android application: simple instant messaging	https://baishakhir:f000bar@github.com/ClarkAWilson/QuarkPosts	LIBRARIES_AND_DEMO : Libraries & Demo
+10	BashClient	Android client for zadolba.li resource	https://baishakhir:f000bar@github.com/yulsonn/BashClient	ENTERTAINMENT : Entertainment
+Query:5	Search Project: timetracker	Simple phonegap time tracking app	https://baishakhir:f000bar@github.com/thomasbrueggemann/timetracker	PRODUCTIVITY : Productivity
+1	JalanBanjir	Source code of Jalan Banjir Android App	https://baishakhir:f000bar@github.com/zulhfreelancer/JalanBanjir	TRANSPORTATION : Transportation
+2	ciandt_tt	CI&T Time Tracking (Mobile)	http://baishakhir:f000bar@github.com/larruda/ciandt_tt	PRODUCTIVITY : Productivity
+3	AndroidLapTimer	App for tracking mini4WD/slotcar lap times using an Android cell phone camera.	http://baishakhir:f000bar@github.com/Pimentoso/AndroidLapTimer	TOOLS : Tools
+4	JapaneseLDSQuad	Japanese Simple LDS Standard Works Android App	https://baishakhir:f000bar@github.com/nozokada/JapaneseLDSQuad	BOOKS_AND_REFERENCE : Books & Reference
+5	Inches	A simple app that lets you add habits, and level them up.	https://baishakhir:f000bar@github.com/Krisztiaan/Inches	LIFESTYLE : Lifestyle
+6	simple-android-CPU-usage-viewer	Simple android app for monitoring CPU usage	https://baishakhir:f000bar@github.com/vvkirillov/simple-android-CPU-usage-viewer	TOOLS : Tools
+7	darkcoinBalance	Web / mobile app for checking the balance of your Darkcoin wallet address(es), as well as the currency value of Darkcoin.	https://baishakhir:f000bar@github.com/psydrake/darkcoinBalance	FINANCE : Finance
+8	pandacoinBalance	Balance checking mobile / web app for Pandacoin (PND) wallet addresses	https://baishakhir:f000bar@github.com/psydrake/pandacoinBalance	FINANCE : Finance
+9	MiP-PhoneGap-SDK	Complete PhoneGap SDK and Demo project for controlling the WowWee MiP robot.  http://www.meetmip.com	https://baishakhir:f000bar@github.com/WowWeeLabs/MiP-PhoneGap-SDK	ENTERTAINMENT : Entertainment
+10	Countr	A simple counting app for Android	https://baishakhir:f000bar@github.com/jackbbb95/Countr	TOOLS : Tools
+Query:6	Search Project: android_browser	Customize android webclient	https://baishakhir:f000bar@github.com/kyhoolee/android_browser	COMMUNICATION : Communication
+1	Speed-Browser-4G-Plus	Speed Browser 4G Plus is based on Lightning Browser, and licensed under the Mozilla Public License, v. 2.0..	https://baishakhir:f000bar@github.com/mantibba/Speed-Browser-4G-Plus	COMMUNICATION : Communication
+2	Myfacebook	MyFacebook source code	https://baishakhir:f000bar@github.com/Erthor96/Myfacebook	COMMUNICATION : Communication
+3	Web-browser	Web browser is based on Lightning Browser, and licensed under the Mozilla Public License, v. 2.0..	https://baishakhir:f000bar@github.com/FunPanda08/Web-browser	COMMUNICATION : Communication
+4	JumpGo	JumpGo Web Browser for Android	https://baishakhir:f000bar@github.com/JTechMe/JumpGo	COMMUNICATION : Communication
+5	VChrome	Build an test browser for Viettel in job interview	https://baishakhir:f000bar@github.com/ngvinh/VChrome	COMMUNICATION : Communication
+6	android-tooltips	Custom tooltips for android.	http://baishakhir:f000bar@github.com/rharter/android-tooltips	LIBRARIES_AND_DEMO : Libraries & Demo
+7	gnupg-for-android	A port of gnupg to Android	http://baishakhir:f000bar@github.com/guardianproject/gnupg-for-android	TOOLS : Tools
+8	getalife-android	Android applications let users customize their phone according to various selections	https://baishakhir:f000bar@github.com/burakdd/getalife-android	PRODUCTIVITY : Productivity
+9	Redin	Redin	https://baishakhir:f000bar@github.com/joseliko7/Redin	COMMUNICATION : Communication
+10	syncthing-android	Wrapper of syncthing for Android.	http://baishakhir:f000bar@github.com/syncthing/syncthing-android	PRODUCTIVITY : Productivity
+Query:7	Search Project: timetracker	A time tracker for Android	https://baishakhir:f000bar@github.com/tijee/timetracker	PRODUCTIVITY : Productivity
+1	IM-timetracking	simplistic time tracker for Android	https://baishakhir:f000bar@github.com/lavong/IM-timetracking	PRODUCTIVITY : Productivity
+2	PrayerTimes	Prayer Times for Android	https://baishakhir:f000bar@github.com/eardic/PrayerTimes	TOOLS : Tools
+3	hunter2	A Product Hunt client for Android	https://baishakhir:f000bar@github.com/qrazhan/hunter2	NEWS_AND_MAGAZINES : News & Magazines
+4	Tracker	? Android ????? GPS ????????????	https://baishakhir:f000bar@github.com/feelinglucky/Tracker	TOOLS : Tools
+5	swj	Minimalistic Android workout tracker	https://baishakhir:f000bar@github.com/GeorgijK/swj	SPORTS : Sports
+6	dialTimePicker	A custom time picker library for Android	https://baishakhir:f000bar@github.com/ugurtekbas/dialTimePicker	LIFESTYLE : Lifestyle
+7	TimelySMS	An android application that sends SMS at the specified time.	https://baishakhir:f000bar@github.com/danilichev/TimelySMS	COMMUNICATION : Communication
+8	CustomLED	Android App to customize your phone's LED notifications	https://baishakhir:f000bar@github.com/abhyudayasrinet/CustomLED	PERSONALIZATION : Personalization
+9	Space-Shootout	Android Game using JMonkeyEngine3	https://baishakhir:f000bar@github.com/pszczelaszkov/Space-Shootout	GAME_ARCADE : Arcade
+10	SMSSentTime	Android application that appends the time when a SMS was sent to the message.	https://baishakhir:f000bar@github.com/johnzweng/SMSSentTime	TOOLS : Tools
+Query:8	Search Project: numpy	Numpy main repository	https://baishakhir:f000bar@github.com/numpy/numpy	C
+1	unpaper	Forked unpaper repository	https://baishakhir:f000bar@github.com/Flameeyes/unpaper	C
+2	Libevent	Nick's public libevent repository.  The official repository is at         git://levent.git.sourceforge.net/gitroot/levent/libevent	https://baishakhir:f000bar@github.com/nmathewson/Libevent	C
+3	libjpeg-turbo	Main libjpeg-turbo repository	https://baishakhir:f000bar@github.com/libjpeg-turbo/libjpeg-turbo	C
+4	word2vec	Python interface to Google word2vec	https://baishakhir:f000bar@github.com/danielfrg/word2vec	C
+5	libgit2	The Library	https://baishakhir:f000bar@github.com/libgit2/libgit2	C
+6	wifidog-gateway	Repository for the wifidog-gateway captive portal designed for embedded systems	https://baishakhir:f000bar@github.com/wifidog/wifidog-gateway	C
+7	nagios-plugins	Nagios Plugins	https://baishakhir:f000bar@github.com/nagios-plugins/nagios-plugins	C
+8	LuaJIT	Mirror of the LuaJIT git repository	https://baishakhir:f000bar@github.com/LuaJIT/LuaJIT	C
+9	samtools	Tools (written in C using htslib) for manipulating next-generation sequencing data	https://baishakhir:f000bar@github.com/samtools/samtools	C
+10	Espruino	The Espruino JavaScript interpreter - Official Repo	https://baishakhir:f000bar@github.com/espruino/Espruino	C
+Query:9	Search Project: PacVim		https://baishakhir:f000bar@github.com/jmoon018/PacVim	C++
+1	comp-m2	Simple 4-bit virtual computer	https://baishakhir:f000bar@github.com/gto76/comp-m2	C++
+2	EWAHBoolArray	A compressed bitmap class in C++.	https://baishakhir:f000bar@github.com/lemire/EWAHBoolArray	C++
+3	cupertinojs	Cupertino.js - Compile Javascript to Cocoa	https://baishakhir:f000bar@github.com/jerrymarino/cupertinojs	C++
+4	libjson-rpc-cpp	C++ framework for json-rpc (json remote procedure call)	https://baishakhir:f000bar@github.com/cinemast/libjson-rpc-cpp	C++
+5	wclang	Cross compile source code easily for Windows with clang on Linux/Unix	https://baishakhir:f000bar@github.com/tpoechtrager/wclang	C++
+6	HIP	HIP : Convert CUDA to Portable C++ Code	https://baishakhir:f000bar@github.com/GPUOpen-ProfessionalCompute-Tools/HIP	C++
+7	libkafka	A C++ client library for Apache Kafka v0.8+. Also includes C API.	https://baishakhir:f000bar@github.com/adobe-research/libkafka	C++
+8	Cataclysm	A post-apocalyptic roguelike.	https://baishakhir:f000bar@github.com/Whales/Cataclysm	C++
+9	jpype	Friendly jpype fork with focus on easy installation.	https://baishakhir:f000bar@github.com/originell/jpype	C++
+10	Smoothed-Particle-Hydrodynamics	This is a C++/OpenCL implementation of the PCISPH algorithm supplemented with a set of biomechanics simulations related features applied to C. elegans locomotion	https://baishakhir:f000bar@github.com/openworm/sibernetic	C
+Query:10	Search Project: xbox_one_controller	HID-compliant Xbox One Controller driver for OS X	https://baishakhir:f000bar@github.com/lloeki/xbox_one_controller	C++
+1	HoRNDIS	Android USB tethering driver for Mac OS X	https://baishakhir:f000bar@github.com/jwise/HoRNDIS	C++
+2	RTL8111_driver_for_OS_X	OS X open source driver for the Realtek RTL8111/8168 family	https://baishakhir:f000bar@github.com/Mieze/RTL8111_driver_for_OS_X	C++
+3	360Controller	XBox 360 controller driver for OSX official repo	https://baishakhir:f000bar@github.com/electric-monk/360Controller	C++
+4	libct	Linux containers control plane	https://baishakhir:f000bar@github.com/xemul/libct	C
+5	raspberry_picrowave	Microwave controlled via Raspberry Pi	https://baishakhir:f000bar@github.com/ndbroadbent/raspberry_picrowave	C
+6	Makerthings-android	Makerthings lets you control items in your Raspberry Pi.	https://baishakhir:f000bar@github.com/willowcheng/Makerthings-android	LIFESTYLE : Lifestyle
+7	esp8266ws2812i2s	ESP8266-based I2S-output WS2812(B) Driver	https://baishakhir:f000bar@github.com/cnlohr/esp8266ws2812i2s	C
+8	rtl8812au	Realtek 802.11n WLAN Adapter Linux driver	https://baishakhir:f000bar@github.com/gnab/rtl8812au	C
+9	HashTWM	An automatic Tiling Window Manager for the Windows OS.	https://baishakhir:f000bar@github.com/ZaneA/HashTWM	C
+10	xboxdrv	Xbox Gamepad Userspace Driver for Linux	https://baishakhir:f000bar@github.com/xboxdrv/xboxdrv	C++
+Query:11	Search Project: UrbanDictionary-Android	null	https://github.com/florianmski/UrbanDictionary-Android	BOOKS_AND_REFERENCE:Books & Reference
+1	FlipImageView	null	https://github.com/castorflex/FlipImageView	BUSINESS:Business
+2	Coderwall-Android	null	https://github.com/florianmski/Coderwall-Android	SOCIAL:Social
+3	WilliamChart	null	https://github.com/diogobernardino/WilliamChart	LIBRARIES_AND_DEMO:Libraries & Demo
+4	droidplanner	null	https://github.com/arthurbenemann/droidplanner	TOOLS:Tools
+5	android-file-explorer	null	https://github.com/ameyms/android-file-explorer	TOOLS:Tools
+6	enviroCar-app	null	https://github.com/enviroCar/enviroCar-app	LIFESTYLE:Lifestyle
+7	VNCpp	null	https://github.com/ocrespo/VNCpp	COMMUNICATION:Communication
+8	LollipopShowcase	null	https://github.com/mikepenz/LollipopShowcase	LIBRARIES_AND_DEMO:Libraries & Demo
+9	GlassActionBar	null	https://github.com/ManuelPeinado/GlassActionBar	TOOLS:Tools
+10	SimpleWeatherForecast	null	https://github.com/tvbarthel/SimpleWeatherForecast	WEATHER:Weather
 Final Evaluated Results: 
-0.4	0.4	0.1	0.1	0.1	0.44	0.364444444444	0.286266666667	0.213942857143	0.44	0.42	0.344	0.288
+0.4	0.4	0.1	0.1	0.1	0.454545454545	0.424242424242	0.368181818182	0.28148989899	0.454545454545	0.454545454545	0.4	0.327272727273
+Query:1	Search Project: smartPDF	smartPDF application	https://baishakhir:f000bar@github.com/chemwatchaus/smartPDF	PRODUCTIVITY : Productivity
+1	JOneTouch	android application	https://baishakhir:f000bar@github.com/joakim-ribier/JOneTouch	TOOLS : Tools
+2	Android	Android application for Hive2Hive	https://baishakhir:f000bar@github.com/Hive2Hive/Android	PRODUCTIVITY : Productivity
+3	nlr-app	mobile application for https://github.com/nimaai/nlr-web	https://baishakhir:f000bar@github.com/nimaai/nlr-app	EDUCATION : Education
+4	skitech_android_app	SKITECH Android Application	https://baishakhir:f000bar@github.com/rajatgl17/skitech_android_app	COMMUNICATION : Communication
+5	NavBro-WebView	android application	https://baishakhir:f000bar@github.com/joakim-ribier/NavBro-WebView	TOOLS : Tools
+6	RPGDiceRoller	Android application.	https://baishakhir:f000bar@github.com/ftena/RPGDiceRoller	GAME_CASUAL : Casual
+7	lln-campus	The student application for students!	https://baishakhir:f000bar@github.com/qdeconinck/lln-campus	EDUCATION : Education
+8	FastMaps	FastMaps application	https://baishakhir:f000bar@github.com/goolick/FastMaps	TRANSPORTATION : Transportation
+9	onebrick-android	Android Application	https://baishakhir:f000bar@github.com/OneBrick/onebrick-android	SOCIAL : Social
+10	TeamGen	Android application.	https://baishakhir:f000bar@github.com/ftena/TeamGen	GAME_SPORTS : Sports
+Query:2	Search Project: chessonline	Android Chess Online	https://baishakhir:f000bar@github.com/spdd/chessonline	GAME_BOARD : Board
+1	wrekonline	WREK Online for Android	https://baishakhir:f000bar@github.com/jselbie/wrekonline	MUSIC_AND_AUDIO : Music & Audio
+2	android-chess	Chess game for Android.	http://baishakhir:f000bar@github.com/jcarolus/android-chess	GAME_PUZZLE : Puzzle
+3	dodroid	Android quiz for programmers	https://baishakhir:f000bar@github.com/mgolokhov/dodroid	EDUCATION : Education
+4	MemMaze	A game for Android	https://baishakhir:f000bar@github.com/emidander/MemMaze	GAME_PUZZLE : Puzzle
+5	android_gisapp	GIS application for Android	https://baishakhir:f000bar@github.com/nextgis/android_gisapp	PRODUCTIVITY : Productivity
+6	TouchBall	Android Game.	https://baishakhir:f000bar@github.com/dermotblair/TouchBall	GAME_ARCADE : Arcade
+7	inspire-android	The Android Inspire app	https://baishakhir:f000bar@github.com/jordanjoz1/inspire-android	LIFESTYLE : Lifestyle
+8	Glucopro-android-app	Glucopro android app (Masters)	https://baishakhir:f000bar@github.com/saratkiran/Glucopro-android-app	HEALTH_AND_FITNESS : Health & Fitness
+9	android	Official mirror of HW-Manager�s Android application.	https://baishakhir:f000bar@github.com/hw-manager/android	EDUCATION : Education
+10	shapemergency	Android arcade game.	https://baishakhir:f000bar@github.com/adsgray/shapemergency	GAME_ARCADE : Arcade
+Query:3	Search Project: TaskNearby	Location Based Reminders App	https://baishakhir:f000bar@github.com/YashVerma1996/TaskNearby	PRODUCTIVITY : Productivity
+1	lbm-client	Lazooz Location Based Mining App	https://baishakhir:f000bar@github.com/orenyodfat/lbm-client	TRANSPORTATION : Transportation
+2	Open-Reminder	A reminder app for Android	https://baishakhir:f000bar@github.com/spanglerware/Open-Reminder	TOOLS : Tools
+3	BAMG-UkuleleOfTime	UkuleleOfTime app based off of the one by VoodooXTC. Link: https://github.com/VoodooXTC/Ukulele-Of-Time	https://baishakhir:f000bar@github.com/SoCmodder/BAMG-UkuleleOfTime	EDUCATION : Education
+4	android-hourly-reminder	Android Hourly Reminder App	https://baishakhir:f000bar@github.com/axet/android-hourly-reminder	PRODUCTIVITY : Productivity
+5	LocationData	Location Data Android App - https://play.google.com/store/apps/details?id=com.tangojlabs.locationdata	https://baishakhir:f000bar@github.com/TangoJLabs/LocationData	TOOLS : Tools
+6	Daily-Rating	Android app based around Activity Recognition	http://baishakhir:f000bar@github.com/iozxllc/Daily-Rating	LIFESTYLE : Lifestyle
+7	MaterialAppBase	Android Material App Base	https://baishakhir:f000bar@github.com/DanielShum/MaterialAppBase	COMICS : Comics
+8	discreet-app-rate	A lightweight non intrusive app rate reminder for Android	http://baishakhir:f000bar@github.com/PomepuyN/discreet-app-rate	LIBRARIES_AND_DEMO : Libraries & Demo
+9	trackr	Location tracking app	https://baishakhir:f000bar@github.com/mustapha-babatunde-andela/trackr	PRODUCTIVITY : Productivity
+10	Notable	Notable is an app for Android notification reminders	https://baishakhir:f000bar@github.com/icechen1/Notable	PRODUCTIVITY : Productivity
+Query:4	Search Project: UrbanDictionary-Android	A simple Android client for Urban Dictionary	http://baishakhir:f000bar@github.com/florianmski/UrbanDictionary-Android	BOOKS_AND_REFERENCE : Books & Reference
+1	dictionary	Simple Android application for translating text.	https://baishakhir:f000bar@github.com/italankin/dictionary	EDUCATION : Education
+2	SunPhases	A simple Android app to calculate sun phases and display them on a map.	https://baishakhir:f000bar@github.com/florianmski/SunPhases	TOOLS : Tools
+3	DictionaryExample	Example of simple dictionary app in Android	https://baishakhir:f000bar@github.com/codewell4/DictionaryExample	EDUCATION : Education
+4	nanoTweeter	A very simple Twitter client for Android	https://baishakhir:f000bar@github.com/JJC1138/nanoTweeter	SOCIAL : Social
+5	Quack	A simple DuckDuckGo client for Android.	https://baishakhir:f000bar@github.com/Rahkeen/Quack	TOOLS : Tools
+6	Coderwall-Android	An Android app to view profiles on coderwall	http://baishakhir:f000bar@github.com/florianmski/Coderwall-Android	SOCIAL : Social
+7	pasty-app-android	The Pasty Android App (Client to pasty-server)	https://baishakhir:f000bar@github.com/ElectricDynamite/pasty-app-android	TOOLS : Tools
+8	Urban-Dictionary	My implementation of a Material Urban Dictionary client.	http://baishakhir:f000bar@github.com/lewisjdeane/Urban-Dictionary	BOOKS_AND_REFERENCE : Books & Reference
+9	QuarkPosts	Android application: simple instant messaging	https://baishakhir:f000bar@github.com/ClarkAWilson/QuarkPosts	LIBRARIES_AND_DEMO : Libraries & Demo
+10	BashClient	Android client for zadolba.li resource	https://baishakhir:f000bar@github.com/yulsonn/BashClient	ENTERTAINMENT : Entertainment
+Query:5	Search Project: timetracker	Simple phonegap time tracking app	https://baishakhir:f000bar@github.com/thomasbrueggemann/timetracker	PRODUCTIVITY : Productivity
+1	JalanBanjir	Source code of Jalan Banjir Android App	https://baishakhir:f000bar@github.com/zulhfreelancer/JalanBanjir	TRANSPORTATION : Transportation
+2	ciandt_tt	CI&T Time Tracking (Mobile)	http://baishakhir:f000bar@github.com/larruda/ciandt_tt	PRODUCTIVITY : Productivity
+3	AndroidLapTimer	App for tracking mini4WD/slotcar lap times using an Android cell phone camera.	http://baishakhir:f000bar@github.com/Pimentoso/AndroidLapTimer	TOOLS : Tools
+4	JapaneseLDSQuad	Japanese Simple LDS Standard Works Android App	https://baishakhir:f000bar@github.com/nozokada/JapaneseLDSQuad	BOOKS_AND_REFERENCE : Books & Reference
+5	Inches	A simple app that lets you add habits, and level them up.	https://baishakhir:f000bar@github.com/Krisztiaan/Inches	LIFESTYLE : Lifestyle
+6	simple-android-CPU-usage-viewer	Simple android app for monitoring CPU usage	https://baishakhir:f000bar@github.com/vvkirillov/simple-android-CPU-usage-viewer	TOOLS : Tools
+7	darkcoinBalance	Web / mobile app for checking the balance of your Darkcoin wallet address(es), as well as the currency value of Darkcoin.	https://baishakhir:f000bar@github.com/psydrake/darkcoinBalance	FINANCE : Finance
+8	pandacoinBalance	Balance checking mobile / web app for Pandacoin (PND) wallet addresses	https://baishakhir:f000bar@github.com/psydrake/pandacoinBalance	FINANCE : Finance
+9	MiP-PhoneGap-SDK	Complete PhoneGap SDK and Demo project for controlling the WowWee MiP robot.  http://www.meetmip.com	https://baishakhir:f000bar@github.com/WowWeeLabs/MiP-PhoneGap-SDK	ENTERTAINMENT : Entertainment
+10	Countr	A simple counting app for Android	https://baishakhir:f000bar@github.com/jackbbb95/Countr	TOOLS : Tools
+Query:6	Search Project: android_browser	Customize android webclient	https://baishakhir:f000bar@github.com/kyhoolee/android_browser	COMMUNICATION : Communication
+1	Speed-Browser-4G-Plus	Speed Browser 4G Plus is based on Lightning Browser, and licensed under the Mozilla Public License, v. 2.0..	https://baishakhir:f000bar@github.com/mantibba/Speed-Browser-4G-Plus	COMMUNICATION : Communication
+2	Myfacebook	MyFacebook source code	https://baishakhir:f000bar@github.com/Erthor96/Myfacebook	COMMUNICATION : Communication
+3	Web-browser	Web browser is based on Lightning Browser, and licensed under the Mozilla Public License, v. 2.0..	https://baishakhir:f000bar@github.com/FunPanda08/Web-browser	COMMUNICATION : Communication
+4	JumpGo	JumpGo Web Browser for Android	https://baishakhir:f000bar@github.com/JTechMe/JumpGo	COMMUNICATION : Communication
+5	VChrome	Build an test browser for Viettel in job interview	https://baishakhir:f000bar@github.com/ngvinh/VChrome	COMMUNICATION : Communication
+6	android-tooltips	Custom tooltips for android.	http://baishakhir:f000bar@github.com/rharter/android-tooltips	LIBRARIES_AND_DEMO : Libraries & Demo
+7	gnupg-for-android	A port of gnupg to Android	http://baishakhir:f000bar@github.com/guardianproject/gnupg-for-android	TOOLS : Tools
+8	getalife-android	Android applications let users customize their phone according to various selections	https://baishakhir:f000bar@github.com/burakdd/getalife-android	PRODUCTIVITY : Productivity
+9	Redin	Redin	https://baishakhir:f000bar@github.com/joseliko7/Redin	COMMUNICATION : Communication
+10	syncthing-android	Wrapper of syncthing for Android.	http://baishakhir:f000bar@github.com/syncthing/syncthing-android	PRODUCTIVITY : Productivity
+Query:7	Search Project: timetracker	A time tracker for Android	https://baishakhir:f000bar@github.com/tijee/timetracker	PRODUCTIVITY : Productivity
+1	IM-timetracking	simplistic time tracker for Android	https://baishakhir:f000bar@github.com/lavong/IM-timetracking	PRODUCTIVITY : Productivity
+2	PrayerTimes	Prayer Times for Android	https://baishakhir:f000bar@github.com/eardic/PrayerTimes	TOOLS : Tools
+3	hunter2	A Product Hunt client for Android	https://baishakhir:f000bar@github.com/qrazhan/hunter2	NEWS_AND_MAGAZINES : News & Magazines
+4	Tracker	? Android ????? GPS ????????????	https://baishakhir:f000bar@github.com/feelinglucky/Tracker	TOOLS : Tools
+5	swj	Minimalistic Android workout tracker	https://baishakhir:f000bar@github.com/GeorgijK/swj	SPORTS : Sports
+6	dialTimePicker	A custom time picker library for Android	https://baishakhir:f000bar@github.com/ugurtekbas/dialTimePicker	LIFESTYLE : Lifestyle
+7	TimelySMS	An android application that sends SMS at the specified time.	https://baishakhir:f000bar@github.com/danilichev/TimelySMS	COMMUNICATION : Communication
+8	CustomLED	Android App to customize your phone's LED notifications	https://baishakhir:f000bar@github.com/abhyudayasrinet/CustomLED	PERSONALIZATION : Personalization
+9	Space-Shootout	Android Game using JMonkeyEngine3	https://baishakhir:f000bar@github.com/pszczelaszkov/Space-Shootout	GAME_ARCADE : Arcade
+10	SMSSentTime	Android application that appends the time when a SMS was sent to the message.	https://baishakhir:f000bar@github.com/johnzweng/SMSSentTime	TOOLS : Tools
+Query:8	Search Project: numpy	Numpy main repository	https://baishakhir:f000bar@github.com/numpy/numpy	C
+1	unpaper	Forked unpaper repository	https://baishakhir:f000bar@github.com/Flameeyes/unpaper	C
+2	Libevent	Nick's public libevent repository.  The official repository is at         git://levent.git.sourceforge.net/gitroot/levent/libevent	https://baishakhir:f000bar@github.com/nmathewson/Libevent	C
+3	libjpeg-turbo	Main libjpeg-turbo repository	https://baishakhir:f000bar@github.com/libjpeg-turbo/libjpeg-turbo	C
+4	word2vec	Python interface to Google word2vec	https://baishakhir:f000bar@github.com/danielfrg/word2vec	C
+5	libgit2	The Library	https://baishakhir:f000bar@github.com/libgit2/libgit2	C
+6	wifidog-gateway	Repository for the wifidog-gateway captive portal designed for embedded systems	https://baishakhir:f000bar@github.com/wifidog/wifidog-gateway	C
+7	nagios-plugins	Nagios Plugins	https://baishakhir:f000bar@github.com/nagios-plugins/nagios-plugins	C
+8	LuaJIT	Mirror of the LuaJIT git repository	https://baishakhir:f000bar@github.com/LuaJIT/LuaJIT	C
+9	samtools	Tools (written in C using htslib) for manipulating next-generation sequencing data	https://baishakhir:f000bar@github.com/samtools/samtools	C
+10	Espruino	The Espruino JavaScript interpreter - Official Repo	https://baishakhir:f000bar@github.com/espruino/Espruino	C
+Query:9	Search Project: PacVim		https://baishakhir:f000bar@github.com/jmoon018/PacVim	C++
+1	comp-m2	Simple 4-bit virtual computer	https://baishakhir:f000bar@github.com/gto76/comp-m2	C++
+2	EWAHBoolArray	A compressed bitmap class in C++.	https://baishakhir:f000bar@github.com/lemire/EWAHBoolArray	C++
+3	cupertinojs	Cupertino.js - Compile Javascript to Cocoa	https://baishakhir:f000bar@github.com/jerrymarino/cupertinojs	C++
+4	libjson-rpc-cpp	C++ framework for json-rpc (json remote procedure call)	https://baishakhir:f000bar@github.com/cinemast/libjson-rpc-cpp	C++
+5	wclang	Cross compile source code easily for Windows with clang on Linux/Unix	https://baishakhir:f000bar@github.com/tpoechtrager/wclang	C++
+6	HIP	HIP : Convert CUDA to Portable C++ Code	https://baishakhir:f000bar@github.com/GPUOpen-ProfessionalCompute-Tools/HIP	C++
+7	libkafka	A C++ client library for Apache Kafka v0.8+. Also includes C API.	https://baishakhir:f000bar@github.com/adobe-research/libkafka	C++
+8	Cataclysm	A post-apocalyptic roguelike.	https://baishakhir:f000bar@github.com/Whales/Cataclysm	C++
+9	jpype	Friendly jpype fork with focus on easy installation.	https://baishakhir:f000bar@github.com/originell/jpype	C++
+10	Smoothed-Particle-Hydrodynamics	This is a C++/OpenCL implementation of the PCISPH algorithm supplemented with a set of biomechanics simulations related features applied to C. elegans locomotion	https://baishakhir:f000bar@github.com/openworm/sibernetic	C
+Query:10	Search Project: xbox_one_controller	HID-compliant Xbox One Controller driver for OS X	https://baishakhir:f000bar@github.com/lloeki/xbox_one_controller	C++
+1	HoRNDIS	Android USB tethering driver for Mac OS X	https://baishakhir:f000bar@github.com/jwise/HoRNDIS	C++
+2	RTL8111_driver_for_OS_X	OS X open source driver for the Realtek RTL8111/8168 family	https://baishakhir:f000bar@github.com/Mieze/RTL8111_driver_for_OS_X	C++
+3	360Controller	XBox 360 controller driver for OSX official repo	https://baishakhir:f000bar@github.com/electric-monk/360Controller	C++
+4	libct	Linux containers control plane	https://baishakhir:f000bar@github.com/xemul/libct	C
+5	raspberry_picrowave	Microwave controlled via Raspberry Pi	https://baishakhir:f000bar@github.com/ndbroadbent/raspberry_picrowave	C
+6	Makerthings-android	Makerthings lets you control items in your Raspberry Pi.	https://baishakhir:f000bar@github.com/willowcheng/Makerthings-android	LIFESTYLE : Lifestyle
+7	esp8266ws2812i2s	ESP8266-based I2S-output WS2812(B) Driver	https://baishakhir:f000bar@github.com/cnlohr/esp8266ws2812i2s	C
+8	rtl8812au	Realtek 802.11n WLAN Adapter Linux driver	https://baishakhir:f000bar@github.com/gnab/rtl8812au	C
+9	HashTWM	An automatic Tiling Window Manager for the Windows OS.	https://baishakhir:f000bar@github.com/ZaneA/HashTWM	C
+10	xboxdrv	Xbox Gamepad Userspace Driver for Linux	https://baishakhir:f000bar@github.com/xboxdrv/xboxdrv	C++
+Query:11	Search Project: UrbanDictionary-Android	null	https://github.com/florianmski/UrbanDictionary-Android	BOOKS_AND_REFERENCE:Books & Reference
+1	FlipImageView	null	https://github.com/castorflex/FlipImageView	BUSINESS:Business
+2	Coderwall-Android	null	https://github.com/florianmski/Coderwall-Android	SOCIAL:Social
+3	WilliamChart	null	https://github.com/diogobernardino/WilliamChart	LIBRARIES_AND_DEMO:Libraries & Demo
+4	droidplanner	null	https://github.com/arthurbenemann/droidplanner	TOOLS:Tools
+5	android-file-explorer	null	https://github.com/ameyms/android-file-explorer	TOOLS:Tools
+6	enviroCar-app	null	https://github.com/enviroCar/enviroCar-app	LIFESTYLE:Lifestyle
+7	VNCpp	null	https://github.com/ocrespo/VNCpp	COMMUNICATION:Communication
+8	LollipopShowcase	null	https://github.com/mikepenz/LollipopShowcase	LIBRARIES_AND_DEMO:Libraries & Demo
+9	GlassActionBar	null	https://github.com/ManuelPeinado/GlassActionBar	TOOLS:Tools
+10	SimpleWeatherForecast	null	https://github.com/tvbarthel/SimpleWeatherForecast	WEATHER:Weather
+Final Evaluated Results: 
+0.4	0.4	0.1	0.1	0.1	0.454545454545	0.424242424242	0.368181818182	0.28148989899	0.454545454545	0.454545454545	0.4	0.327272727273

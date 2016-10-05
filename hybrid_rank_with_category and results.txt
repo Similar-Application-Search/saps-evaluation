@@ -548,5 +548,5 @@ Query:50	Search Project: Urban-Dictionary	Urban-Dictionary My implementation of 
 8	freshmen-guide-material	freshmen-guide-material Android Material Design version of UCU Freshmen Guide	https://baishakhir:f000bar@github.com/ajdeguzman/freshmen-guide-material	EDUCATION : Education
 9	Material-Cards	Material-Cards Color Palette for Material Design Colors	https://baishakhir:f000bar@github.com/NightlyNexus/Material-Cards	TOOLS : Tools
 10	AwesomeList	AwesomeList This project is all about listing HD images on your device, with happiness of Material Design.	https://baishakhir:f000bar@github.com/anuj7sharma/AwesomeList	LIBRARIES_AND_DEMO : Libraries & Demo
-Final Evaluated Results: 
+Final Evaluated Results:
 0.4	0.4	0.1	0.1	0.1	0.44	0.364444444444	0.286266666667	0.213942857143	0.44	0.42	0.344	0.288
