@@ -1,8 +1,7 @@
 import numpy
 import time
 import sys, json
-from flask import Flask
-app = Flask(__name__)
+
 
 # from sympy.functions.elementary.complexes import im
 
@@ -201,6 +200,7 @@ def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matri
     # f.write(str(weight_description)+"\t"+str(weight_readme)+"\t"+str(weight_methodclass)+"\t"+str(weight_packageclass)+"\t"+str(weight_importpackage)+"\t"+str(MapAt1) + "\t" + str(MapAt3) + "\t" + str(MapAt5) + "\t" + str(MAP) + "\t" + str(P_MapAt1) + "\t" + str(
     #     P_MapAt3) + "\t" + str(P_MapAt5) + "\t" + str(P_MAP) + "\n")
     json.dump(query_object, f, indent=4)
+    return json.dumps(query_object)
     print(str(weight_description)+"\t"+str(weight_readme)+"\t"+str(weight_methodclass)+"\t"+str(weight_packageclass)+"\t"+str(weight_importpackage)+"\t"+str(MapAt1) + "\t" + str(MapAt3) + "\t" + str(MapAt5) + "\t" + str(MAP) + "\t" + str(P_MapAt1) + "\t" + str(
         P_MapAt3) + "\t" + str(P_MapAt5) + "\t" + str(P_MAP) + "\n")
 
@@ -265,23 +265,19 @@ def main(queryIndex):
     weight_methodclass=0.1
     weight_packageclass=0.1
     weight_importpackage=0.1
-    runevaluation(queryIndex,description_matrix, readme_matrix, methodclass_matrix, packageclass_matrix, importpackage_matrix,
+    return runevaluation(queryIndex,description_matrix, readme_matrix, methodclass_matrix, packageclass_matrix, importpackage_matrix,
                   weight_description, weight_readme, weight_methodclass, weight_packageclass, weight_importpackage,
                   querycategory, candidatecategory, category_stats)
 
-    print "done"
 
-@app.route('/')
-@app.route('/search')
-def search():
-    start = time.time()
-    main(int(sys.argv[1]))
-    end = time.time()
-    print(end - start)
-if __name__ == "__main__":
-    app.run()
-# if __name__ == "__main__":
+# def search():
 #     start = time.time()
 #     main(int(sys.argv[1]))
 #     end = time.time()
 #     print(end - start)
+# if __name__ == "__main__":
+#     app.run()
+if __name__ == "__main__":
+    start = time.time()
+    print main(int(sys.argv[1]))
+    sys.stdout.flush()

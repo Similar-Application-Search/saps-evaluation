@@ -1,58 +1,58 @@
 {
-    "url": "https://baishakhir:f000bar@github.com/spdd/chessonline", 
-    "index": 1, 
+    "url": "https://baishakhir:f000bar@github.com/YashVerma1996/TaskNearby", 
+    "index": 2, 
     "candidates": [
         {
-            "url": "https://baishakhir:f000bar@github.com/jselbie/wrekonline", 
-            "name": "wrekonline", 
-            "description": "WREK Online for Android"
+            "url": "https://baishakhir:f000bar@github.com/orenyodfat/lbm-client", 
+            "name": "lbm-client", 
+            "description": "Lazooz Location Based Mining App"
         }, 
         {
-            "url": "http://baishakhir:f000bar@github.com/jcarolus/android-chess", 
-            "name": "android-chess", 
-            "description": "Chess game for Android."
+            "url": "https://baishakhir:f000bar@github.com/spanglerware/Open-Reminder", 
+            "name": "Open-Reminder", 
+            "description": "A reminder app for Android"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/mgolokhov/dodroid", 
-            "name": "dodroid", 
-            "description": "Android quiz for programmers"
+            "url": "https://baishakhir:f000bar@github.com/SoCmodder/BAMG-UkuleleOfTime", 
+            "name": "BAMG-UkuleleOfTime", 
+            "description": "UkuleleOfTime app based off of the one by VoodooXTC. Link: https://github.com/VoodooXTC/Ukulele-Of-Time"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/emidander/MemMaze", 
-            "name": "MemMaze", 
-            "description": "A game for Android"
+            "url": "https://baishakhir:f000bar@github.com/axet/android-hourly-reminder", 
+            "name": "android-hourly-reminder", 
+            "description": "Android Hourly Reminder App"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/nextgis/android_gisapp", 
-            "name": "android_gisapp", 
-            "description": "GIS application for Android"
+            "url": "https://baishakhir:f000bar@github.com/TangoJLabs/LocationData", 
+            "name": "LocationData", 
+            "description": "Location Data Android App - https://play.google.com/store/apps/details?id=com.tangojlabs.locationdata"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/dermotblair/TouchBall", 
-            "name": "TouchBall", 
-            "description": "Android Game."
+            "url": "http://baishakhir:f000bar@github.com/iozxllc/Daily-Rating", 
+            "name": "Daily-Rating", 
+            "description": "Android app based around Activity Recognition"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/jordanjoz1/inspire-android", 
-            "name": "inspire-android", 
-            "description": "The Android Inspire app"
+            "url": "https://baishakhir:f000bar@github.com/DanielShum/MaterialAppBase", 
+            "name": "MaterialAppBase", 
+            "description": "Android Material App Base"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/saratkiran/Glucopro-android-app", 
-            "name": "Glucopro-android-app", 
-            "description": "Glucopro android app (Masters)"
+            "url": "http://baishakhir:f000bar@github.com/PomepuyN/discreet-app-rate", 
+            "name": "discreet-app-rate", 
+            "description": "A lightweight non intrusive app rate reminder for Android"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/hw-manager/android", 
-            "name": "android", 
-            "description": "Official mirror of HW-Manager\ufffds Android application."
+            "url": "https://baishakhir:f000bar@github.com/mustapha-babatunde-andela/trackr", 
+            "name": "trackr", 
+            "description": "Location tracking app"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/adsgray/shapemergency", 
-            "name": "shapemergency", 
-            "description": "Android arcade game."
+            "url": "https://baishakhir:f000bar@github.com/icechen1/Notable", 
+            "name": "Notable", 
+            "description": "Notable is an app for Android notification reminders"
         }
     ], 
-    "name": "chessonline", 
-    "description": "Android Chess Online"
+    "name": "TaskNearby", 
+    "description": "Location Based Reminders App"
 }
