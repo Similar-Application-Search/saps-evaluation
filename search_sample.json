@@ -1,58 +1,58 @@
 {
-    "url": "https://baishakhir:f000bar@github.com/YashVerma1996/TaskNearby", 
-    "index": 2, 
+    "url": "https://baishakhir:f000bar@github.com/chemwatchaus/smartPDF", 
+    "index": 0, 
     "candidates": [
         {
-            "url": "https://baishakhir:f000bar@github.com/orenyodfat/lbm-client", 
-            "name": "lbm-client", 
-            "description": "Lazooz Location Based Mining App"
+            "url": "https://baishakhir:f000bar@github.com/joakim-ribier/JOneTouch", 
+            "name": "JOneTouch", 
+            "description": "android application"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/spanglerware/Open-Reminder", 
-            "name": "Open-Reminder", 
-            "description": "A reminder app for Android"
+            "url": "https://baishakhir:f000bar@github.com/Hive2Hive/Android", 
+            "name": "Android", 
+            "description": "Android application for Hive2Hive"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/SoCmodder/BAMG-UkuleleOfTime", 
-            "name": "BAMG-UkuleleOfTime", 
-            "description": "UkuleleOfTime app based off of the one by VoodooXTC. Link: https://github.com/VoodooXTC/Ukulele-Of-Time"
+            "url": "https://baishakhir:f000bar@github.com/nimaai/nlr-app", 
+            "name": "nlr-app", 
+            "description": "mobile application for https://github.com/nimaai/nlr-web"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/axet/android-hourly-reminder", 
-            "name": "android-hourly-reminder", 
-            "description": "Android Hourly Reminder App"
+            "url": "https://baishakhir:f000bar@github.com/rajatgl17/skitech_android_app", 
+            "name": "skitech_android_app", 
+            "description": "SKITECH Android Application"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/TangoJLabs/LocationData", 
-            "name": "LocationData", 
-            "description": "Location Data Android App - https://play.google.com/store/apps/details?id=com.tangojlabs.locationdata"
+            "url": "https://baishakhir:f000bar@github.com/joakim-ribier/NavBro-WebView", 
+            "name": "NavBro-WebView", 
+            "description": "android application"
         }, 
         {
-            "url": "http://baishakhir:f000bar@github.com/iozxllc/Daily-Rating", 
-            "name": "Daily-Rating", 
-            "description": "Android app based around Activity Recognition"
+            "url": "https://baishakhir:f000bar@github.com/ftena/RPGDiceRoller", 
+            "name": "RPGDiceRoller", 
+            "description": "Android application."
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/DanielShum/MaterialAppBase", 
-            "name": "MaterialAppBase", 
-            "description": "Android Material App Base"
+            "url": "https://baishakhir:f000bar@github.com/qdeconinck/lln-campus", 
+            "name": "lln-campus", 
+            "description": "The student application for students!"
         }, 
         {
-            "url": "http://baishakhir:f000bar@github.com/PomepuyN/discreet-app-rate", 
-            "name": "discreet-app-rate", 
-            "description": "A lightweight non intrusive app rate reminder for Android"
+            "url": "https://baishakhir:f000bar@github.com/goolick/FastMaps", 
+            "name": "FastMaps", 
+            "description": "FastMaps application"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/mustapha-babatunde-andela/trackr", 
-            "name": "trackr", 
-            "description": "Location tracking app"
+            "url": "https://baishakhir:f000bar@github.com/OneBrick/onebrick-android", 
+            "name": "onebrick-android", 
+            "description": "Android Application"
         }, 
         {
-            "url": "https://baishakhir:f000bar@github.com/icechen1/Notable", 
-            "name": "Notable", 
-            "description": "Notable is an app for Android notification reminders"
+            "url": "https://baishakhir:f000bar@github.com/ftena/TeamGen", 
+            "name": "TeamGen", 
+            "description": "Android application."
         }
     ], 
-    "name": "TaskNearby", 
-    "description": "Location Based Reminders App"
+    "name": "smartPDF", 
+    "description": "smartPDF application"
 }
