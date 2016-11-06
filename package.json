@@ -15,8 +15,17 @@
     "babel-preset-stage-0": "6.5.0",
     "express": "4.13.3",
     "foreman": "^1.4.1",
+    "forever": "^0.15.2",
     "fs": "0.0.2",
+<<<<<<< HEAD
     "node-mysql": "^0.4.2",
+=======
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.5",
+    "react-dom": "^15.3.2",
+    "react-scripts": "^0.6.1",
+>>>>>>> f97f6bd80f5d0a9641b73e2158dfec6c0a2b7f06
     "sql.js": "^0.3.2"
   },
   "scripts": {
