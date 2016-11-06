@@ -17,13 +17,11 @@ app.get('/search', (req, res) => {
 
       output = chunk.toString('utf8');// buffer to string
       util.log(output);
-
       res.setHeader('Content-Type', 'application/json');
       res.send(output);
 
 
   });
-
 });
 
 app.listen(app.get('port'), () => {

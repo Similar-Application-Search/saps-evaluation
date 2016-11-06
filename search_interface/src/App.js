@@ -16,17 +16,16 @@ class App extends Component {
 
   onChange(e) {
     e.preventDefault();
+    console.log('test1')
     $.ajax({
       url: "/search?key=" + e.target.value,
       dataType: 'json',
       cache: false,
       success: function(data) {
         this.setState({candidates: data['candidates']});
-        console.log(data);
-
       }.bind(this),
     });
-
+    console.log('test2')
   }
 
   render() {

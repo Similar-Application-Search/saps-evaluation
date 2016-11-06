@@ -1,9 +1,8 @@
 import numpy
 import time
 import sys, json
+import MySQLdb
 
-
-# from sympy.functions.elementary.complexes import im
 
 
 def readProjectDetails(projectDetailsFile):
@@ -17,20 +16,50 @@ def readProjectDetails(projectDetailsFile):
 		else:
 			print 'no tap space: ', line
 	return projectName, projectDetails
+
+def queryProjectFromDB(tablename, index):
+	db = MySQLdb.connect(
+	    'localhost',
+	    'root',
+	    'passw0rd',
+		'saps'
+	)
+	cursor = db.cursor()
+	query = ''
+	if tablename == 'testprojects':
+		query = 'SELECT * from testprojects WHERE id=%s'
+		cursor.execute(query, (str(index)))
+	elif tablename == 'candidateprojects':
+		query = 'SELECT * from candidateprojects WHERE id=%s' % (str(index))
+		cursor.execute(query)
+	else:
+		return
+	data = cursor.fetchone()
+	if not data: return None
+	desc = cursor.description
+	dictionary = {}
+	for (name, value) in zip(desc, data):
+		dictionary[name[0]] = value
+	cursor.close()
+	db.close()
+	return dictionary
+
+
+
+
 def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matrix,packageclass_matrix,importpackage_matrix,weight_description,weight_readme,weight_methodclass,weight_packageclass,weight_importpackage,querycategory,candidatecategory,category_stats):
-    f = open("search_sample.json", "w")
 
-    query_description_path = "./data/testProjectDetails.txt"
-    candidate_description_path = "./data/trainProjectDetails.txt"
+    #query_description_path = "./data/testProjectDetails.txt"
+    # candidate_description_path = "./data/trainProjectDetails.txt"
 
-    query_giturl_path = "./data/testProjectGitURL.txt"
-    candidate_giturl_path = "./data/trainProjectGitURL.txt"
+    #query_giturl_path = "./data/testProjectGitURL.txt"
+    # candidate_giturl_path = "./data/trainProjectGitURL.txt"
 
-    query_project_name_des, query_description = readProjectDetails(query_description_path)
-    candidate_project_name_des, candidate_description = readProjectDetails(candidate_description_path)
+    #query_project_name_des, query_description = readProjectDetails(query_description_path)
+    # candidate_project_name_des, candidate_description = readProjectDetails(candidate_description_path)
 
-    query_project_name_giturl, query_giturl = readProjectDetails(query_giturl_path)
-    candidate_project_name_giturl, candidate_giturl = readProjectDetails(candidate_giturl_path)
+    #query_project_name_giturl, query_giturl = readProjectDetails(query_giturl_path)
+    # candidate_project_name_giturl, candidate_giturl = readProjectDetails(candidate_giturl_path)
 
     MAP = 0
     MapAt5 = 0
@@ -43,7 +72,6 @@ def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matri
     P_MapAt3 = 0
 
     countQuery = 0
-    # for queryindex in range(0, len(querycategory)):
 
     matrix_entry = []
     distances = []
@@ -109,29 +137,24 @@ def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matri
     totalCategoryRelevance = min(topN, true_relevane)
     if totalCategoryRelevance > 0:
         countQuery = countQuery + 1  # include this query in the MAP calculation
-    #remove project name from description
 
-    query_project_name = query_project_name_des[queryindex]
-    query_project_description_with_pname =query_description[queryindex]
-    query_project_description_without_pname = query_project_description_with_pname.replace(query_project_name, "", 1).strip()
+	#read query project from database
+    data = queryProjectFromDB('testprojects',queryindex+1)
+    striped_desc = data['description'].replace(data['name'], "", 1).strip().replace("\n","")
     query_object={'index':queryindex,
-		'name':query_project_name,
-		'url':query_giturl[queryindex].replace("\n",""),
-		'description':query_project_description_without_pname.replace("\n",""),
+		'name':data['name'],
+		'url':data['url'].replace("\n",""),
+		'description':striped_desc,
 		'candidates':[]
 	}
 
-	# print ("Rank"+"\t"+"Search Project: "+testProjectName[queryIndex]+"\t"+testProjectDetails[queryIndex].replace("\n","")+"\t"+testProjectGitURL[queryIndex].replace("\n","")+"\t"+testProjectCategory[queryIndex])
     for i in range(1, len(distances)):
-        candidate_project_name = candidate_project_name_des[distances[i][0]]
-        candidate_project_description_with_pname = candidate_description[distances[i][0]]
-        candidate_project_description_without_pname = candidate_project_description_with_pname.replace(candidate_project_name, "", 1).strip()
-
-        # f.write(str(i) + "\t" +candidate_project_name + "\t" + candidate_project_description_without_pname.replace("\n", "") + "\t" + candidate_giturl[distances[i][0]].replace("\n", "") + "\t" +candidatecategory[distances[i][0]])
+        data = queryProjectFromDB('candidateprojects',distances[i][0]+1)
+        striped_desc = data['description'].replace(data['name'], "", 1).strip().replace("\n", "")
         candidateObject = {
-			'name': candidate_project_name,
-			'url': candidate_giturl[distances[i][0]].replace("\n", ""),
-			'description': candidate_project_description_without_pname.replace("\n", "")
+			'name': data['name'],
+			'url': data['url'].replace("\n", ""),
+			'description': striped_desc
 		}
         query_object['candidates'].append(candidateObject)
 
@@ -160,24 +183,18 @@ def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matri
         P_MAP = P_MAP + P_avgp
         MAP = MAP + avgp
 
-    # else:
-    # f.write("No relevance judgement for this query category. Average Prevision = none \n")
     totalCategoryRelevance_at_5 = min(5, true_relevane)
     if totalCategoryRelevance_at_5 > 0:
         avgpAt5 = (avgpAt5 * 1.0) / totalCategoryRelevance_at_5
         P_avgpAt5 = countRelavance_5 / 5.0
         P_MapAt5 = P_MapAt5 + P_avgpAt5
         MapAt5 = MapAt5 + avgpAt5
-    # else:
-    # f.write("No relevance judgement for this query category. Average Prevision = none \n")
     totalCategoryRelevance_at_1 = min(1, true_relevane)
     if totalCategoryRelevance_at_1 > 0:
         avgpAt1 = (avgpAt1 * 1.0) / totalCategoryRelevance_at_1
         P_avgpAt1 = countRelavance_1 / 1.0
         P_MapAt1 = P_MapAt1 + P_avgpAt1
         MapAt1 = MapAt1 + avgpAt1
-    # else:
-    # f.write("No relevance judgement for this query category. Average Prevision = none \n")
 
     totalCategoryRelevance_at_3 = min(3, true_relevane)
     if totalCategoryRelevance_at_3 > 0:
@@ -196,13 +213,9 @@ def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matri
         P_MapAt5 = (P_MapAt5 * 1.0) / countQuery
         P_MapAt1 = (P_MapAt1 * 1.0) / countQuery
         P_MapAt3 = (P_MapAt3 * 1.0) / countQuery
-    # f.write("Final Evaluated Results: \n")
-    # f.write(str(weight_description)+"\t"+str(weight_readme)+"\t"+str(weight_methodclass)+"\t"+str(weight_packageclass)+"\t"+str(weight_importpackage)+"\t"+str(MapAt1) + "\t" + str(MapAt3) + "\t" + str(MapAt5) + "\t" + str(MAP) + "\t" + str(P_MapAt1) + "\t" + str(
-    #     P_MapAt3) + "\t" + str(P_MapAt5) + "\t" + str(P_MAP) + "\n")
-    json.dump(query_object, f, indent=4)
+
     return json.dumps(query_object)
-    print(str(weight_description)+"\t"+str(weight_readme)+"\t"+str(weight_methodclass)+"\t"+str(weight_packageclass)+"\t"+str(weight_importpackage)+"\t"+str(MapAt1) + "\t" + str(MapAt3) + "\t" + str(MapAt5) + "\t" + str(MAP) + "\t" + str(P_MapAt1) + "\t" + str(
-        P_MapAt3) + "\t" + str(P_MapAt5) + "\t" + str(P_MAP) + "\n")
+
 
 def main(queryIndex):
     query_project_path = "./data/testProjectCategory.txt"
@@ -244,21 +257,6 @@ def main(queryIndex):
             pcategory = pcategory.replace("\n", "")
             count_key = category_stats.get(pcategory, 0)  # if not found will return zero
             category_stats[pcategory] = int(count_key) + 1
-    '''
-    for ip_index in range(0,5):
-        for pc_index in range(0,5):
-            for mc_index in range(0,7):
-                for ds_index in range(0,5):
-                    for rm_index in range(3, 10):
-                        weight_description = ds_index/10.0
-                        weight_readme = rm_index/10.0
-                        weight_methodclass = mc_index/10.0
-                        weight_packageclass = pc_index/10.0
-                        weight_importpackage = ip_index/10.0
-                        runevaluation(description_matrix, readme_matrix, methodclass_matrix, packageclass_matrix, importpackage_matrix,
-                                      weight_description, weight_readme, weight_methodclass, weight_packageclass, weight_importpackage,
-                                      querycategory, candidatecategory, category_stats)
-    '''
 
     weight_description=0.4
     weight_readme=0.4
@@ -270,13 +268,7 @@ def main(queryIndex):
                   querycategory, candidatecategory, category_stats)
 
 
-# def search():
-#     start = time.time()
-#     main(int(sys.argv[1]))
-#     end = time.time()
-#     print(end - start)
-# if __name__ == "__main__":
-#     app.run()
+
 if __name__ == "__main__":
     start = time.time()
     print main(int(sys.argv[1]))
