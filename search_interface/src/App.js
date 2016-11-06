@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import SearchItem from './SearchItem.js';
 import Sidebar from './Sidebar.js';
-import { Button, Form, FormGroup, FormControl } from 'react-bootstrap';
+import { Button, Form, FormGroup, FormControl, Pagination } from 'react-bootstrap';
 import http from 'http';
 import $ from 'jquery';
 
@@ -11,12 +11,15 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.onChange = this.onChange.bind(this);
-    this.state = {candidates:[]}
+    this.onPageSelect = this.onPageSelect.bind(this);
+    this.state = {
+      candidates:[],
+      activePage: 1,
+    }
   }
 
   onChange(e) {
     e.preventDefault();
-    console.log('test1')
     $.ajax({
       url: "/search?key=" + e.target.value,
       dataType: 'json',
@@ -25,7 +28,12 @@ class App extends Component {
         this.setState({candidates: data['candidates']});
       }.bind(this),
     });
-    console.log('test2')
+  }
+
+  onPageSelect(eventKey) {
+    this.setState({
+      activePage: eventKey
+    });
   }
 
   render() {
@@ -38,12 +46,33 @@ class App extends Component {
     });
 
     // const searchResult = require("../saps-evaluation/search_sample.json");
-
-    const candidates = this.state.candidates.map((item, index) => {
+    const candnum = this.state.candidates.length;
+    const pageSize = 5;
+    const candStart = (this.state.activePage-1)*pageSize;
+    const candEnd = Math.min(this.state.candidates.length, this.state.activePage*pageSize);
+    const candidates = this.state.candidates.slice(candStart,candEnd).map((item, index) => {
       return (
         <SearchItem name={item.name} description={item.description} url={item.url}/>
       );
     });
+
+    let maxPage = candnum / pageSize;
+    if (candnum%pageSize > 0) {
+      maxPage += 1;
+    }
+    const pagination = (<Pagination
+        prev
+        next
+        first
+        last
+        ellipsis
+        boundaryLinks
+        items={maxPage}
+        maxButtons={3}
+        activePage={this.state.activePage}
+        onSelect={this.onPageSelect} />);
+
+
     return (
       <div>
         <div className="col-md-2">
@@ -66,7 +95,9 @@ class App extends Component {
               </div>
           </div>
           {candidates}
+          {pagination}
         </div>
+
       </div>
     );
   }
