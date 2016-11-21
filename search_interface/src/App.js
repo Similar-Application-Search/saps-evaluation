@@ -11,17 +11,24 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.onChange = this.onChange.bind(this);
+    this.onSearchClick = this.onSearchClick.bind(this);
     this.onPageSelect = this.onPageSelect.bind(this);
     this.state = {
       candidates:[],
       activePage: 1,
+      searchTarget: 0,
     }
   }
 
   onChange(e) {
     e.preventDefault();
+    this.setState({ searchTarget: e.target.value })
+  }
+
+  onSearchClick(e) {
+    e.preventDefault();
     $.ajax({
-      url: "/search?key=" + e.target.value,
+      url: "/search?key=" + this.state.searchTarget,
       dataType: 'json',
       cache: false,
       success: function(data) {
@@ -88,7 +95,7 @@ class App extends Component {
                       { queryOptions }
                     </FormControl>
                   </FormGroup>
-                  <Button className="col-md-2" type="submit">
+                  <Button className="col-md-2" type="submit" onClick={this.onSearchClick}>
                     Search
                   </Button>
                 </Form>
