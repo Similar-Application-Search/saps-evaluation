@@ -17,12 +17,13 @@
     "foreman": "^1.4.1",
     "forever": "^0.15.2",
     "fs": "0.0.2",
-    "node-mysql": "^0.4.2",
     "jquery": "^3.1.1",
+    "node-mysql": "^0.4.2",
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.5",
     "react-dom": "^15.3.2",
     "react-scripts": "^0.6.1",
+    "react-stars": "^2.1.0",
     "sql.js": "^0.3.2"
   },
   "scripts": {

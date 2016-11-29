@@ -58,7 +58,8 @@ class App extends Component {
     const candEnd = Math.min(this.state.candidates.length, this.state.activePage*pageSize);
     const candidates = this.state.candidates.slice(candStart,candEnd).map((item, index) => {
       return (
-        <SearchItem name={item.name} description={item.description} url={item.url}/>
+        <SearchItem name={item.name} description={item.description} url={item.url}
+          allowHalfStar={ false }/>
       );
     });
 
