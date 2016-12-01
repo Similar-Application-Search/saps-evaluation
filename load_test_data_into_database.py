@@ -1,5 +1,25 @@
 import MySQLdb
 
+def create_users_table():
+	check_table = "SELECT 1 FROM users LIMIT 1"
+	# check if the table exists or not
+
+	create_table = """CREATE TABLE users (
+	  id int NOT NULL AUTO_INCREMENT,
+	  email varchar(255) NOT NULL,
+	  username varchar(255) NOT NULL,
+	  PRIMARY KEY (id)
+	) ENGINE=MyISAM"""
+	drop_table = "Drop TABLE users"
+	try:
+	    cursor.execute(check_table)
+	except:
+	    cursor.execute(create_table)
+	else:
+	    pass
+
+
+
 def readProjectDetails(projectDetailsFile):
 	projectDetails = []
 	projectName = []
@@ -74,6 +94,8 @@ else:
     cursor.execute(drop_table)
     cursor.execute(create_table)
 
+# create users table if not created
+create_users_table()
 
 # load test data from files into database
 query_description_path = "./data/testProjectDetails.txt"

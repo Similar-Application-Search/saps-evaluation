@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import SearchItem from './SearchItem.js';
 import Sidebar from './Sidebar.js';
-import { Button, Form, FormGroup, FormControl, Pagination } from 'react-bootstrap';
+import { Button, ControlLabel, Form, FormGroup, FormControl, HelpBlock, Modal, Nav, NavItem, Pagination } from 'react-bootstrap';
 import http from 'http';
 import $ from 'jquery';
 
@@ -12,10 +12,23 @@ class App extends Component {
     this.onChange = this.onChange.bind(this);
     this.onSearchClick = this.onSearchClick.bind(this);
     this.onPageSelect = this.onPageSelect.bind(this);
+    this.onLoginButtonClick = this.onLoginButtonClick.bind(this);
+    this.onLogoutButtonClick = this.onLogoutButtonClick.bind(this);
+    this.onLoginClose = this.onLoginClose.bind(this);
+    this.onNavSelect = this.onNavSelect.bind(this);
+    this.onLoginSubmitClick = this.onLoginSubmitClick.bind(this);
+    this.onLoginEmailChange = this.onLoginEmailChange.bind(this);
+
     this.state = {
       candidates:[],
       activePage: 1,
       searchTarget: 0,
+      showLoginWindow: false,
+      activeNavItem: 'login',
+      loginEmail: '',
+      user: null, //would be [email, username] if logged in
+      loginFailed: false, //email input cannot be found
+
     }
   }
 
@@ -31,7 +44,32 @@ class App extends Component {
       dataType: 'json',
       cache: false,
       success: function(data) {
+        console.log(data);
         this.setState({candidates: data['candidates']});
+      }.bind(this),
+    });
+  }
+
+  onLoginSubmitClick(e) {
+    e.preventDefault();
+    $.ajax({
+      url: "/login?email=" + this.state.loginEmail,
+      dataType: 'json',
+      cache: false,
+      success: function(data) {
+        console.log(data);
+
+        if (data['username'] !== null) {
+          // log the user in; close the login model window
+          this.setState({
+            user: [this.state.loginEmail, data],
+            showLoginWindow: false,
+            loginFailed: false,});
+        } else {
+          this.setState({
+            loginFailed: true,
+          })
+        }
       }.bind(this),
     });
   }
@@ -40,6 +78,36 @@ class App extends Component {
     this.setState({
       activePage: eventKey
     });
+  }
+
+  onLoginButtonClick() {
+    this.setState({
+      showLoginWindow: !this.state.showLoginWindow,
+    });
+
+  }
+
+  onLogoutButtonClick() {
+    //TODO: clear the user cookie; log user out
+  }
+
+  onLoginClose() {
+    this.setState({ showLoginWindow: false});
+  }
+
+  onNavSelect(e) {
+    if (e == 'login') {
+      this.setState({activeNavItem:'login'});
+    } else if (e == 'register') {
+      this.setState({activeNavItem:'register'});
+    }
+  }
+
+
+
+  onLoginEmailChange(e) {
+    e.preventDefault();
+    this.setState({loginEmail:e.target.value});
   }
 
   render() {
@@ -79,12 +147,55 @@ class App extends Component {
         activePage={this.state.activePage}
         onSelect={this.onPageSelect} />);
 
+      // const colse = () => this.setState({ showLoginWindow: false});
+      const loginModal = (
+        <Modal
+          show={this.state.showLoginWindow}
+          onHide={this.onLoginClose}
+          container={this}>
+            <Modal.Header closeButton>
+              <Modal.Title id="contained-modal-title">Login/Register</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <Nav bsStyle="tabs" activeNavItem="login" onSelect={this.onNavSelect} justified>
+                <NavItem eventKey="login" >Log In</NavItem>
+                <NavItem eventKey="register" >Register</NavItem>
+              </Nav>
+              <div hidden={this.state.activeNavItem!=='login'}>
+                <form>
+                  <FormGroup validationState={this.state.loginFailed && 'error'}>
+                    <ControlLabel>Email</ControlLabel>
+                    <FormControl type={'email'} placeholder={'Enter email'} onChange={this.onLoginEmailChange} value={this.state.loginEmail}/>
+                    <FormControl.Feedback />
+                    {this.state.loginFailed && <HelpBlock>'Email address not found. Please go ahead to register.'</HelpBlock>}
+                  </FormGroup>
+                  <Button type='button' onClick={this.onLoginSubmitClick} >
+                    Submit
+                  </Button>
+                </form>
+              </div>
+              <div hidden={this.state.activeNavItem!='register'}>
+                register
+              </div>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button onClick={this.onLoginClose}>Close</Button>
+            </Modal.Footer>
+        </Modal>
+      );
 
     return (
       <div>
         <div className="col-md-2">
           <Sidebar/>
         </div>
+        <Button className="col-md-2" type="button" onClick={this.onLoginButtonClick} hidden={this.state.user!==null}>
+          Login
+        </Button>
+        <Button className="col-md-2" type="button" onClick={this.onLogoutButtonClick} hidden={this.state.user===null}>
+          Log out
+        </Button>
+        { loginModal }
         <div className="container col-md-10">
           <div className="row">
               <div className="col-md-12">
