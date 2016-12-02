@@ -18,6 +18,9 @@ class App extends Component {
     this.onNavSelect = this.onNavSelect.bind(this);
     this.onLoginSubmitClick = this.onLoginSubmitClick.bind(this);
     this.onLoginEmailChange = this.onLoginEmailChange.bind(this);
+    this.onRegisterEmailChange = this.onRegisterEmailChange.bind(this);
+    this.onRegisterUsernameChange = this.onRegisterUsernameChange.bind(this);
+    this.onRegisterSubmitClick = this.onRegisterSubmitClick.bind(this);
 
     this.state = {
       candidates:[],
@@ -28,6 +31,9 @@ class App extends Component {
       loginEmail: '',
       user: null, //would be [email, username] if logged in
       loginFailed: false, //email input cannot be found
+      registerEmail: '',
+      registerUsername: '',
+      registerFailed: false,
 
     }
   }
@@ -64,7 +70,9 @@ class App extends Component {
           this.setState({
             user: [this.state.loginEmail, data],
             showLoginWindow: false,
-            loginFailed: false,});
+            loginFailed: false,
+            loginEmail: '',
+          });
         } else {
           this.setState({
             loginFailed: true,
@@ -72,6 +80,47 @@ class App extends Component {
         }
       }.bind(this),
     });
+  }
+
+  onRegisterSubmitClick(e) {
+    e.preventDefault();
+    const userData = {'email':this.state.registerEmail, 'username': this.state.registerUsername};
+    $.ajax({
+      type: 'POST',
+      url: "/register",
+      dataType: 'json',
+      cache: false,
+      data: userData,
+      success: function(data) {
+        console.log(data);
+
+        if (data) {
+          this.setState({
+            user: [this.state.registerEmail, this.state.registerUsername],
+            showLoginWindow: false,
+            registerEmail: '',
+            registerUsername: '',
+            registerFailed: false});
+        } else {
+          this.setState({
+            registerFailed: true
+          });
+        }
+      }.bind(this),
+    });
+  }
+
+
+  onLogoutButtonClick(e) {
+    //TODO: clear the user cookie; log user out
+    this.setState({
+      user: null
+    });
+    $.ajax({
+      url: "/logout",
+      cache: false,
+    });
+
   }
 
   onPageSelect(eventKey) {
@@ -87,12 +136,12 @@ class App extends Component {
 
   }
 
-  onLogoutButtonClick() {
-    //TODO: clear the user cookie; log user out
-  }
 
   onLoginClose() {
-    this.setState({ showLoginWindow: false});
+    this.setState({
+      showLoginWindow: false,
+      loginFailed: false,
+      registerFailed: false,});
   }
 
   onNavSelect(e) {
@@ -110,6 +159,16 @@ class App extends Component {
     this.setState({loginEmail:e.target.value});
   }
 
+  onRegisterEmailChange(e) {
+    e.preventDefault();
+    this.setState({registerEmail:e.target.value});
+  }
+
+  onRegisterUsernameChange(e) {
+    e.preventDefault();
+    this.setState({registerUsername:e.target.value});
+  }
+
   render() {
     const queryOptions = this.props.queryoptions.map((option, index) => {
       return (
@@ -119,7 +178,6 @@ class App extends Component {
       );
     });
 
-    // const searchResult = require("../saps-evaluation/search_sample.json");
     const candnum = this.state.candidates.length;
     const pageSize = 5;
     const candStart = (this.state.activePage-1)*pageSize;
@@ -147,7 +205,6 @@ class App extends Component {
         activePage={this.state.activePage}
         onSelect={this.onPageSelect} />);
 
-      // const colse = () => this.setState({ showLoginWindow: false});
       const loginModal = (
         <Modal
           show={this.state.showLoginWindow}
@@ -175,7 +232,20 @@ class App extends Component {
                 </form>
               </div>
               <div hidden={this.state.activeNavItem!='register'}>
-                register
+              <form>
+                <FormGroup validationState={this.state.registerFailed && 'error'}>
+                  <ControlLabel>Email</ControlLabel>
+                  <FormControl type={'email'} placeholder={'Enter email'} onChange={this.onRegisterEmailChange} value={this.state.registerEmail}/>
+                  <FormControl.Feedback />
+                  {this.state.loginFailed && <HelpBlock>'Email address has been registered. Please login or try another email address.'</HelpBlock>}
+                  <ControlLabel>Username</ControlLabel>
+                  <FormControl type={'text'} placeholder={'Enter username'} onChange={this.onRegisterUsernameChange} value={this.state.registerUsername}/>
+
+                </FormGroup>
+                <Button type='button' onClick={this.onRegisterSubmitClick} >
+                  Submit
+                </Button>
+              </form>
               </div>
             </Modal.Body>
             <Modal.Footer>
@@ -189,14 +259,20 @@ class App extends Component {
         <div className="col-md-2">
           <Sidebar/>
         </div>
-        <Button className="col-md-2" type="button" onClick={this.onLoginButtonClick} hidden={this.state.user!==null}>
-          Login
-        </Button>
-        <Button className="col-md-2" type="button" onClick={this.onLogoutButtonClick} hidden={this.state.user===null}>
-          Log out
-        </Button>
-        { loginModal }
+
         <div className="container col-md-10">
+          <div hidden={this.state.user!==null}>
+            <Button className="col-md-2" type="button" onClick={this.onLoginButtonClick} >
+              Login
+            </Button>
+          </div>
+
+          <div hidden={this.state.user===null}>
+            <Button className="col-md-2" type="button" onClick={this.onLogoutButtonClick} >
+              Log out
+            </Button>
+          </div>
+          { loginModal }
           <div className="row">
               <div className="col-md-12">
                 <Form>

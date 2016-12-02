@@ -1,9 +1,14 @@
 const express = require('express');
+const bodyParser = require("body-parser");
+
 const fs = require('fs');
 var util = require("util");
 var mysql = require('mysql');
 
 const app = express();
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 const spawn = require("child_process").spawn;
 
 const connection = mysql.createConnection({
@@ -36,8 +41,8 @@ app.get('/search', (req, res) => {
 app.get('/login', (req, res) => {
 
   const email = req.query.email;
-  const query = 'SELECT username FROM users WHERE email=email';
-  connection.query(query, function(err, rows, fields){
+  const query = 'SELECT username FROM users WHERE email=?';
+  connection.query(query, email,function(err, rows, fields){
     if (err) throw err;
     if (rows.length > 0) {
       const userValue = {email:email, username:rows[0]};
@@ -53,6 +58,25 @@ app.get('/login', (req, res) => {
   });
 
 });
+
+app.post('/register', function(req, res) {
+    const email = req.body.email;
+    const username = req.body.username;
+    const userValue = {email:email, username:username};
+    const query = 'INSERT INTO users (email, username) VALUES (?, ?)';
+    connection.query(query, [email, username], function(err, response, fields){
+      if (err) throw err;
+      if (response) {
+        res.cookie('user', userValue, { expires: new Date(Date.now() + 3600000), httpOnly: true });
+      }
+      res.send(response);
+    })
+});
+
+app.post('/logout', function(req, res) {
+    res.clearCookie('user');
+});
+
 
 app.listen(app.get('port'), () => {
   console.log(`Find the server at: http://localhost:${app.get('port')}/`); // eslint-disable-line no-console

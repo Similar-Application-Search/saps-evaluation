@@ -6,7 +6,7 @@ def create_users_table():
 
 	create_table = """CREATE TABLE users (
 	  id int NOT NULL AUTO_INCREMENT,
-	  email varchar(255) NOT NULL,
+	  email varchar(255) NOT NULL UNIQUE,
 	  username varchar(255) NOT NULL,
 	  PRIMARY KEY (id)
 	) ENGINE=MyISAM"""
