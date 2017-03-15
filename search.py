@@ -154,7 +154,9 @@ def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matri
         candidateObject = {
 			'name': data['name'],
 			'url': data['url'].replace("\n", ""),
-			'description': striped_desc
+			'description': striped_desc,
+			'language':data['language'],
+			'category': data['category']
 		}
         query_object['candidates'].append(candidateObject)
 

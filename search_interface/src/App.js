@@ -68,7 +68,7 @@ class App extends Component {
         if (data['username'] !== null) {
           // log the user in; close the login model window
           this.setState({
-            user: [this.state.loginEmail, data],
+            user: [this.state.loginEmail, data['username']],
             showLoginWindow: false,
             loginFailed: false,
             loginEmail: '',
@@ -184,7 +184,7 @@ class App extends Component {
     const candEnd = Math.min(this.state.candidates.length, this.state.activePage*pageSize);
     const candidates = this.state.candidates.slice(candStart,candEnd).map((item, index) => {
       return (
-        <SearchItem name={item.name} description={item.description} url={item.url}
+        <SearchItem name={item.name} description={item.description} url={item.url} language={item.language} category={item.category}
           allowHalfStar={ false }/>
       );
     });
@@ -268,6 +268,7 @@ class App extends Component {
           </div>
 
           <div hidden={this.state.user===null}>
+            <div> Hi {this.state.user===null ? '': this.state.user[1]}!</div>
             <Button className="col-md-2" type="button" onClick={this.onLogoutButtonClick} >
               Log out
             </Button>
