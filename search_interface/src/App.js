@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+import './css/App.css';
+import './css/SearchResult.css';
 import SearchItem from './SearchItem.js';
 import Sidebar from './Sidebar.js';
 import { Button, ControlLabel, Form, FormGroup, FormControl, HelpBlock, Modal, Nav, NavItem, Pagination } from 'react-bootstrap';
@@ -256,43 +257,45 @@ class App extends Component {
 
     return (
       <div>
-        <div className="col-md-2">
-          <Sidebar/>
+        <div id="searchResult">
+          <div className="col-md-2">
+            <Sidebar/>
+          </div>
+
+          <div className="container col-md-10">
+            <div hidden={this.state.user!==null}>
+              <Button className="col-md-2" type="button" onClick={this.onLoginButtonClick} >
+                Login
+              </Button>
+            </div>
+
+            <div hidden={this.state.user===null}>
+              <div> Hi {this.state.user===null ? '': this.state.user[1]}!</div>
+              <Button className="col-md-2" type="button" onClick={this.onLogoutButtonClick} >
+                Log out
+              </Button>
+            </div>
+            { loginModal }
+            <div className="row">
+                <div className="col-md-12">
+                  <Form>
+                    <FormGroup className="col-md-10" controlId="searchEntry">
+                      <FormControl componentClass="select" placeholder="select" onChange={this.onChange}>
+                        <option value="select">Select a project name...</option>
+                        { queryOptions }
+                      </FormControl>
+                    </FormGroup>
+                    <Button className="col-md-2" type="submit" onClick={this.onSearchClick}>
+                      Search
+                    </Button>
+                  </Form>
+                </div>
+            </div>
+            {candidates}
+            {pagination}
+          </div>
+
         </div>
-
-        <div className="container col-md-10">
-          <div hidden={this.state.user!==null}>
-            <Button className="col-md-2" type="button" onClick={this.onLoginButtonClick} >
-              Login
-            </Button>
-          </div>
-
-          <div hidden={this.state.user===null}>
-            <div> Hi {this.state.user===null ? '': this.state.user[1]}!</div>
-            <Button className="col-md-2" type="button" onClick={this.onLogoutButtonClick} >
-              Log out
-            </Button>
-          </div>
-          { loginModal }
-          <div className="row">
-              <div className="col-md-12">
-                <Form>
-                  <FormGroup className="col-md-10" controlId="searchEntry">
-                    <FormControl componentClass="select" placeholder="select" onChange={this.onChange}>
-                      <option value="select">Select a project name...</option>
-                      { queryOptions }
-                    </FormControl>
-                  </FormGroup>
-                  <Button className="col-md-2" type="submit" onClick={this.onSearchClick}>
-                    Search
-                  </Button>
-                </Form>
-              </div>
-          </div>
-          {candidates}
-          {pagination}
-        </div>
-
       </div>
     );
   }

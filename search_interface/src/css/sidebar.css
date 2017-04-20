@@ -59,30 +59,90 @@
     top: 0;
     width: 250px;
     margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
-}
-
-.sidebar-nav li a {
-    display: block;
-    text-decoration: none;
+    padding: 1em;
     color: #999999;
 }
 
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
+.sidebar-nav .option {
+  width: 100%; float:left;
+  position: relative;
+  border-top: 1px solid rgba(220,220,220,.25);
+  color: #999999;
+  padding: 1em 0;
 }
 
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
+.sidebar-nav .option label {
+  text-transform: none;
+  margin: 0;
+}
+
+.sidebar-nav .option .toggle {
+  position: absolute;
+  top: 1.25em; right: 0;
+  width: 1em;
+  height: 1em;
+}
+.sidebar-nav .option .toggled {
+  position: absolute;
+  top: 1.25em; right: 0;
+  width: 1em;
+  height: 1em;
+}
+.sidebar-nav .option .toggle span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(18,119,189,1);
+  width: 1em;
+  height: .25em;
+  transform-origin: center;
+  transition: ease transform .5s;
+}
+.sidebar-nav .option .toggle span:last-child {
+  transform: rotateZ(90deg);
+}
+.sidebar-nav .option .toggled span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(18,119,189,1);
+  width: 1em;
+  height: .25em;
+  transform-origin: center;
+  transition: ease transform .5s;
+  transform: rotateZ(360deg) !important;
+}
+.sidebar-nav .option .expands {
+  max-height: 0;
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.8s;
+}
+
+.sidebar-nav .options .open {
+  max-height: 500px;
+}
+
+
+.sidebar-nav input[type="submit"]  {
+  float:left;width: 100%;
+  padding: .75em 2em;
+  background: rgba(18,119,189,1);
+  color: rgba(255,255,255,1);
+  font-weight: bold;
+  border-radius: 0;
+  border:none;
+  box-shadow: 0 0 0 rgba(0,0,0,.1);
+  letter-spacing: .05em;
+  transition: .25s ease all;
+  margin-bottom: 1.5em;
+}
+.sidebar-nav input[type="submit"]:hover {
+  cursor: pointer;
+  background: rgba(13,137,223,1);
+  color: rgba(255,255,255,1);
+  transform: translate(0,-.125em);
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
 }
 
 .sidebar-nav > .sidebar-brand {
