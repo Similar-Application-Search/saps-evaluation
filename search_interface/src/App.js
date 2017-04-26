@@ -67,12 +67,14 @@ class App extends Component {
 
   onCheckboxClicked(e) {
     e.preventDefault();
-    if (e.checked) {
+	console.log(e.target.checked);
+	console.log(e.target.value);
+    if (e.target.checked) {
       this.setState({
-        langSelected: this.state.langSelected.concat([e.value]),
+        langSelected: this.state.langSelected.concat([e.target.value]),
       });
     } else {
-      const removedIndex = this.state.indexOf(e.value);
+      const removedIndex = this.state.langSelected.indexOf(e.target.value);
       const left = this.state.langSelected.slice(0,removedIndex);
       const right = this.state.langSelected.slice(removedIndex+1);
       const newList = left.concat(right);
@@ -80,9 +82,7 @@ class App extends Component {
         langSelected: newList,
       });
     }
-    this.setState({
-
-    });
+    
   }
 
   onFilterSubmitClick(e) {
