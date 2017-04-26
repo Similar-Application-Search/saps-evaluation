@@ -22,6 +22,8 @@ class App extends Component {
     this.onRegisterEmailChange = this.onRegisterEmailChange.bind(this);
     this.onRegisterUsernameChange = this.onRegisterUsernameChange.bind(this);
     this.onRegisterSubmitClick = this.onRegisterSubmitClick.bind(this);
+    this.onCheckboxClicked = this.onCheckboxClicked,bind(this);
+    this.onFilterSubmitClick = this.onFilterSubmitClick.bind(this);
 
     this.state = {
       candidates:[],
@@ -35,6 +37,8 @@ class App extends Component {
       registerEmail: '',
       registerUsername: '',
       registerFailed: false,
+      langSelected: ['C++','Java','Python','Javascript','Objective-C'],
+      filteredCandidates:[],
 
     }
   }
@@ -52,8 +56,42 @@ class App extends Component {
       cache: false,
       success: function(data) {
         console.log(data);
-        this.setState({candidates: data['candidates']});
+        this.setState({
+          candidates: data['candidates'],
+          filteredCandidates: data['candidates'],
+          langSelected: ['C++','Java','Python','Javascript','Objective-C'],
+        });
       }.bind(this),
+    });
+  }
+
+  onCheckboxClicked(e) {
+    e.preventDefault();
+    if (e.checked) {
+      this.setState({
+        langSelected: this.state.langSelected.concat([e.value]),
+      });
+    } else {
+      const removedIndex = this.state.indexOf(e.value);
+      const left = this.state.langSelected.slice(0,removedIndex);
+      const right = this.state.langSelected.slice(removedIndex+1);
+      const newList = left.concat(right);
+      this.setState({
+        langSelected: newList,
+      });
+    }
+    this.setState({
+
+    });
+  }
+
+  onFilterSubmitClick(e) {
+    e.preventDefault();
+    const newFilteredCand = candidates.filter(function(cand){
+      return langSelected.indexOf(cand.language) >= 0;
+    });
+    this.setState({
+      filteredCandidates : newFilteredCand,
     });
   }
 
@@ -179,11 +217,11 @@ class App extends Component {
       );
     });
 
-    const candnum = this.state.candidates.length;
+    const candnum = this.state.filteredCandidates.length;
     const pageSize = 5;
     const candStart = (this.state.activePage-1)*pageSize;
-    const candEnd = Math.min(this.state.candidates.length, this.state.activePage*pageSize);
-    const candidates = this.state.candidates.slice(candStart,candEnd).map((item, index) => {
+    const candEnd = Math.min(this.state.filteredCandidates.length, this.state.activePage*pageSize);
+    const filteredCandidates = this.state.candfilteredCandidatesidates.slice(candStart,candEnd).map((item, index) => {
       return (
         <SearchItem name={item.name} description={item.description} url={item.url} language={item.language} category={item.category}
           allowHalfStar={ false }/>
@@ -259,7 +297,7 @@ class App extends Component {
       <div>
         <div id="searchResult">
           <div className="col-md-2">
-            <Sidebar/>
+            <Sidebar langSelected={this.langSelected} onCheckboxClicked={this.onCheckboxClicked} onFilterSubmitClick={this.onFilterSubmitClick}/>
           </div>
 
           <div className="container col-md-10">
@@ -291,7 +329,7 @@ class App extends Component {
                   </Form>
                 </div>
             </div>
-            {candidates}
+            {filteredCandidates}
             {pagination}
           </div>
 
