@@ -82,7 +82,7 @@ class App extends Component {
         langSelected: newList,
       });
     }
-    
+
   }
 
   onFilterSubmitClick(e) {
@@ -297,7 +297,7 @@ class App extends Component {
       <div>
         <div id="searchResult">
           <div className="col-md-2">
-            <Sidebar langSelected={this.state.langSelected} onCheckboxClicked={this.onCheckboxClicked} onFilterSubmitClick={this.onFilterSubmitClick}/>
+            <Sidebar onCheckboxClicked={this.onCheckboxClicked} onFilterSubmitClick={this.onFilterSubmitClick}/>
           </div>
 
           <div className="container col-md-10">
