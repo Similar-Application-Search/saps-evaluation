@@ -9,9 +9,12 @@ class Sidebar extends Component {
   constructor(props) {
     super(props);
     this.onToggleLang = this.onToggleLang.bind(this);
+    this.onCheckboxClicked = this.onCheckboxClicked.bind(this);
+    this.onFilterSubmitClick = this.onFilterSubmitClick.bind(this);
 
     this.state ={
       langExpanded : false,
+      langSelected: ['C++','Java','Python','Javascript','Objective-C'],
     };
   }
   onToggleLang(e) {
@@ -21,6 +24,34 @@ class Sidebar extends Component {
     });
   }
 
+  onCheckboxClicked(e) {
+    e.preventDefault();
+    this.props.onCheckboxClicked(e);
+    if (e.target.checked) {
+      this.setState({
+        langSelected: this.state.langSelected.concat([e.target.value]),
+      });
+    } else {
+      const removedIndex = this.state.langSelected.indexOf(e.target.value);
+      const left = this.state.langSelected.slice(0,removedIndex);
+      const right = this.state.langSelected.slice(removedIndex+1);
+      const newList = left.concat(right);
+      this.setState({
+        langSelected: newList,
+      });
+    }
+  }
+
+  onFilterSubmitClick(e) {
+    e.preventDefault();
+    this.props.onFilterSubmitClick(e);
+    const newFilteredCand = this.state.candidates.filter(function(cand){
+      return this.state.langSelected.indexOf(cand.language) >= 0;
+    });
+    this.setState({
+      filteredCandidates : newFilteredCand,
+    });
+  }
 
   render() {
     return (
@@ -39,16 +70,16 @@ class Sidebar extends Component {
                     </div>
                     <div className="expand" hidden={this.state.langExpanded}/>
                     <div className="open" hidden={!this.state.langExpanded}>
-                      <input type="checkbox" name="Python" value="Python" onClick={this.props.onCheckboxClicked} checked/> Python <br/>
-                      <input type="checkbox" name="Java" value="Java" onClick={this.props.onCheckboxClicked} checked/> Java
-                      <input type="checkbox" name="C++" value="C++" onClick={this.props.onCheckboxClicked} checked/> C++
-                      <input type="checkbox" name="Objective-C" value="Objective-C" onClick={this.props.onCheckboxClicked} checked/> Objective-C
-                      <input type="checkbox" name="Javascript" value="Javascript" onClick={this.props.onCheckboxClicked} checked/> Javascript
+                      <input type="checkbox" name="Python" value="Python" onClick={this.onCheckboxClicked} checked={this.state.langSelected.indexOf("Python")>=0}/> Python <br/>
+                      <input type="checkbox" name="Java" value="Java" onClick={this.onCheckboxClicked} checked={this.state.langSelected.indexOf("Java")>=0}/> Java
+                      <input type="checkbox" name="C++" value="C++" onClick={this.onCheckboxClicked} checked={this.state.langSelected.indexOf("C++")>=0}/> C++
+                      <input type="checkbox" name="Objective-C" value="Objective-C" onClick={this.onCheckboxClicked} checked={this.state.langSelected.indexOf("Objective-C")>=0}/> Objective-C
+                      <input type="checkbox" name="Javascript" value="Javascript" onClick={this.onCheckboxClicked} checked={this.state.langSelected.indexOf("Javascript")>=0}/> Javascript
 
                     </div>
                   </div>
                 </section>
-                <input type="submit" value="filter" onClick={this.props.onFilterSubmitClick}/>
+                <input type="submit" value="filter" onClick={this.onFilterSubmitClick}/>
               </form>
           </div>
       </div>
