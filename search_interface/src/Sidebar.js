@@ -42,7 +42,7 @@ class Sidebar extends Component {
                       <input type="checkbox" name="Python" value="Python" onClick={this.props.onCheckboxClicked} checked={this.props.langSelected.indexOf("Python")>=0}/> Python <br/>
                       <input type="checkbox" name="Java" value="Java" onClick={this.props.onCheckboxClicked} checked={this.props.langSelected.indexOf("Java")>=0}/> Java
                       <input type="checkbox" name="C++" value="C++" onClick={this.props.onCheckboxClicked} checked={this.props.langSelected.indexOf("C++")>=0}/> C++
-                      <input type="checkbox" name="Objective-C" value="Objective-C" onClick={this.props.onCheckboxClicked} checked={this.props.langSelected.indexOf("Objective-c")>=0}/> Objective-C
+                      <input type="checkbox" name="Objective-C" value="Objective-C" onClick={this.props.onCheckboxClicked} checked={this.props.langSelected.indexOf("Objective-C")>=0}/> Objective-C
                       <input type="checkbox" name="Javascript" value="Javascript" onClick={this.props.onCheckboxClicked} checked={this.props.langSelected.indexOf("Javascript")>=0}/> Javascript
 
                     </div>

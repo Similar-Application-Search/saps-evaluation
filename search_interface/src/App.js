@@ -22,7 +22,7 @@ class App extends Component {
     this.onRegisterEmailChange = this.onRegisterEmailChange.bind(this);
     this.onRegisterUsernameChange = this.onRegisterUsernameChange.bind(this);
     this.onRegisterSubmitClick = this.onRegisterSubmitClick.bind(this);
-    this.onCheckboxClicked = this.onCheckboxClicked,bind(this);
+    this.onCheckboxClicked = this.onCheckboxClicked.bind(this);
     this.onFilterSubmitClick = this.onFilterSubmitClick.bind(this);
 
     this.state = {
@@ -87,8 +87,8 @@ class App extends Component {
 
   onFilterSubmitClick(e) {
     e.preventDefault();
-    const newFilteredCand = candidates.filter(function(cand){
-      return langSelected.indexOf(cand.language) >= 0;
+    const newFilteredCand = this.state.candidates.filter(function(cand){
+      return this.state.langSelected.indexOf(cand.language) >= 0;
     });
     this.setState({
       filteredCandidates : newFilteredCand,
@@ -221,7 +221,7 @@ class App extends Component {
     const pageSize = 5;
     const candStart = (this.state.activePage-1)*pageSize;
     const candEnd = Math.min(this.state.filteredCandidates.length, this.state.activePage*pageSize);
-    const filteredCandidates = this.state.candfilteredCandidatesidates.slice(candStart,candEnd).map((item, index) => {
+    const filteredCandidates = this.state.filteredCandidates.slice(candStart,candEnd).map((item, index) => {
       return (
         <SearchItem name={item.name} description={item.description} url={item.url} language={item.language} category={item.category}
           allowHalfStar={ false }/>
@@ -297,7 +297,7 @@ class App extends Component {
       <div>
         <div id="searchResult">
           <div className="col-md-2">
-            <Sidebar langSelected={this.langSelected} onCheckboxClicked={this.onCheckboxClicked} onFilterSubmitClick={this.onFilterSubmitClick}/>
+            <Sidebar langSelected={this.state.langSelected} onCheckboxClicked={this.onCheckboxClicked} onFilterSubmitClick={this.onFilterSubmitClick}/>
           </div>
 
           <div className="container col-md-10">
