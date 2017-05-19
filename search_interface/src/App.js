@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import './css/App.css';
-import './css/SearchResult.css';
-import SearchItem from './SearchItem.js';
-import Sidebar from './Sidebar.js';
-import { Button, ControlLabel, Form, FormGroup, FormControl, HelpBlock, Modal, Nav, NavItem, Pagination } from 'react-bootstrap';
-import http from 'http';
-import $ from 'jquery';
+import React, { Component } from "react";
+import "./css/App.css";
+import "./css/SearchResult.css";
+import SearchItem from "./SearchItem.js";
+import Sidebar from "./Sidebar.js";
+import { Button, ControlLabel, Form, FormGroup, FormControl, HelpBlock, Modal, Nav, NavItem, Pagination } from "react-bootstrap";
+import http from "http";
+import $ from "jquery";
 
 class App extends Component {
   constructor(props) {
@@ -30,14 +30,14 @@ class App extends Component {
       activePage: 1,
       searchTarget: 0,
       showLoginWindow: false,
-      activeNavItem: 'login',
-      loginEmail: '',
+      activeNavItem: "login",
+      loginEmail: "",
       user: null, //would be [email, username] if logged in
       loginFailed: false, //email input cannot be found
-      registerEmail: '',
-      registerUsername: '',
+      registerEmail: "",
+      registerUsername: "",
       registerFailed: false,
-      langSelected: ['C++','Java','Python','Javascript','Objective-C'],
+      langSelected: ["C++","Java","Python","Javascript","Objective-C"],
       filteredCandidates:[],
 
     }
@@ -52,23 +52,20 @@ class App extends Component {
     e.preventDefault();
     $.ajax({
       url: "/search?key=" + this.state.searchTarget,
-      dataType: 'json',
+      dataType: "json",
       cache: false,
       success: function(data) {
         console.log(data);
         this.setState({
-          candidates: data['candidates'],
-          filteredCandidates: data['candidates'],
-          langSelected: ['C++','Java','Python','Javascript','Objective-C'],
+          candidates: data["candidates"],
+          filteredCandidates: data["candidates"],
+          langSelected: ["C++","Java","Python","Javascript","Objective-C"],
         });
       }.bind(this),
     });
   }
 
   onCheckboxClicked(e) {
-    e.preventDefault();
-	console.log(e.target.checked);
-	console.log(e.target.value);
     if (e.target.checked) {
       this.setState({
         langSelected: this.state.langSelected.concat([e.target.value]),
@@ -87,8 +84,13 @@ class App extends Component {
 
   onFilterSubmitClick(e) {
     e.preventDefault();
+    const curLangSelected = this.state.langSelected.map(function(lang){
+      return lang.trim().replace(/(\r\n|\n|\r|"\\n")/gm,"");
+    });
     const newFilteredCand = this.state.candidates.filter(function(cand){
-      return this.state.langSelected.indexOf(cand.language) >= 0;
+      let curLang = JSON.stringify(cand.language).replace("\\n","");
+      curLang = curLang.split("\"").join("");
+      return (curLangSelected.indexOf(curLang) >= 0);
     });
     this.setState({
       filteredCandidates : newFilteredCand,
@@ -99,18 +101,18 @@ class App extends Component {
     e.preventDefault();
     $.ajax({
       url: "/login?email=" + this.state.loginEmail,
-      dataType: 'json',
+      dataType: "json",
       cache: false,
       success: function(data) {
         console.log(data);
 
-        if (data['username'] !== null) {
+        if (data["username"] !== null) {
           // log the user in; close the login model window
           this.setState({
-            user: [this.state.loginEmail, data['username']],
+            user: [this.state.loginEmail, data["username"]],
             showLoginWindow: false,
             loginFailed: false,
-            loginEmail: '',
+            loginEmail: "",
           });
         } else {
           this.setState({
@@ -123,11 +125,11 @@ class App extends Component {
 
   onRegisterSubmitClick(e) {
     e.preventDefault();
-    const userData = {'email':this.state.registerEmail, 'username': this.state.registerUsername};
+    const userData = {"email":this.state.registerEmail, "username": this.state.registerUsername};
     $.ajax({
-      type: 'POST',
+      type: "POST",
       url: "/register",
-      dataType: 'json',
+      dataType: "json",
       cache: false,
       data: userData,
       success: function(data) {
@@ -137,8 +139,8 @@ class App extends Component {
           this.setState({
             user: [this.state.registerEmail, this.state.registerUsername],
             showLoginWindow: false,
-            registerEmail: '',
-            registerUsername: '',
+            registerEmail: "",
+            registerUsername: "",
             registerFailed: false});
         } else {
           this.setState({
@@ -184,10 +186,10 @@ class App extends Component {
   }
 
   onNavSelect(e) {
-    if (e == 'login') {
-      this.setState({activeNavItem:'login'});
-    } else if (e == 'register') {
-      this.setState({activeNavItem:'register'});
+    if (e == "login") {
+      this.setState({activeNavItem:"login"});
+    } else if (e == "register") {
+      this.setState({activeNavItem:"register"});
     }
   }
 
@@ -257,31 +259,31 @@ class App extends Component {
                 <NavItem eventKey="login" >Log In</NavItem>
                 <NavItem eventKey="register" >Register</NavItem>
               </Nav>
-              <div hidden={this.state.activeNavItem!=='login'}>
+              <div hidden={this.state.activeNavItem!=="login"}>
                 <form>
-                  <FormGroup validationState={this.state.loginFailed && 'error'}>
+                  <FormGroup validationState={this.state.loginFailed && "error"}>
                     <ControlLabel>Email</ControlLabel>
-                    <FormControl type={'email'} placeholder={'Enter email'} onChange={this.onLoginEmailChange} value={this.state.loginEmail}/>
+                    <FormControl type={"email"} placeholder={"Enter email"} onChange={this.onLoginEmailChange} value={this.state.loginEmail}/>
                     <FormControl.Feedback />
-                    {this.state.loginFailed && <HelpBlock>'Email address not found. Please go ahead to register.'</HelpBlock>}
+                    {this.state.loginFailed && <HelpBlock>"Email address not found. Please go ahead to register."</HelpBlock>}
                   </FormGroup>
-                  <Button type='button' onClick={this.onLoginSubmitClick} >
+                  <Button type="button" onClick={this.onLoginSubmitClick} >
                     Submit
                   </Button>
                 </form>
               </div>
-              <div hidden={this.state.activeNavItem!='register'}>
+              <div hidden={this.state.activeNavItem!="register"}>
               <form>
-                <FormGroup validationState={this.state.registerFailed && 'error'}>
+                <FormGroup validationState={this.state.registerFailed && "error"}>
                   <ControlLabel>Email</ControlLabel>
-                  <FormControl type={'email'} placeholder={'Enter email'} onChange={this.onRegisterEmailChange} value={this.state.registerEmail}/>
+                  <FormControl type={"email"} placeholder={"Enter email"} onChange={this.onRegisterEmailChange} value={this.state.registerEmail}/>
                   <FormControl.Feedback />
-                  {this.state.loginFailed && <HelpBlock>'Email address has been registered. Please login or try another email address.'</HelpBlock>}
+                  {this.state.loginFailed && <HelpBlock>"Email address has been registered. Please login or try another email address."</HelpBlock>}
                   <ControlLabel>Username</ControlLabel>
-                  <FormControl type={'text'} placeholder={'Enter username'} onChange={this.onRegisterUsernameChange} value={this.state.registerUsername}/>
+                  <FormControl type={"text"} placeholder={"Enter username"} onChange={this.onRegisterUsernameChange} value={this.state.registerUsername}/>
 
                 </FormGroup>
-                <Button type='button' onClick={this.onRegisterSubmitClick} >
+                <Button type="button" onClick={this.onRegisterSubmitClick} >
                   Submit
                 </Button>
               </form>
@@ -308,7 +310,7 @@ class App extends Component {
             </div>
 
             <div hidden={this.state.user===null}>
-              <div> Hi {this.state.user===null ? '': this.state.user[1]}!</div>
+              <div> Hi {this.state.user===null ? "": this.state.user[1]}!</div>
               <Button className="col-md-2" type="button" onClick={this.onLogoutButtonClick} >
                 Log out
               </Button>

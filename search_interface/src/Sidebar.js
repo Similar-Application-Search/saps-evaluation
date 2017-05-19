@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import './bootstrap/css/bootstrap.min.css';
-import './css/sidebar.css';
-import $ from 'jquery';
+import "./bootstrap/css/bootstrap.min.css";
+import "./css/sidebar.css";
+import $ from "jquery";
 
 
 class Sidebar extends Component {
@@ -14,7 +14,7 @@ class Sidebar extends Component {
 
     this.state ={
       langExpanded : false,
-      langSelected: ['C++','Java','Python','Javascript','Objective-C'],
+      langSelected: ["C++","Java","Python","Javascript","Objective-C"],
     };
   }
   onToggleLang(e) {
@@ -25,7 +25,6 @@ class Sidebar extends Component {
   }
 
   onCheckboxClicked(e) {
-    e.preventDefault();
     this.props.onCheckboxClicked(e);
     if (e.target.checked) {
       this.setState({
@@ -43,14 +42,7 @@ class Sidebar extends Component {
   }
 
   onFilterSubmitClick(e) {
-    e.preventDefault();
     this.props.onFilterSubmitClick(e);
-    const newFilteredCand = this.state.candidates.filter(function(cand){
-      return this.state.langSelected.indexOf(cand.language) >= 0;
-    });
-    this.setState({
-      filteredCandidates : newFilteredCand,
-    });
   }
 
   render() {
@@ -88,6 +80,6 @@ class Sidebar extends Component {
 
 };
 
-Sidebar.displayName = 'Sidebar';
+Sidebar.displayName = "Sidebar";
 
 export default Sidebar;
