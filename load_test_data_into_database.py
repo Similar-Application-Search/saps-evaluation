@@ -51,6 +51,7 @@ def create_ratings_table():
 	  user_id INT UNSIGNED NOT NULL,
 	  test_proj_id INT UNSIGNED NOT NULL,
 	  candidate_proj_id INT UNSIGNED NOT NULL,
+	  rating INT UNSIGNED NOT NULL,
 	  PRIMARY KEY pk_ratings(user_id, test_proj_id, candidate_proj_id)
 	) ENGINE=MyISAM"""
 	try:
@@ -116,6 +117,9 @@ else:
 
 # create users table if not created
 create_users_table()
+
+# create rating table if not created
+create_ratings_table()
 
 # load test data from files into database
 query_description_path = "./data/testProjectDetails.txt"

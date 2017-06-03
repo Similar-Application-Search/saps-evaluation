@@ -51,15 +51,21 @@ class App extends Component {
   onSearchClick(e) {
     e.preventDefault();
     $.ajax({
-      url: "/search?key=" + this.state.searchTarget,
+      url: "/search?key=" + this.state.searchTarget + "&user_email=" + (this.state.user === null? "":this.state.user[0]),
       dataType: "json",
       cache: false,
       success: function(data) {
         console.log(data);
+        const curLangSelected = this.state.langSelected;
+        const newFilteredCand = data["candidates"].filter(function(cand){
+          let curLang = JSON.stringify(cand.language).replace("\\n","");
+          curLang = curLang.split("\"").join("");
+          return (curLangSelected.indexOf(curLang) >= 0);
+        });
         this.setState({
           candidates: data["candidates"],
-          filteredCandidates: data["candidates"],
-          langSelected: ["C++","Java","Python","Javascript","Objective-C"],
+          filteredCandidates: newFilteredCand,
+          activePage: 1,
         });
       }.bind(this),
     });
@@ -222,11 +228,13 @@ class App extends Component {
     const candnum = this.state.filteredCandidates.length;
     const pageSize = 5;
     const candStart = (this.state.activePage-1)*pageSize;
+    const testproject_id = this.state.searchTarget;
+    const user_email = this.state.user===null ? null: this.state.user[0];
     const candEnd = Math.min(this.state.filteredCandidates.length, this.state.activePage*pageSize);
     const filteredCandidates = this.state.filteredCandidates.slice(candStart,candEnd).map((item, index) => {
       return (
-        <SearchItem name={item.name} description={item.description} url={item.url} language={item.language} category={item.category}
-          allowHalfStar={ false }/>
+        <SearchItem user_email={user_email} testproject_id={testproject_id} candidate_id={item.id} name={item.name} description={item.description} url={item.url} language={item.language} category={item.category}
+          rating={item.rating} allowHalfStar={ false } promptLogin={this.onLoginButtonClick}/>
       );
     });
 

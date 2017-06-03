@@ -141,7 +141,8 @@ def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matri
 	#read query project from database
     data = queryProjectFromDB('testprojects',queryindex+1)
     striped_desc = data['description'].replace(data['name'], "", 1).strip().replace("\n","")
-    query_object={'index':queryindex,
+    query_object={
+		'index':queryindex,
 		'name':data['name'],
 		'url':data['url'].replace("\n",""),
 		'description':striped_desc,
@@ -152,6 +153,7 @@ def runevaluation(queryindex, description_matrix,readme_matrix,methodclass_matri
         data = queryProjectFromDB('candidateprojects',distances[i][0]+1)
         striped_desc = data['description'].replace(data['name'], "", 1).strip().replace("\n", "")
         candidateObject = {
+			'id': data['id'],
 			'name': data['name'],
 			'url': data['url'].replace("\n", ""),
 			'description': striped_desc,
