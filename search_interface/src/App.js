@@ -39,7 +39,7 @@ class App extends Component {
       registerFailed: false,
       langSelected: ["C++","Java","Python","Javascript","Objective-C"],
       filteredCandidates:[],
-
+      searchResultFor: null,
     }
   }
 
@@ -66,6 +66,7 @@ class App extends Component {
           candidates: data["candidates"],
           filteredCandidates: newFilteredCand,
           activePage: 1,
+          searchResultFor: this.props.queryoptions[this.state.searchTarget]
         });
       }.bind(this),
     });
@@ -338,6 +339,9 @@ class App extends Component {
                     </Button>
                   </Form>
                 </div>
+            </div>
+            <div hidden={this.state.searchResultFor===null}>
+              <div className="App-searchFor">Search result for: {this.state.searchResultFor}</div>
             </div>
             {filteredCandidates}
             {pagination}

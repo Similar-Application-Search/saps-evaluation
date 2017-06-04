@@ -18,6 +18,11 @@
   font-size: large;
 }
 
+.App-searchFor {
+  font-size: 2em;
+  border-bottom: solid;
+}
+
 .header {
   background-color: #253e64;
   font-size: 16px;
